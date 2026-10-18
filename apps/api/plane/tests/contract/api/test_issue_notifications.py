@@ -53,7 +53,7 @@ def create_issue(db, project, workspace, create_user):
 def assignee_user(db):
     """Create a second user that can be assigned to a work item."""
     user = User.objects.create(
-        email="assignee@plane.so",
+        email="assignee@example.com",
         username="assignee-user",
         first_name="Assignee",
         last_name="User",
@@ -69,7 +69,7 @@ class TestIssueNotificationContract:
     Contract: creating and updating/assigning a work item through the external
     REST API (``/api/v1/...``) must trigger notifications, i.e. ``issue_activity``
     is dispatched with ``notification=True`` so subscribers and assignees are
-    notified the same way the web app does. See makeplane/plane#9306.
+    notified the same way the web app does. See projecthub/plane#9306.
     """
 
     def get_list_url(self, workspace_slug, project_id):

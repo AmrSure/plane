@@ -6,7 +6,6 @@
 import json
 import secrets
 import os
-import requests
 
 # Django imports
 from django.core.management.base import BaseCommand, CommandError
@@ -38,17 +37,8 @@ class Command(BaseCommand):
             return "v0.1.0"
 
     def check_for_latest_version(self, fallback_version):
-        try:
-            response = requests.get(
-                "https://api.github.com/repos/makeplane/plane/releases/latest",
-                timeout=10,
-            )
-            response.raise_for_status()
-            data = response.json()
-            return data.get("tag_name", fallback_version)
-        except Exception:
-            self.stdout.write("Error checking for latest version")
-            return fallback_version
+        # Upstream release checks are disabled; this build is versioned independently.
+        return fallback_version
 
     def handle(self, *args, **options):
         # Check if the instance is registered
@@ -65,12 +55,13 @@ class Command(BaseCommand):
                 raise CommandError("Machine signature is required")
 
             instance = Instance.objects.create(
-                instance_name="Plane Community Edition",
+                instance_name="ProjectHub Community Edition",
                 instance_id=secrets.token_hex(12),
                 current_version=current_version,
                 latest_version=latest_version,
                 last_checked_at=timezone.now(),
                 is_test=os.environ.get("IS_TEST", "0") == "1",
+                is_telemetry_enabled=False,
                 edition=InstanceEdition.PLANE_COMMUNITY.value,
             )
 

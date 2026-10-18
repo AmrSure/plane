@@ -5,7 +5,7 @@
 """
 Shared OTLP endpoint helpers so metrics and traces use the same collector
 when both are enabled. One URL (OTLP_ENDPOINT) is enough: same as traces
-(e.g. https://telemetry.plane.so or https://telemetry.plane.town behind
+(e.g. http://localhost or https://telemetry.example.com behind
 nginx ingress with gRPC backend).
 """
 
@@ -16,16 +16,22 @@ from urllib.parse import urlparse
 OTLP_GRPC_DEFAULT_PORT = "4317"
 HTTPS_DEFAULT_PORT = "443"
 
-_DEFAULT_OTLP_ENDPOINT = "https://telemetry.plane.so"
+# No default collector: telemetry is only exported when OTLP_ENDPOINT is set.
+_DEFAULT_OTLP_ENDPOINT = ""
+
+
+def is_otlp_configured() -> bool:
+    """Return True when an OTLP collector endpoint has been configured."""
+    return bool(os.environ.get("OTLP_ENDPOINT", _DEFAULT_OTLP_ENDPOINT).strip())
 
 
 def grpc_endpoint_from_url(url: str) -> str:
     """
     Derive gRPC host:port from OTLP_ENDPOINT URL.
-    - https://telemetry.plane.so -> telemetry.plane.so:443 (nginx ingress)
-    - https://telemetry.plane.town -> telemetry.plane.town:443 (dev)
-    - telemetry.plane.so:4317 -> telemetry.plane.so:4317 (scheme-less with port)
-    - telemetry.plane.so -> telemetry.plane.so:4317 (scheme-less, default gRPC port)
+    - http://localhost -> telemetry.example.com:443 (nginx ingress)
+    - https://telemetry.example.com -> telemetry.example.com:443 (dev)
+    - telemetry.example.com:4317 -> telemetry.example.com:4317 (scheme-less with port)
+    - telemetry.example.com -> telemetry.example.com:4317 (scheme-less, default gRPC port)
     - Explicit port in URL is always preserved.
     """
     # urlparse needs a scheme to correctly populate hostname/netloc.
@@ -33,7 +39,7 @@ def grpc_endpoint_from_url(url: str) -> str:
     if "://" not in url:
         url = "//" + url
     parsed = urlparse(url)
-    host = parsed.hostname or "telemetry.plane.so"
+    host = parsed.hostname or "localhost"
     if parsed.port is not None:
         port = str(parsed.port)
     elif parsed.scheme == "https":

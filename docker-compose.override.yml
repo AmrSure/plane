@@ -6,13 +6,13 @@ services:
       - ./apps/live/.env
     depends_on:
       - api
-      - plane-redis
+      - redis
 
   # MinIO no longer publishes community images on Docker Hub or Quay.
   # Chainguard ships the same MinIO server binary as a free public image.
   # It runs as a non-root user by default, so run as root to write the
   # named volume mounted at /export.
-  plane-minio:
+  minio:
     image: cgr.dev/chainguard/minio:latest
     user: "0"
 

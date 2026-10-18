@@ -1,0 +1,18 @@
+{
+  "name": "ProjectHub",
+  "slug": "projecthub",
+  "tagline": "Plan, track and ship your team's work",
+  "description": "Project and work tracking for your team.",
+  "website": "http://localhost",
+  "docs_url": "http://localhost",
+  "support_url": "http://localhost",
+  "repo_url": "http://localhost",
+  "support_email": "support@example.com",
+  "email_domain": "example.com",
+  "colors": {
+    "primary": "#0F766E",
+    "accent": "#14B8A6",
+    "light": "#CCFBF1",
+    "dark": "#042F2E"
+  }
+}
