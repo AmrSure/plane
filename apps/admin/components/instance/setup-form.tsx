@@ -64,7 +64,7 @@ export function InstanceSetupForm() {
   const lastNameParam = searchParams?.get("last_name") || undefined;
   const companyParam = searchParams?.get("company") || undefined;
   const emailParam = searchParams?.get("email") || undefined;
-  const isTelemetryEnabledParam = (searchParams?.get("is_telemetry_enabled") === "True" ? true : false);
+  const isTelemetryEnabledParam = searchParams?.get("is_telemetry_enabled") === "True";
   const errorCode = searchParams?.get("error_code") || undefined;
   const errorMessage = searchParams?.get("error_message") || undefined;
   // state
@@ -142,8 +142,8 @@ export function InstanceSetupForm() {
       <div className="mt-10 flex w-full flex-grow flex-col items-center justify-center py-6">
         <div className="relative flex w-full max-w-[22.5rem] flex-col gap-6">
           <FormHeader
-            heading="Setup your ProjectHub Instance"
-            subHeading="Post setup you will be able to manage this ProjectHub instance."
+            heading="Setup your SGT Project Management Platform Instance"
+            subHeading="Post setup you will be able to manage this SGT Project Management Platform instance."
           />
           {errorData.type &&
             errorData?.message &&
@@ -352,15 +352,7 @@ export function InstanceSetupForm() {
                 />
               </div>
               <label className="cursor-pointer text-13 font-medium text-tertiary" htmlFor="is_telemetry_enabled">
-                Allow ProjectHub to anonymously collect usage events.{" "}
-                <a
-                  href="http://localhost"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-600 flex-shrink-0 text-13 font-medium"
-                >
-                  See More
-                </a>
+                Collect anonymous usage metrics. They are only sent if an OTLP collector is configured.
               </label>
             </div>
 

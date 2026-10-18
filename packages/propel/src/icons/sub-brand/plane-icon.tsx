@@ -13,8 +13,9 @@ import type { ISvgIcons } from "../type";
 
 export function PlaneNewIcon({ color = "currentColor", ...rest }: ISvgIcons) {
   return (
-    <IconWrapper color={color} {...rest}>
-      <path transform="translate(1 1) scale(0.2917)" fillRule="evenodd" clipRule="evenodd" d="M12 0H36A12 12 0 0 1 48 12V36A12 12 0 0 1 36 48H12A12 12 0 0 1 0 36V12A12 12 0 0 1 12 0ZM14.5 12H14.5A3.5 3.5 0 0 1 18 15.5V32.5A3.5 3.5 0 0 1 14.5 36H14.5A3.5 3.5 0 0 1 11 32.5V15.5A3.5 3.5 0 0 1 14.5 12ZM24.0 12H24.0A3.5 3.5 0 0 1 27.5 15.5V23.5A3.5 3.5 0 0 1 24.0 27H24.0A3.5 3.5 0 0 1 20.5 23.5V15.5A3.5 3.5 0 0 1 24.0 12ZM33.5 12H33.5A3.5 3.5 0 0 1 37 15.5V28.5A3.5 3.5 0 0 1 33.5 32H33.5A3.5 3.5 0 0 1 30 28.5V15.5A3.5 3.5 0 0 1 33.5 12Z" fill={color} />
+    <IconWrapper color={color} viewBox="111.57 60.52 64.94 64.94" {...rest}>
+      <path d="M162,63.52l-23.69,7.41V64.62a1.1,1.1,0,0,0-1.41-1.05l-12.18,3.72V88l37.93-11.64a1.1,1.1,0,0,0,.77-1V64.56A1.09,1.09,0,0,0,162,63.52Z" fill="#004FFF" />
+      <path d="M124.67,121.17a1.34,1.34,0,0,0,1.34,1.34h10.93a1.34,1.34,0,0,0,1.34-1.34V91l-13.6,4.17Z" fill={color} />
     </IconWrapper>
   );
 }

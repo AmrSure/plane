@@ -1,7 +1,7 @@
 {
-  "name": "ProjectHub Space",
-  "short_name": "ProjectHub Space",
-  "description": "ProjectHub helps you plan your work items, cycles, and product modules.",
+  "name": "SGT Project Management Platform Space",
+  "short_name": "SGT PM",
+  "description": "SGT Project Management Platform helps you plan your work items, cycles, and product modules.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f9fafb",

@@ -98,7 +98,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "Comments",
-        description: "Respond to work items, @mention members, and brainstorm\ntogether without leaving ProjectHub.",
+        description: "Respond to work items, @mention members, and brainstorm\ntogether without leaving SGT Project Management Platform.",
         cloud: {
           free: true,
           one: true,
@@ -537,7 +537,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       {
         title: "Progress Charts",
         description:
-          "Track progress in cycles, modules, and overviews\nthroughout ProjectHub without switching to dashboards\nor Analytics.",
+          "Track progress in cycles, modules, and overviews\nthroughout SGT Project Management Platform without switching to dashboards\nor Analytics.",
         cloud: {
           free: false,
           one: false,
@@ -613,7 +613,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
     features: [
       {
         title: "Power K",
-        description: "Access a keyboard-first gateway to almost anything\nin ProjectHub.",
+        description: "Access a keyboard-first gateway to almost anything\nin SGT Project Management Platform.",
         cloud: {
           free: true,
           one: true,
@@ -657,7 +657,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       {
         title: "PQL",
         description:
-          "Write ProjectHub Query Language in search with support\nfor Boolean operators. Soon, you can write natural\nlanguage queries.",
+          "Write SGT Project Management Platform Query Language in search with support\nfor Boolean operators. Soon, you can write natural\nlanguage queries.",
         cloud: {
           free: false,
           one: false,
@@ -749,7 +749,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "API-enabled Audit Logs",
-        description: "See a full-workspace audit log and use APIs to flag\nProjectHub activity in compliance systems.",
+        description: "See a full-workspace audit log and use APIs to flag\nSGT Project Management Platform activity in compliance systems.",
         comingSoon: true,
         cloud: {
           free: false,
@@ -968,7 +968,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       {
         title: "GitHub",
         description:
-          "Sync ProjectHub work items and states to GitHub work items and\nstates. Update GitHub automatically with activity\nfrom ProjectHub and vice-versa.",
+          "Sync SGT Project Management Platform work items and states to GitHub work items and\nstates. Update GitHub automatically with activity\nfrom SGT Project Management Platform and vice-versa.",
         cloud: {
           free: false,
           one: false,
@@ -979,7 +979,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "Slack",
-        description: "Get ProjectHub activity in Slack and use / commands in\nSlack to make changes in ProjectHub.",
+        description: "Get SGT Project Management Platform activity in Slack and use / commands in\nSlack to make changes in SGT Project Management Platform.",
         cloud: {
           free: false,
           one: false,
@@ -1001,7 +1001,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "Zendesk",
-        description: "Create ProjectHub work items from Zendesk tickets.",
+        description: "Create SGT Project Management Platform work items from Zendesk tickets.",
         cloud: {
           free: false,
           one: false,
@@ -1012,7 +1012,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "Freshdesk",
-        description: "Create ProjectHub work items from Freshdesk tickets.",
+        description: "Create SGT Project Management Platform work items from Freshdesk tickets.",
         cloud: {
           free: false,
           one: false,
@@ -1058,7 +1058,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
     features: [
       {
         title: "SAML",
-        description: "Get the officially supported SAML implementation\nand make ProjectHub secure with any IdP.",
+        description: "Get the officially supported SAML implementation\nand make SGT Project Management Platform secure with any IdP.",
         cloud: {
           free: false,
           one: true,
@@ -1069,7 +1069,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "OIDC",
-        description: "Get the officially supported OIDC implementation\nand make ProjectHub secure with any IdP.",
+        description: "Get the officially supported OIDC implementation\nand make SGT Project Management Platform secure with any IdP.",
         selfHostedOnly: true,
         cloud: {
           free: false,
@@ -1082,7 +1082,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       {
         title: "Domain Security",
         description:
-          "Choose other domains that can authenticate into\nyour ProjectHub workspace or restrict all but one domain.",
+          "Choose other domains that can authenticate into\nyour SGT Project Management Platform workspace or restrict all but one domain.",
         cloud: {
           free: false,
           one: false,
@@ -1093,7 +1093,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "Two-factor authentication and passkeys",
-        description: "Secure your ProjectHub workspace with device-\ndependent two-factor authentication and passkeys. ",
+        description: "Secure your SGT Project Management Platform workspace with device-\ndependent two-factor authentication and passkeys. ",
         cloud: {
           free: false,
           one: false,
@@ -1115,7 +1115,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "LDAP",
-        description: "Get our official LDAP implementation and secure\nyour ProjectHub workspace with your LDAP server.",
+        description: "Get our official LDAP implementation and secure\nyour SGT Project Management Platform workspace with your LDAP server.",
         comingSoon: true,
         cloud: {
           free: false,
@@ -1134,7 +1134,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
     features: [
       {
         title: "God Mode",
-        description: "Manage your self-hosted ProjectHub instance better with\nan instance admin interface.",
+        description: "Manage your self-hosted SGT Project Management Platform instance better with\nan instance admin interface.",
         cloud: {
           free: true,
           one: true,
@@ -1145,7 +1145,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
       },
       {
         title: "One-click Deployment",
-        description: "Install and deploy your self-hosted ProjectHub to any\nprivate cloud with a single-line command.",
+        description: "Install and deploy your self-hosted SGT Project Management Platform to any\nprivate cloud with a single-line command.",
         cloud: {
           free: false,
           one: true,
@@ -1236,7 +1236,7 @@ export const PLANS_COMPARISON_LIST: TPlansComparisonDetails[] = [
         description: (
           <>
             Get business-friendly SLAs with higher plans. SLAs are by priority of work item and tiers{" "}
-            <a href="http://localhost" target="_blank" rel="noopener noreferrer" className="underline">
+            <a href="https://sure.com.sa" target="_blank" rel="noopener noreferrer" className="underline">
               can be requested
             </a>
             .

@@ -70,10 +70,10 @@ export function AuthHeaderBase(props: TAuthHeaderBase) {
   const { pageTitle, additionalAction } = props;
   return (
     <>
-      <PageHead title={pageTitle + " - ProjectHub"} />
+      <PageHead title={pageTitle + " - SGT Project Management Platform"} />
       <div className="sticky top-0 flex w-full flex-shrink-0 items-center justify-between gap-6">
         <Link href="/">
-          <PlaneLockup height={20} width={95} className="text-primary" />
+          <PlaneLockup height={28} width={210} className="text-primary" />
         </Link>
         {additionalAction}
       </div>

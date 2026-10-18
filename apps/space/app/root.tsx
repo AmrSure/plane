@@ -24,8 +24,8 @@ import interVariableWoff2 from "@fontsource-variable/inter/files/inter-latin-wgh
 import "@fontsource/material-symbols-rounded";
 import "@fontsource/ibm-plex-mono";
 
-const APP_TITLE = "ProjectHub Publish | Make your ProjectHub boards public with one-click";
-const APP_DESCRIPTION = "ProjectHub Publish is a customer feedback management tool built on top of ProjectHub";
+const APP_TITLE = "SGT Project Management Platform | Published projects";
+const APP_DESCRIPTION = "Published projects from SGT Project Management Platform";
 
 export const links: Route.LinksFunction = () => [
   { rel: "apple-touch-icon", sizes: "180x180", href: appleTouchIcon },
@@ -74,13 +74,13 @@ export const meta: Route.MetaFunction = () => [
   { name: "description", content: APP_DESCRIPTION },
   { property: "og:title", content: APP_TITLE },
   { property: "og:description", content: APP_DESCRIPTION },
-  { property: "og:url", content: "http://localhost" },
+  { property: "og:url", content: "https://sure.com.sa" },
   {
     name: "keywords",
     content:
       "software development, customer feedback, software, accelerate, code management, release management, project management, work item tracking, agile, scrum, kanban, collaboration",
   },
-  { name: "twitter:site", content: "@projecthub" },
+  { name: "twitter:site", content: "@sgtpm" },
 ];
 
 export default function Root() {

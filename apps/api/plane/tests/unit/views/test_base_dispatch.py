@@ -11,7 +11,7 @@ return the HTTP ``Response`` produced by ``handle_exception()`` -- not the raw
 exception object. Returning the exception causes Django's response pipeline to
 fail with ``TypeError: 'Exception' object is not a valid HTTP response``.
 
-See: http://localhost
+See: https://sure.com.sa
 """
 
 import pytest

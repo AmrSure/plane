@@ -16,8 +16,8 @@ export function ProductUpdatesFallback(props: TProductUpdatesFallbackProps) {
   // derived values
   const changelogUrl =
     variant === "cloud"
-      ? "http://localhost"
-      : "http://localhost";
+      ? "https://sure.com.sa"
+      : "https://sure.com.sa";
 
   return (
     <div className="py-8">

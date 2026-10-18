@@ -5,7 +5,7 @@
       "not_right_now": "Ahora no",
       "create_project": {
         "title": "Crear un proyecto",
-        "description": "La mayoría de las cosas comienzan con un proyecto en ProjectHub.",
+        "description": "La mayoría de las cosas comienzan con un proyecto en SGT Project Management Platform.",
         "cta": "Comenzar"
       },
       "invite_team": {
@@ -19,7 +19,7 @@
         "cta": "Configurar este espacio de trabajo"
       },
       "personalize_account": {
-        "title": "Haz ProjectHub tuyo.",
+        "title": "Haz SGT Project Management Platform tuyo.",
         "description": "Elige tu foto, colores y más.",
         "cta": "Personalizar ahora"
       },
@@ -53,7 +53,7 @@
       }
     },
     "new_at_plane": {
-      "title": "Nuevo en ProjectHub"
+      "title": "Nuevo en SGT Project Management Platform"
     },
     "quick_tutorial": {
       "title": "Tutorial rápido"

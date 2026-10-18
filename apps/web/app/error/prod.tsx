@@ -17,17 +17,7 @@ const linkMap = [
   {
     key: "mail_to",
     label: "Contact Support",
-    value: "mailto:support@example.com",
-  },
-  {
-    key: "status",
-    label: "Status Page",
-    value: "http://localhost",
-  },
-  {
-    key: "twitter_handle",
-    label: "@projecthub",
-    value: "http://localhost",
+    value: "mailto:info@sure.com.sa",
   },
 ];
 

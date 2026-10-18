@@ -26,7 +26,7 @@ def api_client():
 def user_data():
     """Return standard user data for tests"""
     return {
-        "email": "test@example.com",
+        "email": "test@sure.com.sa",
         "password": "test-password",
         "first_name": "Test",
         "last_name": "User",
@@ -78,7 +78,7 @@ def create_bot_user(db):
 
     unique_id = uuid4().hex[:8]
     user = User.objects.create(
-        email=f"bot-{unique_id}@example.com",
+        email=f"bot-{unique_id}@sure.com.sa",
         username=f"bot_user_{unique_id}",
         first_name="Bot",
         last_name="User",

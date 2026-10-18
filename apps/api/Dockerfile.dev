@@ -4,7 +4,7 @@ FROM python:3.12.5-alpine AS backend
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1 
-ENV INSTANCE_CHANGELOG_URL http://localhost
+ENV INSTANCE_CHANGELOG_URL https://sure.com.sa
 
 RUN apk --no-cache add \
     "bash~=5.2" \

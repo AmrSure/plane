@@ -18,14 +18,9 @@ function ErrorPage() {
         <div className="space-y-2">
           <h3 className="text-16 font-semibold">Yikes! That doesn{"'"}t look good.</h3>
           <p className="mx-auto text-13 text-secondary md:w-1/2">
-            That crashed ProjectHub, pun intended. No worries, though. Our engineers have been notified. If you have more
-            details, please write to{" "}
-            <a href="mailto:support@example.com" className="text-accent-primary">
-              support@example.com
-            </a>{" "}
-            or on our{" "}
-            <a href="http://localhost" target="_blank" className="text-accent-primary" rel="noopener noreferrer">
-              Forum
+            Something went wrong and the page could not load. If the problem continues, please write to{" "}
+            <a href="mailto:info@sure.com.sa" className="text-accent-primary">
+              info@sure.com.sa
             </a>
             .
           </p>

@@ -2,17 +2,16 @@
  * Copyright (c) 2023-present Plane Software, Inc. and contributors
  * SPDX-License-Identifier: AGPL-3.0-only
  * See the LICENSE file for details.
+ *
+ * Modified: commercial and upstream-service features removed by branding/patches.py.
  */
 
-import { FileText, GithubIcon, MessageSquare, Rocket } from "lucide-react";
+import { Rocket } from "lucide-react";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks
 import { usePowerK } from "@/hooks/store/use-power-k";
 
-/**
- * Help commands - Help related commands
- */
 export const usePowerKHelpCommands = (): TPowerKCommandConfig[] => {
   // store
   const { toggleShortcutsListModal } = usePowerK();
@@ -26,45 +25,6 @@ export const usePowerKHelpCommands = (): TPowerKCommandConfig[] => {
       icon: Rocket,
       modifierShortcut: "cmd+/",
       action: () => toggleShortcutsListModal(true),
-      isEnabled: () => true,
-      isVisible: () => true,
-      closeOnSelect: true,
-    },
-    {
-      id: "open_plane_documentation",
-      type: "action",
-      group: "help",
-      i18n_title: "power_k.help_actions.open_plane_documentation",
-      icon: FileText,
-      action: () => {
-        window.open("http://localhost", "_blank", "noopener,noreferrer");
-      },
-      isEnabled: () => true,
-      isVisible: () => true,
-      closeOnSelect: true,
-    },
-    {
-      id: "join_forum",
-      type: "action",
-      group: "help",
-      i18n_title: "power_k.help_actions.join_forum",
-      icon: MessageSquare,
-      action: () => {
-        window.open("http://localhost", "_blank", "noopener,noreferrer");
-      },
-      isEnabled: () => true,
-      isVisible: () => true,
-      closeOnSelect: true,
-    },
-    {
-      id: "report_bug",
-      type: "action",
-      group: "help",
-      i18n_title: "power_k.help_actions.report_bug",
-      icon: GithubIcon,
-      action: () => {
-        window.open("http://localhost", "_blank", "noopener,noreferrer");
-      },
       isEnabled: () => true,
       isVisible: () => true,
       closeOnSelect: true,

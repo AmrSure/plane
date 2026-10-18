@@ -10,12 +10,14 @@ import * as React from "react";
 
 import type { ISvgIcons } from "../type";
 
-export function PlaneWordmark({ width = "230", height = "44", className, color = "currentColor" }: ISvgIcons) {
+export function PlaneWordmark({ width = "52", height = "15", className, color = "currentColor" }: ISvgIcons) {
   return (
-    <svg width={width} height={height} viewBox="0 0 230 44" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-      <text x="0" y="34" fontFamily="Inter, ui-sans-serif, system-ui, sans-serif" fontWeight="700" fontSize="36" textLength="230" lengthAdjust="spacingAndGlyphs" fill={color}>
-        ProjectHub
-      </text>
+    <svg width={width} height={height} viewBox="10.12 61.87 206.48 60.84" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+      <path d="M37.25,85.18c-21.36-3.66-3-20.34,10.58-6.43a1.12,1.12,0,0,0,1.46.1l7.43-5.49A1.09,1.09,0,0,0,57,71.85C54.89,69,47.24,60.26,31.49,62.13,12.7,64.36,13.14,77.77,13.14,77.77S10.67,93.7,37.74,98.45c18.31,2.72-.11,23.73-18.08,4.84a1.13,1.13,0,0,0-1.49-.14l-7.61,5.62a1.09,1.09,0,0,0-.3,1.41c1.67,3,8.37,12.53,25.18,12.53,19.88,0,24.35-12.3,24.46-18.3S57,89.56,37.25,85.18Z" fill={color} />
+      <path d="M114.24,63.57l-11.69,3.19a1.11,1.11,0,0,0-.82,1.07V96.77c0,4.12,0,12.23-11,12.23s-10.92-8.13-10.92-12.23V64.49a1.1,1.1,0,0,0-1.39-1l-11.7,3.2a1.09,1.09,0,0,0-.81,1.06V96.77s-.68,25.87,24.81,25.87,25-25.87,25-25.87V64.64A1.1,1.1,0,0,0,114.24,63.57Z" fill={color} />
+      <path d="M162,63.52l-23.69,7.41V64.62a1.1,1.1,0,0,0-1.41-1.05l-12.18,3.72V88l37.93-11.64a1.1,1.1,0,0,0,.77-1V64.56A1.09,1.09,0,0,0,162,63.52Z" fill="#004FFF" />
+      <path d="M124.67,121.17a1.34,1.34,0,0,0,1.34,1.34h10.93a1.34,1.34,0,0,0,1.34-1.34V91l-13.6,4.17Z" fill={color} />
+      <path d="M216.6,88v-.73c0-13.56-10.64-25-24.19-25.39a24.88,24.88,0,0,0-25.59,24.88V97.24c0,13.56,10.63,25,24.19,25.39A24.89,24.89,0,0,0,216.6,97.75v-.28a1.1,1.1,0,0,0-1.43-1.06l-12.24,3.74a1.11,1.11,0,0,0-.77.92c-.46,4.54-5.43,7.93-10.45,7.93-5.47,0-11-3.74-11-9.22l35.09-10.7A1.12,1.12,0,0,0,216.6,88ZM191.71,75.53a11,11,0,0,1,10.2,6.91l-21.19,6.47V86.52A11,11,0,0,1,191.71,75.53Z" fill={color} />
     </svg>
   );
 }

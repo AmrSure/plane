@@ -1,6 +1,6 @@
-# ProjectHub Tests
+# SGT Project Management Platform Tests
 
-This directory contains tests for the ProjectHub application. The tests are organized using pytest.
+This directory contains tests for the SGT Project Management Platform application. The tests are organized using pytest.
 
 ## Test Structure
 
@@ -14,7 +14,7 @@ Tests are organized into the following categories:
 
 ## API vs App Endpoints
 
-ProjectHub has two types of API endpoints:
+SGT Project Management Platform has two types of API endpoints:
 
 1. **External API** (`plane.api`):
    - Available at `/api/v1/` endpoint

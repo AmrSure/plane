@@ -1,4 +1,4 @@
-(projecthub_proxy) {
+(sgtpm_proxy) {
 	request_body {
 		max_size {$FILE_SIZE_LIMIT}
 	}
@@ -35,5 +35,5 @@
 }
 
 {$SITE_ADDRESS} {
-	import projecthub_proxy
+	import sgtpm_proxy
 }

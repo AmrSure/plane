@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ProjectHub Project Setup Script
+# SGT Project Management Platform Project Setup Script
 # This script prepares the local development environment by setting up all necessary .env files
-# http://localhost
+# https://sure.com.sa
 
 # Set colors for output messages
 GREEN='\033[0;32m'
@@ -14,7 +14,7 @@ NC='\033[0m' # No Color
 
 # Print header
 echo -e "${BOLD}${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "${BOLD}${BLUE}                   ProjectHub - Project Management Tool                    ${NC}"
+echo -e "${BOLD}${BLUE}                   SGT Project Management Platform - Project Management Tool                    ${NC}"
 echo -e "${BOLD}${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "${BOLD}Setting up your development environment...${NC}\n"
 
@@ -92,6 +92,6 @@ if [ "$success" = true ]; then
     echo -e "\n${GREEN}Happy coding! 🚀${NC}"
 else
     echo -e "${RED}✗${NC} Some issues occurred during setup. Please check the errors above.\n"
-    echo -e "For help, visit: ${BLUE}http://localhost"
+    echo -e "For help, visit: ${BLUE}https://sure.com.sa"
     exit 1
 fi

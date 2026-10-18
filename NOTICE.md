@@ -6,8 +6,10 @@ licensed under the GNU Affero General Public License v3.0 (AGPL-3.0-only).
 
 Modifications by the maintainers of this repository include:
 
-- Product name, logos, artwork, links and contact addresses replaced with this
-  project's own branding (see `branding/`).
+- Product name, logos, artwork, links and contact addresses replaced with
+  Sure Global Tech branding (see `branding/`).
+- Billing, paid-plan upgrade prompts, sales links, customer logos, the product
+  update feed and upstream legal links removed.
 - Usage telemetry disabled by default and upstream release checks removed.
 - Local deployment configuration changes (see `docker-compose.override.yml`).
 

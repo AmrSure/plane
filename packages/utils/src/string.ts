@@ -147,7 +147,7 @@ export const stripAndTruncateHTML = (html: string, length: number = 55) => trunc
  * @description Returns true if email is valid, false otherwise
  * @param {string} email string to check if it is a valid email
  * @example checkEmailValidity("hello world") => false
- * @example checkEmailValidity("example@example.com") => true
+ * @example checkEmailValidity("example@sure.com.sa") => true
  */
 export const checkEmailValidity = (email: string): boolean => {
   if (!email) return false;

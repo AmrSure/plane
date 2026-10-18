@@ -1,6 +1,6 @@
-# ProjectHub
+# SGT Project Management Platform
 
-Project and work tracking for your team: work items, cycles, modules, pages and analytics, self-hosted on your own infrastructure.
+Project and work tracking for Sure Global Tech teams: work items, cycles, modules, pages and analytics, self-hosted on our own infrastructure.
 
 ## Run it locally
 
@@ -49,14 +49,28 @@ docker compose exec -T api python manage.py shell < deployments/demo/seed_demo_d
 
 ## Branding
 
-The product name, links, colors and logo come from `branding/brand.json`.
+The product name, links, colors and logo come from `branding/brand.json`. The logo source is the official
+vector in `branding/sgt/sure-logo.svg`.
+
+| File | Purpose |
+|---|---|
+| `branding/brand.json` | Name, short name, slug, URLs, support email, colors |
+| `branding/rebrand.py` | Applies the brand to the source: text, links, logo components, Docker names |
+| `branding/patches.py` | Code changes: telemetry off, billing and upgrade prompts removed, support links |
+| `branding/logo.py` | Logo variants built from the vector logo: full, wordmark, lockup, app icon |
+| `branding/generate_assets.py` | Renders favicons, app icons, spinners and illustrations (needs Google Chrome) |
+| `branding/applied.json` | The brand last applied, used to map old values on a rename |
+
+To change the brand, edit `brand.json` and run:
 
 ```bash
-python branding/rebrand.py --from ProjectHub --from-slug projecthub   # apply a new name
-python branding/generate_assets.py                                    # regenerate images
+python branding/rebrand.py
+python branding/generate_assets.py
+docker compose build && docker compose up -d
 ```
 
-After changing the brand, rebuild the images with `docker compose build`.
+To move to a new upstream release, import its source, then run the same two scripts. A patch that no longer
+matches the upstream code is reported as `PATCH FAILED` so it can be updated.
 
 ## Repository layout
 

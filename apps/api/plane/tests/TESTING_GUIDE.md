@@ -1,6 +1,6 @@
-# Testing Guide for ProjectHub
+# Testing Guide for SGT Project Management Platform
 
-This guide explains how to write tests for ProjectHub using our pytest-based testing strategy.
+This guide explains how to write tests for SGT Project Management Platform using our pytest-based testing strategy.
 
 ## Test Categories
 

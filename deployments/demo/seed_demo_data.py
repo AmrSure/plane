@@ -1,5 +1,5 @@
 """
-Seed a ProjectHub instance with demo users, a workspace, projects and work items.
+Seed a SGT Project Management Platform instance with demo users, a workspace, projects and work items.
 
 Run against the running stack (safe to re-run, it skips what already exists):
 
@@ -36,10 +36,10 @@ from plane.db.models import (
 from plane.db.models.state import DEFAULT_STATES
 from plane.license.models import Instance, InstanceAdmin
 
-DEMO_PASSWORD = "Demo@Hub2026!"
+DEMO_PASSWORD = "Sgt@Demo2026!"
 ADMIN, MEMBER, GUEST = 20, 15, 5
 
-WORKSPACE = {"name": "Demo Company", "slug": "demo"}
+WORKSPACE = {"name": "Sure Global Tech", "slug": "sgt"}
 
 # email, first, last, workspace role, job title, instance admin
 USERS = [

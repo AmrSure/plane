@@ -4,20 +4,20 @@
  * See the LICENSE file for details.
  */
 
-export const SITE_NAME = "ProjectHub | Simple, extensible, open-source project management tool.";
-export const SITE_TITLE = "ProjectHub | Simple, extensible, open-source project management tool.";
+export const SITE_NAME = "SGT Project Management Platform";
+export const SITE_TITLE = "SGT Project Management Platform";
 export const SITE_DESCRIPTION =
   "Open-source project management tool to manage work items, cycles, and product roadmaps easily";
 export const SITE_KEYWORDS =
   "software development, plan, ship, software, accelerate, code management, release management, project management, work items tracking, agile, scrum, kanban, collaboration";
-export const SITE_URL = "http://localhost";
-export const TWITTER_USER_NAME = "ProjectHub | Simple, extensible, open-source project management tool.";
+export const SITE_URL = "https://sure.com.sa";
+export const TWITTER_USER_NAME = "SGT Project Management Platform";
 
-// ProjectHub Sites Metadata
-export const SPACE_SITE_NAME = "ProjectHub Publish | Make your ProjectHub boards and roadmaps pubic with just one-click. ";
-export const SPACE_SITE_TITLE = "ProjectHub Publish | Make your ProjectHub boards public with one-click";
-export const SPACE_SITE_DESCRIPTION = "ProjectHub Publish is a customer feedback management tool built on top of ProjectHub";
+// SGT Project Management Platform Sites Metadata
+export const SPACE_SITE_NAME = "SGT Project Management Platform | Published projects";
+export const SPACE_SITE_TITLE = "SGT Project Management Platform | Published projects";
+export const SPACE_SITE_DESCRIPTION = "Published projects from SGT Project Management Platform";
 export const SPACE_SITE_KEYWORDS =
   "software development, customer feedback, software, accelerate, code management, release management, project management, work items tracking, agile, scrum, kanban, collaboration";
-export const SPACE_SITE_URL = "http://localhost";
-export const SPACE_TWITTER_USER_NAME = "projecthub";
+export const SPACE_SITE_URL = "https://sure.com.sa";
+export const SPACE_TWITTER_USER_NAME = "sgtpm";

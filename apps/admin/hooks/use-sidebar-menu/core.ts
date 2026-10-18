@@ -45,7 +45,7 @@ export const coreSidebarMenuLinks: Record<TCoreSidebarMenuKey, TSidebarMenuItem>
   },
   image: {
     Icon: Image,
-    name: "Images in ProjectHub",
+    name: "Images in SGT Project Management Platform",
     description: "Allow third-party image libraries.",
     href: `/image/`,
   },

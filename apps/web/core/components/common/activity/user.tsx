@@ -29,7 +29,7 @@ export const User = observer(function User(props: TUser) {
   return (
     <>
       {customUserName || actorDetail?.display_name?.includes("-intake") ? (
-        <span className="font-medium text-primary">{customUserName || "ProjectHub"}</span>
+        <span className="font-medium text-primary">{customUserName || "SGT Project Management Platform"}</span>
       ) : (
         <Link
           href={`/${workspaceDetail?.slug}/profile/${actorDetail?.id}`}

@@ -5,7 +5,7 @@
 """
 Shared OTLP endpoint helpers so metrics and traces use the same collector
 when both are enabled. One URL (OTLP_ENDPOINT) is enough: same as traces
-(e.g. http://localhost or https://telemetry.example.com behind
+(e.g. https://sure.com.sa or https://collector.example.com behind
 nginx ingress with gRPC backend).
 """
 
@@ -28,10 +28,10 @@ def is_otlp_configured() -> bool:
 def grpc_endpoint_from_url(url: str) -> str:
     """
     Derive gRPC host:port from OTLP_ENDPOINT URL.
-    - http://localhost -> telemetry.example.com:443 (nginx ingress)
-    - https://telemetry.example.com -> telemetry.example.com:443 (dev)
-    - telemetry.example.com:4317 -> telemetry.example.com:4317 (scheme-less with port)
-    - telemetry.example.com -> telemetry.example.com:4317 (scheme-less, default gRPC port)
+    - https://sure.com.sa -> collector.example.com:443 (nginx ingress)
+    - https://collector.example.com -> collector.example.com:443 (dev)
+    - collector.example.com:4317 -> collector.example.com:4317 (scheme-less with port)
+    - collector.example.com -> collector.example.com:4317 (scheme-less, default gRPC port)
     - Explicit port in URL is always preserved.
     """
     # urlparse needs a scheme to correctly populate hostname/netloc.

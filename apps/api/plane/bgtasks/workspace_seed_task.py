@@ -522,12 +522,12 @@ def workspace_seed(workspace_id: uuid.UUID) -> None:
         # Create a bot user for creating all the workspace data
         bot_user = User.objects.create(
             username=f"bot_user_{workspace.id}",
-            display_name="ProjectHub",
-            first_name="ProjectHub",
+            display_name="SGT Project Management Platform",
+            first_name="SGT Project Management Platform",
             last_name="",
             is_bot=True,
             bot_type=BotTypeEnum.WORKSPACE_SEED,
-            email=f"bot_user_{workspace.id}@{urlparse(settings.WEB_URL or 'http://localhost').hostname or 'example.com'}",
+            email=f"bot_user_{workspace.id}@{urlparse(settings.WEB_URL or 'https://sure.com.sa').hostname or 'sure.com.sa'}",
             password=make_password(uuid.uuid4().hex),
             is_password_autoset=True,
         )

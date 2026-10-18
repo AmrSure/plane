@@ -6,7 +6,7 @@
 
 /**
  * Theme System Public API
- * Exports all theme-related utilities for use across ProjectHub apps
+ * Exports all theme-related utilities for use across SGT Project Management Platform apps
  */
 
 // Palette generation

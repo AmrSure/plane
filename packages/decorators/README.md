@@ -12,7 +12,7 @@ A lightweight TypeScript decorator library for building Express.js controllers w
 
 ## Installation
 
-This package is part of the ProjectHub workspace and can be used by adding it to your project's dependencies:
+This package is part of the SGT Project Management Platform workspace and can be used by adding it to your project's dependencies:
 
 ```json
 {
@@ -92,4 +92,4 @@ chatController.registerWebSocketRoutes(router);
 
 ## License
 
-This project is licensed under the [GNU Affero General Public License v3.0](http://localhost).
+This project is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).

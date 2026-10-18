@@ -244,7 +244,7 @@
   "full_changelog": "Úplný změnový protokol",
   "support": "Podpora",
   "forum": "Forum",
-  "powered_by_plane_pages": "Poháněno ProjectHub Pages",
+  "powered_by_plane_pages": "Poháněno SGT Project Management Platform Pages",
   "please_select_at_least_one_invitation": "Vyberte alespoň jednu pozvánku.",
   "please_select_at_least_one_invitation_description": "Vyberte alespoň jednu pozvánku pro připojení k pracovnímu prostoru.",
   "we_see_that_someone_has_invited_you_to_join_a_workspace": "Vidíme, že vás někdo pozval do pracovního prostoru",
@@ -820,7 +820,7 @@
     "edited_by": "Upraveno uživatelem"
   },
   "self_hosted_maintenance_message": {
-    "plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start": "ProjectHub se nespustil. To může být způsobeno tím, že se jeden nebo více služeb ProjectHub nepodařilo spustit.",
+    "plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start": "SGT Project Management Platform se nespustil. To může být způsobeno tím, že se jeden nebo více služeb SGT Project Management Platform nepodařilo spustit.",
     "choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure": "Vyberte View Logs z setup.sh a Docker logů, abyste si byli jisti."
   },
   "customize_navigation": "Přizpůsobit navigaci",
@@ -832,7 +832,7 @@
   "pin": "Připnout",
   "unpin": "Odepnout",
   "workspace_dashboards": "Dashboards",
-  "pi_chat": "ProjectHub AI",
+  "pi_chat": "AI",
   "in_app": "V aplikaci",
   "forms": "Formuláře",
   "milestones": "Milníky",

@@ -12,21 +12,21 @@ SPECTACULAR_SETTINGS = {
     # ========================================================================
     # Basic API Information
     # ========================================================================
-    "TITLE": "The ProjectHub REST API",
+    "TITLE": "The SGT Project Management Platform REST API",
     "DESCRIPTION": (
-        "The ProjectHub REST API\n\n"
+        "The SGT Project Management Platform REST API\n\n"
         "Visit our quick start guide and full API documentation at "
-        "[developers.example.com](http://localhost)."
+        "[developers.sure.com.sa](https://sure.com.sa)."
     ),
     "CONTACT": {
-        "name": "ProjectHub",
-        "url": "http://localhost",
-        "email": "support@example.com",
+        "name": "SGT Project Management Platform",
+        "url": "https://sure.com.sa",
+        "email": "info@sure.com.sa",
     },
     "VERSION": "0.0.1",
     "LICENSE": {
         "name": "GNU AGPLv3",
-        "url": "http://localhost",
+        "url": "https://www.gnu.org/licenses/agpl-3.0.html",
     },
     # ========================================================================
     # Schema Generation Settings
@@ -45,7 +45,7 @@ SPECTACULAR_SETTINGS = {
     # ========================================================================
     "SERVERS": [
         {"url": "http://localhost:8000", "description": "Local"},
-        {"url": "http://localhost", "description": "Production"},
+        {"url": "https://sure.com.sa", "description": "Production"},
     ],
     # ========================================================================
     # API Tag Definitions
