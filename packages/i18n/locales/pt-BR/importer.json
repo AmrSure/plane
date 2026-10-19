@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Importações",
+    "heading": "Importações",
+    "description": "Traga itens de trabalho de outras ferramentas para este espaço de trabalho.",
+    "no_access": "Somente administradores do espaço de trabalho e administradores de projeto podem importar itens de trabalho.",
+    "jira": {
+      "title": "Importar do Jira",
+      "description": "Envie uma exportação CSV do Jira. Status, sprints, epics, pessoas, comentários e links são mapeados para você revisar.",
+      "start": "Importar do Jira"
+    },
+    "history": {
+      "title": "Importações anteriores",
+      "meta": "{items} itens · {size} · {who} · {when}",
+      "continue": "Continuar configuração",
+      "rerun": "Executar novamente",
+      "undo": "Desfazer importação",
+      "delete": "Remover do histórico",
+      "errors": "{count, plural, one {# linha não pôde ser importada} other {# linhas não puderam ser importadas}}",
+      "empty_title": "Nenhuma importação ainda",
+      "empty_description": "As importações que você executar aparecerão aqui com o progresso e os resultados."
+    },
+    "toast": {
+      "undo_started": "Desfazendo a importação",
+      "deleted": "Importação removida do histórico",
+      "load_failed": "Não foi possível carregar a importação"
+    },
+    "errors": {
+      "generic": "Algo deu errado. Tente novamente.",
+      "missing_file": "Escolha um arquivo CSV exportado do Jira.",
+      "invalid_type": "O arquivo deve ser uma exportação CSV do Jira.",
+      "file_too_large": "O arquivo excede o limite de envio de {size} MB.",
+      "invalid_encoding": "Não foi possível ler a codificação de texto do arquivo. Exporte-o novamente como CSV.",
+      "empty_file": "O arquivo está vazio.",
+      "invalid_csv": "O arquivo não é um CSV válido.",
+      "missing_columns": "Isto não parece ser uma exportação do Jira. São necessárias as colunas Issue key e Summary.",
+      "no_work_items": "O arquivo não contém itens de trabalho.",
+      "storage_failed": "Não foi possível armazenar o arquivo. Tente novamente.",
+      "forbidden": "Você não tem permissão para fazer isso.",
+      "not_found": "Esta importação não existe mais.",
+      "import_active": "Esta importação já está em execução.",
+      "not_undoable": "Somente importações concluídas podem ser desfeitas.",
+      "invalid_jira_project": "Escolha um projeto do Jira presente no arquivo.",
+      "missing_target": "Escolha para onde importar os itens de trabalho.",
+      "invalid_name": "Insira um nome de projeto sem caracteres especiais.",
+      "name_taken": "Já existe um projeto com este nome.",
+      "identifier_length": "O identificador deve ter de 1 a 12 caracteres.",
+      "identifier_invalid": "O identificador só pode conter letras e números.",
+      "identifier_taken": "Este identificador já está sendo usado por outro projeto.",
+      "invalid_state": "Um dos estados escolhidos não existe mais. Revise o mapeamento de status.",
+      "invalid_member": "Uma das pessoas escolhidas não é mais membro do espaço de trabalho. Revise o mapeamento de pessoas."
+    },
+    "undo": {
+      "title": "Desfazer esta importação?",
+      "description": "Tudo o que esta importação criou em {project} será removido. Os itens de trabalho que já existiam serão mantidos.",
+      "description_project": "O projeto {project} foi criado por esta importação e será removido com todo o seu conteúdo.",
+      "confirm": "Desfazer importação"
+    },
+    "delete": {
+      "title": "Remover do histórico?",
+      "description": "O arquivo enviado e este registro serão removidos. Os itens de trabalho importados serão mantidos.",
+      "confirm": "Remover"
+    },
+    "common": {
+      "working": "Processando…",
+      "items": "{count, plural, one {# item} other {# itens}}"
+    },
+    "status": {
+      "uploaded": "Não iniciado",
+      "queued": "Na fila",
+      "running": "Importando",
+      "completed": "Concluído",
+      "failed": "Falhou",
+      "undoing": "Desfazendo",
+      "undone": "Desfeito"
+    },
+    "summary": {
+      "created": "Criados",
+      "updated": "Atualizados",
+      "skipped": "Ignorados",
+      "failed": "Com falha",
+      "cycles": "Ciclos",
+      "modules": "Módulos",
+      "states": "Novos estados",
+      "labels": "Novas etiquetas",
+      "comments": "Comentários",
+      "links": "Links de anexos",
+      "relations": "Relações"
+    },
+    "modal": {
+      "title": "Importar do Jira",
+      "close": "Fechar",
+      "open_project": "Abrir projeto",
+      "back": "Voltar",
+      "analyze": "Enviar e analisar",
+      "analyzing": "Analisando…",
+      "start": "Iniciar importação",
+      "next": "Avançar"
+    },
+    "steps": {
+      "upload": "Envio",
+      "project": "Projeto",
+      "mapping": "Status",
+      "people": "Pessoas",
+      "options": "Revisão",
+      "progress": "Importação"
+    },
+    "upload": {
+      "drop_title": "Solte um arquivo CSV do Jira aqui ou clique para escolher um",
+      "drop_hint": "Arquivos CSV de até {size}",
+      "how_title": "Como exportar do Jira",
+      "how_step_1": "No Jira, abra Filtros e pesquise os itens de trabalho que deseja transferir, por exemplo project = ALMS.",
+      "how_step_2": "Escolha Exportar e depois Export CSV (all fields) (Exportar CSV (todos os campos)).",
+      "how_step_3": "Envie aqui o arquivo baixado. Nada é importado até que você revise o mapeamento."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Itens de trabalho",
+        "sprints": "Sprints",
+        "people": "Pessoas",
+        "keys": "Chaves"
+      },
+      "jira_project": "Projeto do Jira",
+      "new_project": "Criar um novo projeto",
+      "new_project_hint": "Recomendado. As chaves do Jira são mantidas como estão.",
+      "new_project_admin_only": "Somente administradores do espaço de trabalho podem criar projetos.",
+      "existing_project": "Importar para um projeto existente",
+      "existing_project_hint": "Adicione os itens de trabalho a um projeto que você administra.",
+      "no_projects": "Você não administra nenhum projeto.",
+      "project_name": "Nome do projeto",
+      "identifier": "Identificador",
+      "identifier_invalid": "Use de 1 a 12 letras ou números.",
+      "identifier_taken": "{identifier} já está em uso neste espaço de trabalho. Escolha outro identificador.",
+      "project": "Projeto",
+      "keys_kept": "As chaves do Jira são mantidas, então ALMS-12 continua ALMS-12.",
+      "keys_renumbered": "Este projeto já tem itens de trabalho, então os itens importados recebem novos números. Cada um mostra sua chave do Jira na descrição."
+    },
+    "warnings": {
+      "multiple_projects": "O arquivo contém mais de um projeto do Jira. Somente o projeto escolhido é importado.",
+      "duplicate_keys": "Algumas chaves do Jira aparecem mais de uma vez. Cada chave repetida é importada uma única vez.",
+      "unparsed_dates": "{count, plural, one {# data não pôde ser lida e ficará em branco.} other {# datas não puderam ser lidas e ficarão em branco.}}"
+    },
+    "mapping": {
+      "statuses_title": "Status",
+      "statuses_hint": "Escolha o estado correspondente a cada status do Jira. Novos estados são criados no grupo que você escolher.",
+      "create_state": "Novo estado \"{name}\" em {group}",
+      "priorities_title": "Prioridades",
+      "no_priority": "Sem prioridade"
+    },
+    "groups": {
+      "backlog": "Backlog",
+      "unstarted": "Não iniciado",
+      "started": "Iniciado",
+      "completed": "Concluído",
+      "cancelled": "Cancelado"
+    },
+    "priorities": {
+      "urgent": "Urgente",
+      "high": "Alta",
+      "medium": "Média",
+      "low": "Baixa",
+      "none": "Nenhuma"
+    },
+    "people": {
+      "hint": "As pessoas são associadas aos membros do espaço de trabalho pelo nome. Pessoas não associadas ficam sem responsável atribuído, e seus nomes são mantidos no item de trabalho.",
+      "matched": "{matched} de {total} associadas.",
+      "none": "Nenhuma pessoa foi encontrada no arquivo.",
+      "leave_unassigned": "Deixar sem atribuição",
+      "roles": {
+        "assignee": "Responsável",
+        "reporter": "Relator",
+        "creator": "Criador",
+        "watcher": "Observador",
+        "commenter": "Comentarista"
+      }
+    },
+    "options": {
+      "not_in_file": "Não está neste arquivo",
+      "keep_keys": {
+        "title": "Manter chaves do Jira",
+        "description": "Os itens importados mantêm seus números do Jira."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprints viram ciclos",
+        "description": "As datas dos ciclos são deduzidas a partir dos itens de cada sprint."
+      },
+      "epics_as_modules": {
+        "title": "Epics viram módulos",
+        "description": "Os itens de um epic são adicionados ao módulo correspondente."
+      },
+      "issue_types_as_labels": {
+        "title": "Tipos de issue viram etiquetas",
+        "description": "Task, Bug, Story e outros tipos são adicionados como etiquetas."
+      },
+      "comments": {
+        "title": "Comentários",
+        "description": "Os comentários mantêm a data e o autor originais."
+      },
+      "attachments": {
+        "title": "Anexos como links",
+        "description": "Os anexos são vinculados ao Jira. Para abri-los, ainda é necessário ter acesso ao Jira."
+      },
+      "watchers": {
+        "title": "Observadores viram inscritos",
+        "description": "Os observadores mapeados acompanham o item de trabalho."
+      },
+      "on_existing": {
+        "title": "Itens importados anteriormente",
+        "description": "Quando este arquivo for importado novamente, os itens já importados serão atualizados ou ignorados.",
+        "update": "Atualizar",
+        "skip": "Ignorar"
+      }
+    },
+    "review": {
+      "title": "O que acontece a seguir",
+      "target": "Os itens de trabalho vão para {project}.",
+      "work_items": "{count, plural, one {# item de trabalho será importado.} other {# itens de trabalho serão importados.}}",
+      "new_states": "{count, plural, one {# novo estado será criado.} other {# novos estados serão criados.}}",
+      "cycles": "{count, plural, one {# ciclo será criado a partir das sprints.} other {# ciclos serão criados a partir das sprints.}}",
+      "unmapped": "{count, plural, one {# pessoa não está mapeada e ficará sem atribuição.} other {# pessoas não estão mapeadas e ficarão sem atribuição.}}",
+      "rerun": "Os itens importados anteriormente são associados pelo ID do Jira, então nada é duplicado.",
+      "silent": "Nenhuma notificação ou e-mail é enviado. Você pode desfazer a importação depois."
+    },
+    "progress": {
+      "title_uploaded": "Não iniciado",
+      "title_queued": "Aguardando início…",
+      "title_running": "Importando itens de trabalho…",
+      "title_completed": "Importação concluída",
+      "title_failed": "A importação falhou",
+      "title_undoing": "Desfazendo…",
+      "title_undone": "Importação desfeita",
+      "running_hint": "Você pode fechar esta janela. A importação continua em segundo plano.",
+      "done_hint": "Revise os resultados abaixo. Você pode desfazer a importação na página Importações.",
+      "errors_title": "{count, plural, one {# problema} other {# problemas}}"
+    }
+  }
+}

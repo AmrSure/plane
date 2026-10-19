@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Importy",
+    "heading": "Importy",
+    "description": "Przenieś elementy pracy z innych narzędzi do tej przestrzeni roboczej.",
+    "no_access": "Tylko administratorzy przestrzeni roboczej i administratorzy projektów mogą importować elementy pracy.",
+    "jira": {
+      "title": "Importuj z Jira",
+      "description": "Prześlij plik CSV wyeksportowany z Jira. Statusy, sprinty, epiki, osoby, komentarze i linki zostaną zmapowane do Twojej weryfikacji.",
+      "start": "Importuj z Jira"
+    },
+    "history": {
+      "title": "Poprzednie importy",
+      "meta": "Elementy: {items} · {size} · {who} · {when}",
+      "continue": "Kontynuuj konfigurację",
+      "rerun": "Uruchom ponownie",
+      "undo": "Cofnij import",
+      "delete": "Usuń z historii",
+      "errors": "{count, plural, one {Nie udało się zaimportować # wiersza} few {Nie udało się zaimportować # wierszy} many {Nie udało się zaimportować # wierszy} other {Nie udało się zaimportować # wiersza}}",
+      "empty_title": "Brak importów",
+      "empty_description": "Uruchomione importy pojawią się tutaj wraz z postępem i wynikami."
+    },
+    "toast": {
+      "undo_started": "Cofanie importu",
+      "deleted": "Import usunięty z historii",
+      "load_failed": "Nie udało się wczytać importu"
+    },
+    "errors": {
+      "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+      "missing_file": "Wybierz plik CSV wyeksportowany z Jira.",
+      "invalid_type": "Plik musi być eksportem CSV z Jira.",
+      "file_too_large": "Plik przekracza limit przesyłania wynoszący {size} MB.",
+      "invalid_encoding": "Nie udało się odczytać kodowania tekstu pliku. Wyeksportuj go ponownie jako CSV.",
+      "empty_file": "Plik jest pusty.",
+      "invalid_csv": "Plik nie jest prawidłowym plikiem CSV.",
+      "missing_columns": "To nie wygląda na eksport z Jira. Wymagane są kolumny Issue key i Summary.",
+      "no_work_items": "Plik nie zawiera elementów pracy.",
+      "storage_failed": "Nie udało się zapisać pliku. Spróbuj ponownie.",
+      "forbidden": "Nie masz uprawnień do wykonania tej czynności.",
+      "not_found": "Ten import już nie istnieje.",
+      "import_active": "Ten import jest już uruchomiony.",
+      "not_undoable": "Cofnąć można tylko zakończone importy.",
+      "invalid_jira_project": "Wybierz projekt Jira z pliku.",
+      "missing_target": "Wybierz, dokąd zaimportować elementy pracy.",
+      "invalid_name": "Wpisz nazwę projektu bez znaków specjalnych.",
+      "name_taken": "Projekt o tej nazwie już istnieje.",
+      "identifier_length": "Identyfikator musi mieć od 1 do 12 znaków.",
+      "identifier_invalid": "Identyfikator może zawierać tylko litery i cyfry.",
+      "identifier_taken": "Ten identyfikator jest już używany przez inny projekt.",
+      "invalid_state": "Jeden z wybranych stanów już nie istnieje. Sprawdź mapowanie statusów.",
+      "invalid_member": "Jedna z wybranych osób nie jest już członkiem przestrzeni roboczej. Sprawdź mapowanie osób."
+    },
+    "undo": {
+      "title": "Cofnąć ten import?",
+      "description": "Wszystko, co ten import utworzył w {project}, zostanie usunięte. Wcześniej istniejące elementy pracy zostaną zachowane.",
+      "description_project": "Projekt {project} został utworzony przez ten import i zostanie usunięty wraz z całą zawartością.",
+      "confirm": "Cofnij import"
+    },
+    "delete": {
+      "title": "Usunąć z historii?",
+      "description": "Przesłany plik i ten wpis zostaną usunięte. Zaimportowane elementy pracy zostaną zachowane.",
+      "confirm": "Usuń"
+    },
+    "common": {
+      "working": "Przetwarzanie…",
+      "items": "{count, plural, one {# element} few {# elementy} many {# elementów} other {# elementu}}"
+    },
+    "status": {
+      "uploaded": "Nierozpoczęty",
+      "queued": "W kolejce",
+      "running": "Importowanie",
+      "completed": "Zakończony",
+      "failed": "Niepowodzenie",
+      "undoing": "Cofanie",
+      "undone": "Cofnięty"
+    },
+    "summary": {
+      "created": "Utworzone",
+      "updated": "Zaktualizowane",
+      "skipped": "Pominięte",
+      "failed": "Nieudane",
+      "cycles": "Cykle",
+      "modules": "Moduły",
+      "states": "Nowe stany",
+      "labels": "Nowe etykiety",
+      "comments": "Komentarze",
+      "links": "Linki do załączników",
+      "relations": "Relacje"
+    },
+    "modal": {
+      "title": "Importuj z Jira",
+      "close": "Zamknij",
+      "open_project": "Otwórz projekt",
+      "back": "Wstecz",
+      "analyze": "Prześlij i przeanalizuj",
+      "analyzing": "Analizowanie…",
+      "start": "Rozpocznij import",
+      "next": "Dalej"
+    },
+    "steps": {
+      "upload": "Przesyłanie",
+      "project": "Projekt",
+      "mapping": "Statusy",
+      "people": "Osoby",
+      "options": "Przegląd",
+      "progress": "Import"
+    },
+    "upload": {
+      "drop_title": "Upuść tutaj plik CSV z Jira lub kliknij, aby go wybrać",
+      "drop_hint": "Pliki CSV do {size}",
+      "how_title": "Jak wyeksportować dane z Jira",
+      "how_step_1": "W Jira otwórz Filtry i wyszukaj elementy pracy, które chcesz przenieść, na przykład project = ALMS.",
+      "how_step_2": "Wybierz Eksportuj, a następnie Export CSV (all fields) (Eksportuj CSV (wszystkie pola)).",
+      "how_step_3": "Prześlij tutaj pobrany plik. Nic nie zostanie zaimportowane, dopóki nie sprawdzisz mapowania."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Elementy pracy",
+        "sprints": "Sprinty",
+        "people": "Osoby",
+        "keys": "Klucze"
+      },
+      "jira_project": "Projekt Jira",
+      "new_project": "Utwórz nowy projekt",
+      "new_project_hint": "Zalecane. Klucze Jira pozostają bez zmian.",
+      "new_project_admin_only": "Tylko administratorzy przestrzeni roboczej mogą tworzyć projekty.",
+      "existing_project": "Importuj do istniejącego projektu",
+      "existing_project_hint": "Dodaj elementy pracy do projektu, którym administrujesz.",
+      "no_projects": "Nie administrujesz żadnym projektem.",
+      "project_name": "Nazwa projektu",
+      "identifier": "Identyfikator",
+      "identifier_invalid": "Użyj od 1 do 12 liter lub cyfr.",
+      "identifier_taken": "Identyfikator {identifier} jest już używany w tej przestrzeni roboczej. Wybierz inny identyfikator.",
+      "project": "Projekt",
+      "keys_kept": "Klucze Jira zostają zachowane, więc ALMS-12 pozostaje ALMS-12.",
+      "keys_renumbered": "Ten projekt zawiera już elementy pracy, więc zaimportowane elementy otrzymają nowe numery. Każdy z nich pokazuje swój klucz Jira w opisie."
+    },
+    "warnings": {
+      "multiple_projects": "Plik zawiera więcej niż jeden projekt Jira. Importowany jest tylko wybrany projekt.",
+      "duplicate_keys": "Niektóre klucze Jira występują więcej niż raz. Każdy powtórzony klucz jest importowany tylko raz.",
+      "unparsed_dates": "{count, plural, one {Nie udało się odczytać # daty, pole pozostanie puste.} few {Nie udało się odczytać # dat, pola pozostaną puste.} many {Nie udało się odczytać # dat, pola pozostaną puste.} other {Nie udało się odczytać # daty, pola pozostaną puste.}}"
+    },
+    "mapping": {
+      "statuses_title": "Statusy",
+      "statuses_hint": "Wybierz stan, na który zostanie zamieniony każdy status Jira. Nowe stany są tworzone w wybranej grupie.",
+      "create_state": "Nowy stan „{name}” w grupie {group}",
+      "priorities_title": "Priorytety",
+      "no_priority": "Brak priorytetu"
+    },
+    "groups": {
+      "backlog": "Backlog",
+      "unstarted": "Nierozpoczęty",
+      "started": "Rozpoczęty",
+      "completed": "Zakończony",
+      "cancelled": "Anulowany"
+    },
+    "priorities": {
+      "urgent": "Pilny",
+      "high": "Wysoki",
+      "medium": "Średni",
+      "low": "Niski",
+      "none": "Brak"
+    },
+    "people": {
+      "hint": "Osoby są dopasowywane do członków przestrzeni roboczej na podstawie nazwy. Niedopasowane osoby pozostają nieprzypisane, a ich nazwy są zachowywane w elemencie pracy.",
+      "matched": "Dopasowano {matched} z {total}.",
+      "none": "W pliku nie znaleziono żadnych osób.",
+      "leave_unassigned": "Pozostaw nieprzypisane",
+      "roles": {
+        "assignee": "Osoba przypisana",
+        "reporter": "Zgłaszający",
+        "creator": "Twórca",
+        "watcher": "Obserwator",
+        "commenter": "Komentujący"
+      }
+    },
+    "options": {
+      "not_in_file": "Brak w tym pliku",
+      "keep_keys": {
+        "title": "Zachowaj klucze Jira",
+        "description": "Zaimportowane elementy zachowują swoje numery z Jira."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprinty jako cykle",
+        "description": "Daty cykli są ustalane na podstawie elementów w każdym sprincie."
+      },
+      "epics_as_modules": {
+        "title": "Epiki jako moduły",
+        "description": "Elementy z epika są dodawane do odpowiadającego mu modułu."
+      },
+      "issue_types_as_labels": {
+        "title": "Typy zgłoszeń jako etykiety",
+        "description": "Task, Bug, Story i inne typy są dodawane jako etykiety."
+      },
+      "comments": {
+        "title": "Komentarze",
+        "description": "Komentarze zachowują oryginalną datę i autora."
+      },
+      "attachments": {
+        "title": "Załączniki jako linki",
+        "description": "Załączniki są linkowane do Jira. Ich otwarcie nadal wymaga dostępu do Jira."
+      },
+      "watchers": {
+        "title": "Obserwatorzy jako subskrybenci",
+        "description": "Zmapowani obserwatorzy obserwują element pracy."
+      },
+      "on_existing": {
+        "title": "Wcześniej zaimportowane elementy",
+        "description": "Przy ponownym imporcie tego pliku już zaimportowane elementy zostaną zaktualizowane lub pominięte.",
+        "update": "Aktualizuj",
+        "skip": "Pomiń"
+      }
+    },
+    "review": {
+      "title": "Co się stanie dalej",
+      "target": "Elementy pracy trafią do {project}.",
+      "work_items": "{count, plural, one {Zostanie zaimportowany # element pracy.} few {Zostaną zaimportowane # elementy pracy.} many {Zostanie zaimportowanych # elementów pracy.} other {Zostanie zaimportowane # elementu pracy.}}",
+      "new_states": "{count, plural, one {Zostanie utworzony # nowy stan.} few {Zostaną utworzone # nowe stany.} many {Zostanie utworzonych # nowych stanów.} other {Zostanie utworzone # nowego stanu.}}",
+      "cycles": "{count, plural, one {Ze sprintów zostanie utworzony # cykl.} few {Ze sprintów zostaną utworzone # cykle.} many {Ze sprintów zostanie utworzonych # cykli.} other {Ze sprintów zostanie utworzone # cyklu.}}",
+      "unmapped": "{count, plural, one {# osoba nie jest zmapowana i pozostanie nieprzypisana.} few {# osoby nie są zmapowane i pozostaną nieprzypisane.} many {# osób nie jest zmapowanych i pozostanie nieprzypisanych.} other {# osoby nie jest zmapowane i pozostanie nieprzypisane.}}",
+      "rerun": "Wcześniej zaimportowane elementy są dopasowywane po identyfikatorze Jira, więc nic nie zostanie zduplikowane.",
+      "silent": "Żadne powiadomienia ani e-maile nie zostaną wysłane. Import można później cofnąć."
+    },
+    "progress": {
+      "title_uploaded": "Nierozpoczęty",
+      "title_queued": "Oczekiwanie na rozpoczęcie…",
+      "title_running": "Importowanie elementów pracy…",
+      "title_completed": "Import zakończony",
+      "title_failed": "Import nie powiódł się",
+      "title_undoing": "Cofanie…",
+      "title_undone": "Import cofnięty",
+      "running_hint": "Możesz zamknąć to okno. Import będzie kontynuowany w tle.",
+      "done_hint": "Sprawdź wyniki poniżej. Import można cofnąć na stronie Importy.",
+      "errors_title": "{count, plural, one {# problem} few {# problemy} many {# problemów} other {# problemu}}"
+    }
+  }
+}

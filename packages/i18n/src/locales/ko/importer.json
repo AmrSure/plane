@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "가져오기",
+    "heading": "가져오기",
+    "description": "다른 도구의 작업 항목을 이 작업 공간으로 가져옵니다.",
+    "no_access": "작업 공간 관리자와 프로젝트 관리자만 작업 항목을 가져올 수 있습니다.",
+    "jira": {
+      "title": "Jira에서 가져오기",
+      "description": "Jira에서 내보낸 CSV 파일을 업로드하세요. 상태, 스프린트, 에픽, 사용자, 댓글, 링크가 자동으로 매핑되며 검토할 수 있습니다.",
+      "start": "Jira에서 가져오기"
+    },
+    "history": {
+      "title": "이전 가져오기",
+      "meta": "항목 {items}개 · {size} · {who} · {when}",
+      "continue": "설정 계속하기",
+      "rerun": "다시 실행",
+      "undo": "가져오기 취소",
+      "delete": "기록에서 삭제",
+      "errors": "{count, plural, one {#개 행을 가져오지 못했습니다} other {#개 행을 가져오지 못했습니다}}",
+      "empty_title": "아직 가져오기가 없습니다",
+      "empty_description": "실행한 가져오기가 진행 상황 및 결과와 함께 여기에 표시됩니다."
+    },
+    "toast": {
+      "undo_started": "가져오기를 취소하는 중입니다",
+      "deleted": "가져오기가 기록에서 삭제되었습니다",
+      "load_failed": "가져오기를 불러올 수 없습니다"
+    },
+    "errors": {
+      "generic": "문제가 발생했습니다. 다시 시도하세요.",
+      "missing_file": "Jira에서 내보낸 CSV 파일을 선택하세요.",
+      "invalid_type": "파일은 Jira에서 내보낸 CSV여야 합니다.",
+      "file_too_large": "파일이 업로드 한도인 {size} MB를 초과합니다.",
+      "invalid_encoding": "파일의 텍스트 인코딩을 읽을 수 없습니다. CSV로 다시 내보내세요.",
+      "empty_file": "파일이 비어 있습니다.",
+      "invalid_csv": "유효한 CSV 파일이 아닙니다.",
+      "missing_columns": "Jira 내보내기 파일이 아닌 것 같습니다. Issue key 및 Summary 열이 필요합니다.",
+      "no_work_items": "파일에 작업 항목이 없습니다.",
+      "storage_failed": "파일을 저장할 수 없습니다. 다시 시도하세요.",
+      "forbidden": "이 작업을 수행할 권한이 없습니다.",
+      "not_found": "이 가져오기는 더 이상 존재하지 않습니다.",
+      "import_active": "이 가져오기는 이미 실행 중입니다.",
+      "not_undoable": "완료된 가져오기만 취소할 수 있습니다.",
+      "invalid_jira_project": "파일에 있는 Jira 프로젝트를 선택하세요.",
+      "missing_target": "작업 항목을 가져올 위치를 선택하세요.",
+      "invalid_name": "특수 문자 없이 프로젝트 이름을 입력하세요.",
+      "name_taken": "이 이름의 프로젝트가 이미 있습니다.",
+      "identifier_length": "식별자는 1~12자여야 합니다.",
+      "identifier_invalid": "식별자에는 문자와 숫자만 사용할 수 있습니다.",
+      "identifier_taken": "이 식별자는 이미 다른 프로젝트에서 사용 중입니다.",
+      "invalid_state": "선택한 상태 중 하나가 더 이상 존재하지 않습니다. 상태 매핑을 검토하세요.",
+      "invalid_member": "선택한 사용자 중 한 명이 더 이상 작업 공간 멤버가 아닙니다. 사용자 매핑을 검토하세요."
+    },
+    "undo": {
+      "title": "이 가져오기를 취소하시겠습니까?",
+      "description": "이 가져오기로 {project}에 생성된 모든 항목이 삭제됩니다. 기존 작업 항목은 유지됩니다.",
+      "description_project": "프로젝트 {project}은(는) 이 가져오기로 생성되었으므로 포함된 모든 내용과 함께 삭제됩니다.",
+      "confirm": "가져오기 취소"
+    },
+    "delete": {
+      "title": "기록에서 삭제하시겠습니까?",
+      "description": "업로드된 파일과 이 기록이 삭제됩니다. 가져온 작업 항목은 유지됩니다.",
+      "confirm": "삭제"
+    },
+    "common": {
+      "working": "처리 중…",
+      "items": "{count, plural, one {#개 항목} other {#개 항목}}"
+    },
+    "status": {
+      "uploaded": "시작되지 않음",
+      "queued": "대기 중",
+      "running": "가져오는 중",
+      "completed": "완료됨",
+      "failed": "실패",
+      "undoing": "취소하는 중",
+      "undone": "취소됨"
+    },
+    "summary": {
+      "created": "생성됨",
+      "updated": "업데이트됨",
+      "skipped": "건너뜀",
+      "failed": "실패",
+      "cycles": "주기",
+      "modules": "모듈",
+      "states": "새 상태",
+      "labels": "새 레이블",
+      "comments": "댓글",
+      "links": "첨부 파일 링크",
+      "relations": "관계"
+    },
+    "modal": {
+      "title": "Jira에서 가져오기",
+      "close": "닫기",
+      "open_project": "프로젝트 열기",
+      "back": "뒤로",
+      "analyze": "업로드 및 분석",
+      "analyzing": "분석 중…",
+      "start": "가져오기 시작",
+      "next": "다음"
+    },
+    "steps": {
+      "upload": "업로드",
+      "project": "프로젝트",
+      "mapping": "상태",
+      "people": "사용자",
+      "options": "검토",
+      "progress": "가져오기"
+    },
+    "upload": {
+      "drop_title": "Jira CSV 파일을 여기에 놓거나 클릭하여 선택하세요",
+      "drop_hint": "최대 {size}의 CSV 파일",
+      "how_title": "Jira에서 내보내는 방법",
+      "how_step_1": "Jira에서 필터를 열고 옮길 작업 항목을 검색합니다(예: project = ALMS).",
+      "how_step_2": "내보내기를 선택한 다음 Export CSV (all fields)(CSV 내보내기(모든 필드))를 선택합니다.",
+      "how_step_3": "다운로드한 파일을 여기에 업로드합니다. 매핑을 검토하기 전에는 아무것도 가져오지 않습니다."
+    },
+    "target": {
+      "stats": {
+        "work_items": "작업 항목",
+        "sprints": "스프린트",
+        "people": "사용자",
+        "keys": "키"
+      },
+      "jira_project": "Jira 프로젝트",
+      "new_project": "새 프로젝트 만들기",
+      "new_project_hint": "권장. Jira 키가 그대로 유지됩니다.",
+      "new_project_admin_only": "작업 공간 관리자만 프로젝트를 만들 수 있습니다.",
+      "existing_project": "기존 프로젝트로 가져오기",
+      "existing_project_hint": "관리하는 프로젝트에 작업 항목을 추가합니다.",
+      "no_projects": "관리하는 프로젝트가 없습니다.",
+      "project_name": "프로젝트 이름",
+      "identifier": "식별자",
+      "identifier_invalid": "1~12자의 문자 또는 숫자를 사용하세요.",
+      "identifier_taken": "{identifier}은(는) 이 작업 공간에서 이미 사용 중입니다. 다른 식별자를 선택하세요.",
+      "project": "프로젝트",
+      "keys_kept": "Jira 키가 유지되므로 ALMS-12는 ALMS-12로 그대로 남습니다.",
+      "keys_renumbered": "이 프로젝트에 이미 작업 항목이 있으므로 가져온 항목에는 새 번호가 부여됩니다. 각 항목의 설명에 Jira 키가 표시됩니다."
+    },
+    "warnings": {
+      "multiple_projects": "파일에 Jira 프로젝트가 두 개 이상 있습니다. 선택한 프로젝트만 가져옵니다.",
+      "duplicate_keys": "일부 Jira 키가 두 번 이상 나타납니다. 반복된 키는 각각 한 번만 가져옵니다.",
+      "unparsed_dates": "{count, plural, one {#개 날짜를 읽을 수 없어 비워 둡니다.} other {#개 날짜를 읽을 수 없어 비워 둡니다.}}"
+    },
+    "mapping": {
+      "statuses_title": "상태",
+      "statuses_hint": "각 Jira 상태가 변환될 상태를 선택하세요. 새 상태는 선택한 그룹에 생성됩니다.",
+      "create_state": "{group}의 새 상태 \"{name}\"",
+      "priorities_title": "우선순위",
+      "no_priority": "우선순위 없음"
+    },
+    "groups": {
+      "backlog": "백로그",
+      "unstarted": "시작되지 않음",
+      "started": "시작됨",
+      "completed": "완료됨",
+      "cancelled": "취소됨"
+    },
+    "priorities": {
+      "urgent": "긴급",
+      "high": "높음",
+      "medium": "중간",
+      "low": "낮음",
+      "none": "없음"
+    },
+    "people": {
+      "hint": "사용자는 이름으로 작업 공간 멤버와 매칭됩니다. 매칭되지 않은 사용자는 할당되지 않은 상태로 남으며, 이름은 작업 항목에 유지됩니다.",
+      "matched": "{total}명 중 {matched}명이 매칭되었습니다.",
+      "none": "파일에서 사용자를 찾을 수 없습니다.",
+      "leave_unassigned": "할당하지 않음",
+      "roles": {
+        "assignee": "담당자",
+        "reporter": "보고자",
+        "creator": "생성자",
+        "watcher": "관찰자",
+        "commenter": "댓글 작성자"
+      }
+    },
+    "options": {
+      "not_in_file": "이 파일에 없음",
+      "keep_keys": {
+        "title": "Jira 키 유지",
+        "description": "가져온 항목은 Jira 번호를 유지합니다."
+      },
+      "sprints_as_cycles": {
+        "title": "스프린트를 주기로 변환",
+        "description": "주기 날짜는 각 스프린트의 항목에서 추정됩니다."
+      },
+      "epics_as_modules": {
+        "title": "에픽을 모듈로 변환",
+        "description": "에픽에 속한 항목은 해당 모듈에 추가됩니다."
+      },
+      "issue_types_as_labels": {
+        "title": "이슈 유형을 레이블로 변환",
+        "description": "Task, Bug, Story 및 기타 유형이 레이블로 추가됩니다."
+      },
+      "comments": {
+        "title": "댓글",
+        "description": "댓글은 원래 날짜와 작성자를 유지합니다."
+      },
+      "attachments": {
+        "title": "첨부 파일을 링크로 추가",
+        "description": "첨부 파일은 Jira에 링크됩니다. 열려면 여전히 Jira 접근 권한이 필요합니다."
+      },
+      "watchers": {
+        "title": "관찰자를 구독자로 변환",
+        "description": "매핑된 관찰자가 작업 항목을 구독합니다."
+      },
+      "on_existing": {
+        "title": "이전에 가져온 항목",
+        "description": "이 파일을 다시 가져오면 이미 가져온 항목은 업데이트되거나 건너뜁니다.",
+        "update": "업데이트",
+        "skip": "건너뛰기"
+      }
+    },
+    "review": {
+      "title": "다음 단계",
+      "target": "작업 항목이 {project}에 추가됩니다.",
+      "work_items": "{count, plural, one {#개 작업 항목을 가져옵니다.} other {#개 작업 항목을 가져옵니다.}}",
+      "new_states": "{count, plural, one {#개의 새 상태가 생성됩니다.} other {#개의 새 상태가 생성됩니다.}}",
+      "cycles": "{count, plural, one {스프린트에서 #개 주기가 생성됩니다.} other {스프린트에서 #개 주기가 생성됩니다.}}",
+      "unmapped": "{count, plural, one {#명이 매핑되지 않아 할당되지 않은 상태로 남습니다.} other {#명이 매핑되지 않아 할당되지 않은 상태로 남습니다.}}",
+      "rerun": "이전에 가져온 항목은 Jira ID로 매칭되므로 중복되지 않습니다.",
+      "silent": "알림이나 이메일은 전송되지 않습니다. 나중에 가져오기를 취소할 수 있습니다."
+    },
+    "progress": {
+      "title_uploaded": "시작되지 않음",
+      "title_queued": "시작 대기 중…",
+      "title_running": "작업 항목을 가져오는 중…",
+      "title_completed": "가져오기 완료",
+      "title_failed": "가져오기 실패",
+      "title_undoing": "취소하는 중…",
+      "title_undone": "가져오기가 취소됨",
+      "running_hint": "이 창을 닫아도 됩니다. 가져오기는 백그라운드에서 계속됩니다.",
+      "done_hint": "아래 결과를 검토하세요. 가져오기 페이지에서 가져오기를 취소할 수 있습니다.",
+      "errors_title": "{count, plural, one {#개 문제} other {#개 문제}}"
+    }
+  }
+}

@@ -41,6 +41,16 @@ export const extendedRoutes: RouteConfigEntry[] = [
           ]),
         ]),
       ]),
+
+      // Workspace settings - Imports
+      layout("./(all)/[workspaceSlug]/(settings)/layout.tsx", [
+        layout("./(all)/[workspaceSlug]/(settings)/settings/(workspace)/layout.tsx", [
+          route(
+            ":workspaceSlug/settings/imports",
+            "./(all)/[workspaceSlug]/(settings)/settings/(workspace)/imports/page.tsx"
+          ),
+        ]),
+      ]),
     ]),
   ]),
 ];

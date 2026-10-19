@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Nhập dữ liệu",
+    "heading": "Nhập dữ liệu",
+    "description": "Đưa mục công việc từ các công cụ khác vào không gian làm việc này.",
+    "no_access": "Chỉ quản trị viên không gian làm việc và quản trị viên dự án mới có thể nhập mục công việc.",
+    "jira": {
+      "title": "Nhập từ Jira",
+      "description": "Tải lên tệp CSV xuất từ Jira. Trạng thái, sprint, epic, người dùng, bình luận và liên kết sẽ được ánh xạ để bạn xem lại.",
+      "start": "Nhập từ Jira"
+    },
+    "history": {
+      "title": "Các lần nhập trước",
+      "meta": "{items} mục · {size} · {who} · {when}",
+      "continue": "Tiếp tục thiết lập",
+      "rerun": "Chạy lại",
+      "undo": "Hoàn tác nhập",
+      "delete": "Xóa khỏi lịch sử",
+      "errors": "{count, plural, one {Không thể nhập # dòng} other {Không thể nhập # dòng}}",
+      "empty_title": "Chưa có lần nhập nào",
+      "empty_description": "Các lần nhập bạn chạy sẽ được liệt kê ở đây cùng tiến độ và kết quả."
+    },
+    "toast": {
+      "undo_started": "Đang hoàn tác lần nhập",
+      "deleted": "Đã xóa lần nhập khỏi lịch sử",
+      "load_failed": "Không thể tải lần nhập"
+    },
+    "errors": {
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "missing_file": "Chọn một tệp CSV được xuất từ Jira.",
+      "invalid_type": "Tệp phải là tệp CSV xuất từ Jira.",
+      "file_too_large": "Tệp vượt quá giới hạn tải lên {size} MB.",
+      "invalid_encoding": "Không thể đọc mã hóa văn bản của tệp. Hãy xuất lại dưới dạng CSV.",
+      "empty_file": "Tệp trống.",
+      "invalid_csv": "Tệp không phải là tệp CSV hợp lệ.",
+      "missing_columns": "Đây không giống tệp xuất từ Jira. Tệp cần có các cột Issue key và Summary.",
+      "no_work_items": "Tệp không có mục công việc nào.",
+      "storage_failed": "Không thể lưu tệp. Vui lòng thử lại.",
+      "forbidden": "Bạn không có quyền thực hiện thao tác này.",
+      "not_found": "Lần nhập này không còn tồn tại.",
+      "import_active": "Lần nhập này đang chạy.",
+      "not_undoable": "Chỉ có thể hoàn tác các lần nhập đã hoàn thành.",
+      "invalid_jira_project": "Chọn một dự án Jira trong tệp.",
+      "missing_target": "Chọn nơi nhập mục công việc.",
+      "invalid_name": "Nhập tên dự án không chứa ký tự đặc biệt.",
+      "name_taken": "Đã có dự án với tên này.",
+      "identifier_length": "Mã định danh phải có từ 1 đến 12 ký tự.",
+      "identifier_invalid": "Mã định danh chỉ được chứa chữ cái và chữ số.",
+      "identifier_taken": "Mã định danh này đã được một dự án khác sử dụng.",
+      "invalid_state": "Một trong các trạng thái đã chọn không còn tồn tại. Hãy xem lại ánh xạ trạng thái.",
+      "invalid_member": "Một trong những người đã chọn không còn là thành viên không gian làm việc. Hãy xem lại ánh xạ người dùng."
+    },
+    "undo": {
+      "title": "Hoàn tác lần nhập này?",
+      "description": "Mọi thứ lần nhập này đã tạo trong {project} sẽ bị xóa. Các mục công việc có từ trước sẽ được giữ lại.",
+      "description_project": "Dự án {project} được tạo bởi lần nhập này và sẽ bị xóa cùng toàn bộ nội dung bên trong.",
+      "confirm": "Hoàn tác nhập"
+    },
+    "delete": {
+      "title": "Xóa khỏi lịch sử?",
+      "description": "Tệp đã tải lên và mục này sẽ bị xóa. Các mục công việc đã nhập được giữ lại.",
+      "confirm": "Xóa"
+    },
+    "common": {
+      "working": "Đang xử lý…",
+      "items": "{count, plural, one {# mục} other {# mục}}"
+    },
+    "status": {
+      "uploaded": "Chưa bắt đầu",
+      "queued": "Đang chờ",
+      "running": "Đang nhập",
+      "completed": "Đã hoàn thành",
+      "failed": "Thất bại",
+      "undoing": "Đang hoàn tác",
+      "undone": "Đã hoàn tác"
+    },
+    "summary": {
+      "created": "Đã tạo",
+      "updated": "Đã cập nhật",
+      "skipped": "Đã bỏ qua",
+      "failed": "Thất bại",
+      "cycles": "Chu kỳ",
+      "modules": "Mô-đun",
+      "states": "Trạng thái mới",
+      "labels": "Nhãn mới",
+      "comments": "Bình luận",
+      "links": "Liên kết tệp đính kèm",
+      "relations": "Mối quan hệ"
+    },
+    "modal": {
+      "title": "Nhập từ Jira",
+      "close": "Đóng",
+      "open_project": "Mở dự án",
+      "back": "Quay lại",
+      "analyze": "Tải lên và phân tích",
+      "analyzing": "Đang phân tích…",
+      "start": "Bắt đầu nhập",
+      "next": "Tiếp"
+    },
+    "steps": {
+      "upload": "Tải lên",
+      "project": "Dự án",
+      "mapping": "Trạng thái",
+      "people": "Người dùng",
+      "options": "Xem lại",
+      "progress": "Nhập"
+    },
+    "upload": {
+      "drop_title": "Thả tệp CSV từ Jira vào đây hoặc nhấp để chọn tệp",
+      "drop_hint": "Tệp CSV tối đa {size}",
+      "how_title": "Cách xuất từ Jira",
+      "how_step_1": "Trong Jira, mở Filters và tìm các mục công việc bạn muốn chuyển, ví dụ project = ALMS.",
+      "how_step_2": "Chọn Export, sau đó chọn Export CSV (all fields) (Xuất CSV, tất cả trường).",
+      "how_step_3": "Tải tệp đã tải xuống lên đây. Chưa có gì được nhập cho đến khi bạn xem lại ánh xạ."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Mục công việc",
+        "sprints": "Sprint",
+        "people": "Người dùng",
+        "keys": "Khóa"
+      },
+      "jira_project": "Dự án Jira",
+      "new_project": "Tạo dự án mới",
+      "new_project_hint": "Khuyến nghị. Khóa Jira được giữ nguyên.",
+      "new_project_admin_only": "Chỉ quản trị viên không gian làm việc mới có thể tạo dự án.",
+      "existing_project": "Nhập vào dự án hiện có",
+      "existing_project_hint": "Thêm mục công việc vào một dự án bạn quản trị.",
+      "no_projects": "Bạn không quản trị dự án nào.",
+      "project_name": "Tên dự án",
+      "identifier": "Mã định danh",
+      "identifier_invalid": "Dùng từ 1 đến 12 chữ cái hoặc chữ số.",
+      "identifier_taken": "{identifier} đã được sử dụng trong không gian làm việc này. Hãy chọn mã định danh khác.",
+      "project": "Dự án",
+      "keys_kept": "Khóa Jira được giữ nguyên, nên ALMS-12 vẫn là ALMS-12.",
+      "keys_renumbered": "Dự án này đã có mục công việc, nên các mục được nhập sẽ nhận số mới. Mỗi mục hiển thị khóa Jira của nó trong phần mô tả."
+    },
+    "warnings": {
+      "multiple_projects": "Tệp chứa nhiều hơn một dự án Jira. Chỉ dự án đã chọn được nhập.",
+      "duplicate_keys": "Một số khóa Jira xuất hiện nhiều lần. Mỗi khóa lặp lại chỉ được nhập một lần.",
+      "unparsed_dates": "{count, plural, one {Không thể đọc # ngày và sẽ để trống.} other {Không thể đọc # ngày và sẽ để trống.}}"
+    },
+    "mapping": {
+      "statuses_title": "Trạng thái",
+      "statuses_hint": "Chọn trạng thái tương ứng cho mỗi trạng thái Jira. Trạng thái mới được tạo trong nhóm bạn chọn.",
+      "create_state": "Trạng thái mới “{name}” trong {group}",
+      "priorities_title": "Mức ưu tiên",
+      "no_priority": "Không có ưu tiên"
+    },
+    "groups": {
+      "backlog": "Tồn đọng",
+      "unstarted": "Chưa bắt đầu",
+      "started": "Đã bắt đầu",
+      "completed": "Đã hoàn thành",
+      "cancelled": "Đã hủy"
+    },
+    "priorities": {
+      "urgent": "Khẩn cấp",
+      "high": "Cao",
+      "medium": "Trung bình",
+      "low": "Thấp",
+      "none": "Không có"
+    },
+    "people": {
+      "hint": "Người dùng được khớp với thành viên không gian làm việc theo tên. Người không khớp sẽ không được phân công và tên của họ được giữ lại trên mục công việc.",
+      "matched": "Đã khớp {matched}/{total}.",
+      "none": "Không tìm thấy người dùng nào trong tệp.",
+      "leave_unassigned": "Để chưa phân công",
+      "roles": {
+        "assignee": "Người phụ trách",
+        "reporter": "Người báo cáo",
+        "creator": "Người tạo",
+        "watcher": "Người theo dõi",
+        "commenter": "Người bình luận"
+      }
+    },
+    "options": {
+      "not_in_file": "Không có trong tệp này",
+      "keep_keys": {
+        "title": "Giữ khóa Jira",
+        "description": "Các mục được nhập giữ nguyên số Jira của chúng."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprint thành chu kỳ",
+        "description": "Ngày của chu kỳ được suy ra từ các mục trong mỗi sprint."
+      },
+      "epics_as_modules": {
+        "title": "Epic thành mô-đun",
+        "description": "Các mục trong một epic được thêm vào mô-đun tương ứng."
+      },
+      "issue_types_as_labels": {
+        "title": "Loại issue thành nhãn",
+        "description": "Task, Bug, Story và các loại khác được thêm dưới dạng nhãn."
+      },
+      "comments": {
+        "title": "Bình luận",
+        "description": "Bình luận giữ nguyên ngày và tác giả gốc."
+      },
+      "attachments": {
+        "title": "Tệp đính kèm dưới dạng liên kết",
+        "description": "Tệp đính kèm được liên kết đến Jira. Vẫn cần quyền truy cập Jira để mở chúng."
+      },
+      "watchers": {
+        "title": "Người theo dõi thành người đăng ký",
+        "description": "Người theo dõi đã ánh xạ sẽ theo dõi mục công việc."
+      },
+      "on_existing": {
+        "title": "Các mục đã nhập trước đó",
+        "description": "Khi tệp này được nhập lại, các mục đã nhập sẽ được cập nhật hoặc bỏ qua.",
+        "update": "Cập nhật",
+        "skip": "Bỏ qua"
+      }
+    },
+    "review": {
+      "title": "Điều gì sẽ xảy ra tiếp theo",
+      "target": "Mục công việc sẽ được đưa vào {project}.",
+      "work_items": "{count, plural, one {# mục công việc sẽ được nhập.} other {# mục công việc sẽ được nhập.}}",
+      "new_states": "{count, plural, one {# trạng thái mới sẽ được tạo.} other {# trạng thái mới sẽ được tạo.}}",
+      "cycles": "{count, plural, one {# chu kỳ sẽ được tạo từ sprint.} other {# chu kỳ sẽ được tạo từ sprint.}}",
+      "unmapped": "{count, plural, one {# người chưa được ánh xạ và sẽ không được phân công.} other {# người chưa được ánh xạ và sẽ không được phân công.}}",
+      "rerun": "Các mục đã nhập trước đó được khớp theo ID Jira, nên không có gì bị trùng lặp.",
+      "silent": "Không có thông báo hay email nào được gửi. Bạn có thể hoàn tác lần nhập sau đó."
+    },
+    "progress": {
+      "title_uploaded": "Chưa bắt đầu",
+      "title_queued": "Đang chờ bắt đầu…",
+      "title_running": "Đang nhập mục công việc…",
+      "title_completed": "Đã nhập xong",
+      "title_failed": "Nhập thất bại",
+      "title_undoing": "Đang hoàn tác…",
+      "title_undone": "Đã hoàn tác lần nhập",
+      "running_hint": "Bạn có thể đóng cửa sổ này. Quá trình nhập vẫn tiếp tục chạy nền.",
+      "done_hint": "Xem lại kết quả bên dưới. Bạn có thể hoàn tác lần nhập từ trang Nhập dữ liệu.",
+      "errors_title": "{count, plural, one {# sự cố} other {# sự cố}}"
+    }
+  }
+}

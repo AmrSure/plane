@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "导入",
+    "heading": "导入",
+    "description": "将其他工具中的工作项导入此工作区。",
+    "no_access": "只有工作区管理员和项目管理员可以导入工作项。",
+    "jira": {
+      "title": "从 Jira 导入",
+      "description": "上传从 Jira 导出的 CSV 文件。状态、冲刺、史诗、人员、评论和链接会自动映射，供您审核。",
+      "start": "从 Jira 导入"
+    },
+    "history": {
+      "title": "历史导入",
+      "meta": "{items} 项 · {size} · {who} · {when}",
+      "continue": "继续设置",
+      "rerun": "重新运行",
+      "undo": "撤销导入",
+      "delete": "从历史中移除",
+      "errors": "{count, plural, one {# 行无法导入} other {# 行无法导入}}",
+      "empty_title": "暂无导入",
+      "empty_description": "您运行的导入会连同进度和结果一起列在这里。"
+    },
+    "toast": {
+      "undo_started": "正在撤销导入",
+      "deleted": "已从历史中移除导入",
+      "load_failed": "无法加载该导入"
+    },
+    "errors": {
+      "generic": "出现问题，请重试。",
+      "missing_file": "请选择从 Jira 导出的 CSV 文件。",
+      "invalid_type": "文件必须是从 Jira 导出的 CSV 文件。",
+      "file_too_large": "文件超过 {size} MB 的上传限制。",
+      "invalid_encoding": "无法读取文件的文本编码。请重新导出为 CSV。",
+      "empty_file": "文件为空。",
+      "invalid_csv": "文件不是有效的 CSV 文件。",
+      "missing_columns": "这似乎不是 Jira 导出文件。文件需要包含 Issue key 和 Summary 列。",
+      "no_work_items": "文件中没有工作项。",
+      "storage_failed": "无法保存文件，请重试。",
+      "forbidden": "您没有执行此操作的权限。",
+      "not_found": "此导入已不存在。",
+      "import_active": "此导入正在运行。",
+      "not_undoable": "只能撤销已完成的导入。",
+      "invalid_jira_project": "请从文件中选择一个 Jira 项目。",
+      "missing_target": "请选择工作项的导入位置。",
+      "invalid_name": "请输入不含特殊字符的项目名称。",
+      "name_taken": "已存在同名项目。",
+      "identifier_length": "标识符必须为 1 到 12 个字符。",
+      "identifier_invalid": "标识符只能包含字母和数字。",
+      "identifier_taken": "此标识符已被其他项目使用。",
+      "invalid_state": "所选状态之一已不存在。请检查状态映射。",
+      "invalid_member": "所选人员之一已不是工作区成员。请检查人员映射。"
+    },
+    "undo": {
+      "title": "撤销此导入？",
+      "description": "此导入在 {project} 中创建的所有内容都将被删除。之前已存在的工作项会保留。",
+      "description_project": "项目 {project} 由此导入创建，将连同其中的所有内容一起删除。",
+      "confirm": "撤销导入"
+    },
+    "delete": {
+      "title": "从历史中移除？",
+      "description": "上传的文件和此记录将被移除。已导入的工作项会保留。",
+      "confirm": "移除"
+    },
+    "common": {
+      "working": "处理中…",
+      "items": "{count, plural, one {# 项} other {# 项}}"
+    },
+    "status": {
+      "uploaded": "未开始",
+      "queued": "排队中",
+      "running": "导入中",
+      "completed": "已完成",
+      "failed": "失败",
+      "undoing": "撤销中",
+      "undone": "已撤销"
+    },
+    "summary": {
+      "created": "已创建",
+      "updated": "已更新",
+      "skipped": "已跳过",
+      "failed": "失败",
+      "cycles": "周期",
+      "modules": "模块",
+      "states": "新状态",
+      "labels": "新标签",
+      "comments": "评论",
+      "links": "附件链接",
+      "relations": "关系"
+    },
+    "modal": {
+      "title": "从 Jira 导入",
+      "close": "关闭",
+      "open_project": "打开项目",
+      "back": "返回",
+      "analyze": "上传并分析",
+      "analyzing": "分析中…",
+      "start": "开始导入",
+      "next": "下一步"
+    },
+    "steps": {
+      "upload": "上传",
+      "project": "项目",
+      "mapping": "状态",
+      "people": "人员",
+      "options": "审核",
+      "progress": "导入"
+    },
+    "upload": {
+      "drop_title": "将 Jira CSV 文件拖放到此处，或点击选择文件",
+      "drop_hint": "CSV 文件，最大 {size}",
+      "how_title": "如何从 Jira 导出",
+      "how_step_1": "在 Jira 中打开 Filters，搜索要迁移的工作项，例如 project = ALMS。",
+      "how_step_2": "选择 Export，然后选择 Export CSV (all fields)（导出 CSV，所有字段）。",
+      "how_step_3": "在此上传下载的文件。在您审核映射之前，不会导入任何内容。"
+    },
+    "target": {
+      "stats": {
+        "work_items": "工作项",
+        "sprints": "冲刺",
+        "people": "人员",
+        "keys": "键"
+      },
+      "jira_project": "Jira 项目",
+      "new_project": "创建新项目",
+      "new_project_hint": "推荐。Jira 键保持不变。",
+      "new_project_admin_only": "只有工作区管理员可以创建项目。",
+      "existing_project": "导入到现有项目",
+      "existing_project_hint": "将工作项添加到您管理的项目中。",
+      "no_projects": "您没有管理任何项目。",
+      "project_name": "项目名称",
+      "identifier": "标识符",
+      "identifier_invalid": "请使用 1 到 12 个字母或数字。",
+      "identifier_taken": "{identifier} 已在此工作区中使用。请选择其他标识符。",
+      "project": "项目",
+      "keys_kept": "Jira 键保持不变，ALMS-12 仍为 ALMS-12。",
+      "keys_renumbered": "此项目中已有工作项，因此导入的工作项将获得新编号。每个工作项的描述中会显示其 Jira 键。"
+    },
+    "warnings": {
+      "multiple_projects": "文件包含多个 Jira 项目。仅导入所选项目。",
+      "duplicate_keys": "部分 Jira 键出现多次。每个重复的键只导入一次。",
+      "unparsed_dates": "{count, plural, one {# 个日期无法读取，将留空。} other {# 个日期无法读取，将留空。}}"
+    },
+    "mapping": {
+      "statuses_title": "状态",
+      "statuses_hint": "为每个 Jira 状态选择对应的状态。新状态将在您选择的分组中创建。",
+      "create_state": "在 {group} 中新建状态“{name}”",
+      "priorities_title": "优先级",
+      "no_priority": "无优先级"
+    },
+    "groups": {
+      "backlog": "待办",
+      "unstarted": "未开始",
+      "started": "已开始",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "priorities": {
+      "urgent": "紧急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "none": "无"
+    },
+    "people": {
+      "hint": "人员按姓名与工作区成员匹配。未匹配的人员将保持未分配，其姓名会保留在工作项中。",
+      "matched": "已匹配 {matched}/{total}。",
+      "none": "文件中未找到人员。",
+      "leave_unassigned": "保持未分配",
+      "roles": {
+        "assignee": "负责人",
+        "reporter": "报告人",
+        "creator": "创建者",
+        "watcher": "关注者",
+        "commenter": "评论者"
+      }
+    },
+    "options": {
+      "not_in_file": "此文件中没有",
+      "keep_keys": {
+        "title": "保留 Jira 键",
+        "description": "导入的工作项保留其 Jira 编号。"
+      },
+      "sprints_as_cycles": {
+        "title": "冲刺转为周期",
+        "description": "周期日期根据每个冲刺中的工作项推断。"
+      },
+      "epics_as_modules": {
+        "title": "史诗转为模块",
+        "description": "史诗中的工作项会添加到对应模块。"
+      },
+      "issue_types_as_labels": {
+        "title": "Issue 类型转为标签",
+        "description": "Task、Bug、Story 等类型将作为标签添加。"
+      },
+      "comments": {
+        "title": "评论",
+        "description": "评论保留原始日期和作者。"
+      },
+      "attachments": {
+        "title": "附件作为链接",
+        "description": "附件链接到 Jira。打开附件仍需要 Jira 访问权限。"
+      },
+      "watchers": {
+        "title": "关注者转为订阅者",
+        "description": "已映射的关注者将订阅该工作项。"
+      },
+      "on_existing": {
+        "title": "之前导入的工作项",
+        "description": "再次导入此文件时，已导入的工作项将被更新或跳过。",
+        "update": "更新",
+        "skip": "跳过"
+      }
+    },
+    "review": {
+      "title": "接下来会发生什么",
+      "target": "工作项将导入到 {project}。",
+      "work_items": "{count, plural, one {将导入 # 个工作项。} other {将导入 # 个工作项。}}",
+      "new_states": "{count, plural, one {将创建 # 个新状态。} other {将创建 # 个新状态。}}",
+      "cycles": "{count, plural, one {将根据冲刺创建 # 个周期。} other {将根据冲刺创建 # 个周期。}}",
+      "unmapped": "{count, plural, one {# 人未映射，将保持未分配。} other {# 人未映射，将保持未分配。}}",
+      "rerun": "之前导入的工作项按其 Jira ID 匹配，因此不会产生重复。",
+      "silent": "不会发送任何通知或邮件。之后可以撤销导入。"
+    },
+    "progress": {
+      "title_uploaded": "未开始",
+      "title_queued": "等待开始…",
+      "title_running": "正在导入工作项…",
+      "title_completed": "导入完成",
+      "title_failed": "导入失败",
+      "title_undoing": "撤销中…",
+      "title_undone": "导入已撤销",
+      "running_hint": "您可以关闭此窗口。导入将在后台继续进行。",
+      "done_hint": "请查看下方结果。您可以在导入页面撤销导入。",
+      "errors_title": "{count, plural, one {# 个问题} other {# 个问题}}"
+    }
+  }
+}

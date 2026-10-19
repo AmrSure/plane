@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Impor",
+    "heading": "Impor",
+    "description": "Bawa item kerja dari alat lain ke ruang kerja ini.",
+    "no_access": "Hanya admin ruang kerja dan admin proyek yang dapat mengimpor item kerja.",
+    "jira": {
+      "title": "Impor dari Jira",
+      "description": "Unggah ekspor CSV dari Jira. Status, sprint, epik, orang, komentar, dan tautan dipetakan secara otomatis agar dapat Anda tinjau.",
+      "start": "Impor dari Jira"
+    },
+    "history": {
+      "title": "Impor sebelumnya",
+      "meta": "{items} item · {size} · {who} · {when}",
+      "continue": "Lanjutkan penyiapan",
+      "rerun": "Jalankan lagi",
+      "undo": "Batalkan impor",
+      "delete": "Hapus dari riwayat",
+      "errors": "{count, plural, one {# baris tidak dapat diimpor} other {# baris tidak dapat diimpor}}",
+      "empty_title": "Belum ada impor",
+      "empty_description": "Impor yang Anda jalankan akan tercantum di sini beserta progres dan hasilnya."
+    },
+    "toast": {
+      "undo_started": "Membatalkan impor",
+      "deleted": "Impor dihapus dari riwayat",
+      "load_failed": "Impor tidak dapat dimuat"
+    },
+    "errors": {
+      "generic": "Terjadi kesalahan. Coba lagi.",
+      "missing_file": "Pilih file CSV yang diekspor dari Jira.",
+      "invalid_type": "File harus berupa ekspor CSV dari Jira.",
+      "file_too_large": "File melebihi batas unggahan {size} MB.",
+      "invalid_encoding": "Enkode teks file tidak dapat dibaca. Ekspor ulang sebagai CSV.",
+      "empty_file": "File kosong.",
+      "invalid_csv": "File bukan file CSV yang valid.",
+      "missing_columns": "File ini tampaknya bukan ekspor Jira. Kolom Issue key dan Summary diperlukan.",
+      "no_work_items": "File tidak berisi item kerja.",
+      "storage_failed": "File tidak dapat disimpan. Coba lagi.",
+      "forbidden": "Anda tidak memiliki izin untuk melakukan ini.",
+      "not_found": "Impor ini sudah tidak ada.",
+      "import_active": "Impor ini sedang berjalan.",
+      "not_undoable": "Hanya impor yang sudah selesai yang dapat dibatalkan.",
+      "invalid_jira_project": "Pilih proyek Jira dari file.",
+      "missing_target": "Pilih tujuan impor item kerja.",
+      "invalid_name": "Masukkan nama proyek tanpa karakter khusus.",
+      "name_taken": "Proyek dengan nama ini sudah ada.",
+      "identifier_length": "Pengenal harus terdiri dari 1 hingga 12 karakter.",
+      "identifier_invalid": "Pengenal hanya boleh berisi huruf dan angka.",
+      "identifier_taken": "Pengenal ini sudah digunakan oleh proyek lain.",
+      "invalid_state": "Salah satu status yang dipilih sudah tidak ada. Tinjau pemetaan status.",
+      "invalid_member": "Salah satu orang yang dipilih bukan lagi anggota ruang kerja. Tinjau pemetaan orang."
+    },
+    "undo": {
+      "title": "Batalkan impor ini?",
+      "description": "Semua yang dibuat oleh impor ini di {project} akan dihapus. Item kerja yang sudah ada sebelumnya tetap dipertahankan.",
+      "description_project": "Proyek {project} dibuat oleh impor ini dan akan dihapus beserta seluruh isinya.",
+      "confirm": "Batalkan impor"
+    },
+    "delete": {
+      "title": "Hapus dari riwayat?",
+      "description": "File yang diunggah dan entri ini dihapus. Item kerja yang telah diimpor tetap dipertahankan.",
+      "confirm": "Hapus"
+    },
+    "common": {
+      "working": "Memproses…",
+      "items": "{count, plural, one {# item} other {# item}}"
+    },
+    "status": {
+      "uploaded": "Belum dimulai",
+      "queued": "Dalam antrean",
+      "running": "Mengimpor",
+      "completed": "Selesai",
+      "failed": "Gagal",
+      "undoing": "Membatalkan",
+      "undone": "Dibatalkan"
+    },
+    "summary": {
+      "created": "Dibuat",
+      "updated": "Diperbarui",
+      "skipped": "Dilewati",
+      "failed": "Gagal",
+      "cycles": "Siklus",
+      "modules": "Modul",
+      "states": "Status baru",
+      "labels": "Label baru",
+      "comments": "Komentar",
+      "links": "Tautan lampiran",
+      "relations": "Relasi"
+    },
+    "modal": {
+      "title": "Impor dari Jira",
+      "close": "Tutup",
+      "open_project": "Buka proyek",
+      "back": "Kembali",
+      "analyze": "Unggah dan analisis",
+      "analyzing": "Menganalisis…",
+      "start": "Mulai impor",
+      "next": "Berikutnya"
+    },
+    "steps": {
+      "upload": "Unggah",
+      "project": "Proyek",
+      "mapping": "Status",
+      "people": "Orang",
+      "options": "Tinjau",
+      "progress": "Impor"
+    },
+    "upload": {
+      "drop_title": "Letakkan file CSV Jira di sini, atau klik untuk memilih file",
+      "drop_hint": "File CSV hingga {size}",
+      "how_title": "Cara mengekspor dari Jira",
+      "how_step_1": "Di Jira, buka Filters dan cari item kerja yang ingin Anda pindahkan, misalnya project = ALMS.",
+      "how_step_2": "Pilih Export, lalu Export CSV (all fields) (Ekspor CSV, semua bidang).",
+      "how_step_3": "Unggah file yang telah diunduh di sini. Tidak ada yang diimpor sebelum Anda meninjau pemetaannya."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Item kerja",
+        "sprints": "Sprint",
+        "people": "Orang",
+        "keys": "Kunci"
+      },
+      "jira_project": "Proyek Jira",
+      "new_project": "Buat proyek baru",
+      "new_project_hint": "Disarankan. Kunci Jira dipertahankan apa adanya.",
+      "new_project_admin_only": "Hanya admin ruang kerja yang dapat membuat proyek.",
+      "existing_project": "Impor ke proyek yang sudah ada",
+      "existing_project_hint": "Tambahkan item kerja ke proyek yang Anda kelola.",
+      "no_projects": "Anda tidak mengelola proyek apa pun.",
+      "project_name": "Nama proyek",
+      "identifier": "Pengenal",
+      "identifier_invalid": "Gunakan 1 hingga 12 huruf atau angka.",
+      "identifier_taken": "{identifier} sudah digunakan di ruang kerja ini. Pilih pengenal lain.",
+      "project": "Proyek",
+      "keys_kept": "Kunci Jira dipertahankan, jadi ALMS-12 tetap menjadi ALMS-12.",
+      "keys_renumbered": "Proyek ini sudah memiliki item kerja, sehingga item yang diimpor mendapat nomor baru. Setiap item menampilkan kunci Jira-nya di deskripsi."
+    },
+    "warnings": {
+      "multiple_projects": "File berisi lebih dari satu proyek Jira. Hanya proyek yang dipilih yang diimpor.",
+      "duplicate_keys": "Beberapa kunci Jira muncul lebih dari sekali. Setiap kunci yang berulang diimpor satu kali.",
+      "unparsed_dates": "{count, plural, one {# tanggal tidak dapat dibaca dan akan dibiarkan kosong.} other {# tanggal tidak dapat dibaca dan akan dibiarkan kosong.}}"
+    },
+    "mapping": {
+      "statuses_title": "Status Jira",
+      "statuses_hint": "Pilih status tujuan untuk setiap status Jira. Status baru dibuat di grup yang Anda pilih.",
+      "create_state": "Status baru \"{name}\" di {group}",
+      "priorities_title": "Prioritas",
+      "no_priority": "Tanpa prioritas"
+    },
+    "groups": {
+      "backlog": "Backlog",
+      "unstarted": "Belum dimulai",
+      "started": "Dimulai",
+      "completed": "Selesai",
+      "cancelled": "Dibatalkan"
+    },
+    "priorities": {
+      "urgent": "Mendesak",
+      "high": "Tinggi",
+      "medium": "Sedang",
+      "low": "Rendah",
+      "none": "Tidak ada"
+    },
+    "people": {
+      "hint": "Orang dicocokkan dengan anggota ruang kerja berdasarkan nama. Orang yang tidak cocok dibiarkan tanpa penugasan, dan namanya disimpan di item kerja.",
+      "matched": "{matched} dari {total} cocok.",
+      "none": "Tidak ada orang yang ditemukan di file.",
+      "leave_unassigned": "Biarkan tanpa penugasan",
+      "roles": {
+        "assignee": "Penerima tugas",
+        "reporter": "Pelapor",
+        "creator": "Pembuat",
+        "watcher": "Pemantau",
+        "commenter": "Pemberi komentar"
+      }
+    },
+    "options": {
+      "not_in_file": "Tidak ada di file ini",
+      "keep_keys": {
+        "title": "Pertahankan kunci Jira",
+        "description": "Item yang diimpor mempertahankan nomor Jira-nya."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprint menjadi siklus",
+        "description": "Tanggal siklus disimpulkan dari item di setiap sprint."
+      },
+      "epics_as_modules": {
+        "title": "Epik menjadi modul",
+        "description": "Item dalam epik ditambahkan ke modulnya."
+      },
+      "issue_types_as_labels": {
+        "title": "Jenis issue menjadi label",
+        "description": "Task, Bug, Story, dan jenis lainnya ditambahkan sebagai label."
+      },
+      "comments": {
+        "title": "Komentar",
+        "description": "Komentar mempertahankan tanggal dan penulis aslinya."
+      },
+      "attachments": {
+        "title": "Lampiran sebagai tautan",
+        "description": "Lampiran ditautkan ke Jira. Untuk membukanya tetap diperlukan akses Jira."
+      },
+      "watchers": {
+        "title": "Pemantau menjadi pelanggan",
+        "description": "Pemantau yang dipetakan mengikuti item kerja."
+      },
+      "on_existing": {
+        "title": "Item yang diimpor sebelumnya",
+        "description": "Saat file ini diimpor lagi, item yang sudah diimpor akan diperbarui atau dilewati.",
+        "update": "Perbarui",
+        "skip": "Lewati"
+      }
+    },
+    "review": {
+      "title": "Apa yang terjadi selanjutnya",
+      "target": "Item kerja diimpor ke {project}.",
+      "work_items": "{count, plural, one {# item kerja akan diimpor.} other {# item kerja akan diimpor.}}",
+      "new_states": "{count, plural, one {# status baru akan dibuat.} other {# status baru akan dibuat.}}",
+      "cycles": "{count, plural, one {# siklus akan dibuat dari sprint.} other {# siklus akan dibuat dari sprint.}}",
+      "unmapped": "{count, plural, one {# orang tidak dipetakan dan dibiarkan tanpa penugasan.} other {# orang tidak dipetakan dan dibiarkan tanpa penugasan.}}",
+      "rerun": "Item yang diimpor sebelumnya dicocokkan berdasarkan ID Jira, jadi tidak ada yang terduplikasi.",
+      "silent": "Tidak ada notifikasi atau email yang dikirim. Anda dapat membatalkan impor setelahnya."
+    },
+    "progress": {
+      "title_uploaded": "Belum dimulai",
+      "title_queued": "Menunggu dimulai…",
+      "title_running": "Mengimpor item kerja…",
+      "title_completed": "Impor selesai",
+      "title_failed": "Impor gagal",
+      "title_undoing": "Membatalkan…",
+      "title_undone": "Impor dibatalkan",
+      "running_hint": "Anda dapat menutup jendela ini. Impor tetap berjalan di latar belakang.",
+      "done_hint": "Tinjau hasilnya di bawah. Anda dapat membatalkan impor dari halaman Impor.",
+      "errors_title": "{count, plural, one {# masalah} other {# masalah}}"
+    }
+  }
+}

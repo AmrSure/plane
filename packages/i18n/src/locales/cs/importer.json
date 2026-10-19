@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Importy",
+    "heading": "Importy",
+    "description": "Přeneste do tohoto pracovního prostoru pracovní položky z jiných nástrojů.",
+    "no_access": "Pracovní položky mohou importovat pouze správci pracovního prostoru a správci projektů.",
+    "jira": {
+      "title": "Import z Jiry",
+      "description": "Nahrajte export CSV z Jiry. Stavy, sprinty, epiky, osoby, komentáře a odkazy se automaticky namapují, abyste je mohli zkontrolovat.",
+      "start": "Importovat z Jiry"
+    },
+    "history": {
+      "title": "Předchozí importy",
+      "meta": "Položky: {items} · {size} · {who} · {when}",
+      "continue": "Pokračovat v nastavení",
+      "rerun": "Spustit znovu",
+      "undo": "Vrátit import",
+      "delete": "Odebrat z historie",
+      "errors": "{count, plural, one {# řádek se nepodařilo importovat} few {# řádky se nepodařilo importovat} many {# řádku se nepodařilo importovat} other {# řádků se nepodařilo importovat}}",
+      "empty_title": "Zatím žádné importy",
+      "empty_description": "Spuštěné importy se zde zobrazí s průběhem a výsledky."
+    },
+    "toast": {
+      "undo_started": "Import se vrací",
+      "deleted": "Import byl odebrán z historie",
+      "load_failed": "Import se nepodařilo načíst"
+    },
+    "errors": {
+      "generic": "Něco se pokazilo. Zkuste to znovu.",
+      "missing_file": "Vyberte soubor CSV exportovaný z Jiry.",
+      "invalid_type": "Soubor musí být export CSV z Jiry.",
+      "file_too_large": "Soubor překračuje limit pro nahrávání {size} MB.",
+      "invalid_encoding": "Kódování textu souboru se nepodařilo přečíst. Exportujte jej znovu jako CSV.",
+      "empty_file": "Soubor je prázdný.",
+      "invalid_csv": "Soubor není platný soubor CSV.",
+      "missing_columns": "Nevypadá to jako export z Jiry. Jsou potřeba sloupce Issue key a Summary.",
+      "no_work_items": "Soubor neobsahuje žádné pracovní položky.",
+      "storage_failed": "Soubor se nepodařilo uložit. Zkuste to znovu.",
+      "forbidden": "K této akci nemáte oprávnění.",
+      "not_found": "Tento import již neexistuje.",
+      "import_active": "Tento import již probíhá.",
+      "not_undoable": "Vrátit lze pouze dokončené importy.",
+      "invalid_jira_project": "Vyberte projekt Jira ze souboru.",
+      "missing_target": "Vyberte, kam pracovní položky importovat.",
+      "invalid_name": "Zadejte název projektu bez speciálních znaků.",
+      "name_taken": "Projekt s tímto názvem již existuje.",
+      "identifier_length": "Identifikátor musí mít 1 až 12 znaků.",
+      "identifier_invalid": "Identifikátor může obsahovat pouze písmena a číslice.",
+      "identifier_taken": "Tento identifikátor již používá jiný projekt.",
+      "invalid_state": "Jeden z vybraných stavů již neexistuje. Zkontrolujte mapování stavů.",
+      "invalid_member": "Jedna z vybraných osob již není členem pracovního prostoru. Zkontrolujte mapování osob."
+    },
+    "undo": {
+      "title": "Vrátit tento import?",
+      "description": "Vše, co tento import vytvořil v projektu {project}, bude odstraněno. Pracovní položky, které existovaly dříve, zůstanou zachovány.",
+      "description_project": "Projekt {project} byl vytvořen tímto importem a bude odstraněn včetně veškerého obsahu.",
+      "confirm": "Vrátit import"
+    },
+    "delete": {
+      "title": "Odebrat z historie?",
+      "description": "Nahraný soubor a tento záznam budou odebrány. Importované pracovní položky zůstanou zachovány.",
+      "confirm": "Odebrat"
+    },
+    "common": {
+      "working": "Zpracování…",
+      "items": "{count, plural, one {# položka} few {# položky} many {# položky} other {# položek}}"
+    },
+    "status": {
+      "uploaded": "Nezahájeno",
+      "queued": "Ve frontě",
+      "running": "Probíhá import",
+      "completed": "Dokončeno",
+      "failed": "Selhalo",
+      "undoing": "Vrací se",
+      "undone": "Vráceno"
+    },
+    "summary": {
+      "created": "Vytvořeno",
+      "updated": "Aktualizováno",
+      "skipped": "Přeskočeno",
+      "failed": "Selhalo",
+      "cycles": "Cykly",
+      "modules": "Moduly",
+      "states": "Nové stavy",
+      "labels": "Nové štítky",
+      "comments": "Komentáře",
+      "links": "Odkazy na přílohy",
+      "relations": "Vazby"
+    },
+    "modal": {
+      "title": "Import z Jiry",
+      "close": "Zavřít",
+      "open_project": "Otevřít projekt",
+      "back": "Zpět",
+      "analyze": "Nahrát a analyzovat",
+      "analyzing": "Analyzuje se…",
+      "start": "Spustit import",
+      "next": "Další"
+    },
+    "steps": {
+      "upload": "Nahrání",
+      "project": "Projekt",
+      "mapping": "Stavy",
+      "people": "Osoby",
+      "options": "Kontrola",
+      "progress": "Import"
+    },
+    "upload": {
+      "drop_title": "Přetáhněte sem soubor CSV z Jiry nebo klikněte a vyberte jej",
+      "drop_hint": "Soubory CSV do {size}",
+      "how_title": "Jak exportovat z Jiry",
+      "how_step_1": "V Jiře otevřete Filtry a vyhledejte pracovní položky, které chcete přenést, například project = ALMS.",
+      "how_step_2": "Zvolte Export a poté Export CSV (all fields) (Exportovat CSV, všechna pole).",
+      "how_step_3": "Nahrajte sem stažený soubor. Nic se neimportuje, dokud nezkontrolujete mapování."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Pracovní položky",
+        "sprints": "Sprinty",
+        "people": "Osoby",
+        "keys": "Klíče"
+      },
+      "jira_project": "Projekt Jira",
+      "new_project": "Vytvořit nový projekt",
+      "new_project_hint": "Doporučeno. Klíče Jira zůstanou beze změny.",
+      "new_project_admin_only": "Projekty mohou vytvářet pouze správci pracovního prostoru.",
+      "existing_project": "Importovat do existujícího projektu",
+      "existing_project_hint": "Přidejte pracovní položky do projektu, který spravujete.",
+      "no_projects": "Nespravujete žádný projekt.",
+      "project_name": "Název projektu",
+      "identifier": "Identifikátor",
+      "identifier_invalid": "Použijte 1 až 12 písmen nebo číslic.",
+      "identifier_taken": "{identifier} se v tomto pracovním prostoru již používá. Zvolte jiný identifikátor.",
+      "project": "Projekt",
+      "keys_kept": "Klíče Jira zůstanou zachovány, takže ALMS-12 zůstane ALMS-12.",
+      "keys_renumbered": "Tento projekt již obsahuje pracovní položky, proto importované položky dostanou nová čísla. Každá zobrazí svůj klíč Jira v popisu."
+    },
+    "warnings": {
+      "multiple_projects": "Soubor obsahuje více než jeden projekt Jira. Importuje se pouze vybraný projekt.",
+      "duplicate_keys": "Některé klíče Jira se vyskytují vícekrát. Každý opakovaný klíč se importuje jen jednou.",
+      "unparsed_dates": "{count, plural, one {# datum se nepodařilo přečíst a zůstane prázdné.} few {# data se nepodařilo přečíst a zůstanou prázdná.} many {# data se nepodařilo přečíst a zůstanou prázdná.} other {# dat se nepodařilo přečíst a zůstanou prázdná.}}"
+    },
+    "mapping": {
+      "statuses_title": "Stavy Jira",
+      "statuses_hint": "Vyberte stav, na který se změní každý stav z Jiry. Nové stavy se vytvoří ve skupině, kterou zvolíte.",
+      "create_state": "Nový stav „{name}“ ve skupině {group}",
+      "priorities_title": "Priority",
+      "no_priority": "Bez priority"
+    },
+    "groups": {
+      "backlog": "Backlog",
+      "unstarted": "Nezačato",
+      "started": "Zahájeno",
+      "completed": "Dokončeno",
+      "cancelled": "Zrušeno"
+    },
+    "priorities": {
+      "urgent": "Naléhavá",
+      "high": "Vysoká",
+      "medium": "Střední",
+      "low": "Nízká",
+      "none": "Žádná"
+    },
+    "people": {
+      "hint": "Osoby se přiřazují ke členům pracovního prostoru podle jména. Nespárované osoby zůstanou nepřiřazené a jejich jména se uloží u pracovní položky.",
+      "matched": "Spárováno {matched} z {total}.",
+      "none": "V souboru nebyly nalezeny žádné osoby.",
+      "leave_unassigned": "Ponechat nepřiřazené",
+      "roles": {
+        "assignee": "Řešitel",
+        "reporter": "Zadavatel",
+        "creator": "Autor",
+        "watcher": "Sledující",
+        "commenter": "Komentující"
+      }
+    },
+    "options": {
+      "not_in_file": "Není v tomto souboru",
+      "keep_keys": {
+        "title": "Zachovat klíče Jira",
+        "description": "Importované položky si ponechají svá čísla z Jiry."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprinty se stanou cykly",
+        "description": "Data cyklů se odvodí z položek v jednotlivých sprintech."
+      },
+      "epics_as_modules": {
+        "title": "Epiky se stanou moduly",
+        "description": "Položky v epiku se přidají do jeho modulu."
+      },
+      "issue_types_as_labels": {
+        "title": "Typy úkolů se stanou štítky",
+        "description": "Task, Bug, Story a další typy se přidají jako štítky."
+      },
+      "comments": {
+        "title": "Komentáře",
+        "description": "Komentáře si ponechají původní datum a autora."
+      },
+      "attachments": {
+        "title": "Přílohy jako odkazy",
+        "description": "Přílohy odkazují do Jiry. K jejich otevření je stále potřeba přístup do Jiry."
+      },
+      "watchers": {
+        "title": "Sledující se stanou odběrateli",
+        "description": "Namapovaní sledující budou pracovní položku sledovat."
+      },
+      "on_existing": {
+        "title": "Dříve importované položky",
+        "description": "Při opětovném importu tohoto souboru se již importované položky aktualizují nebo přeskočí.",
+        "update": "Aktualizovat",
+        "skip": "Přeskočit"
+      }
+    },
+    "review": {
+      "title": "Co se stane dál",
+      "target": "Pracovní položky se importují do projektu {project}.",
+      "work_items": "{count, plural, one {Importuje se # pracovní položka.} few {Importují se # pracovní položky.} many {Importuje se # pracovní položky.} other {Importuje se # pracovních položek.}}",
+      "new_states": "{count, plural, one {Vytvoří se # nový stav.} few {Vytvoří se # nové stavy.} many {Vytvoří se # nového stavu.} other {Vytvoří se # nových stavů.}}",
+      "cycles": "{count, plural, one {Ze sprintů se vytvoří # cyklus.} few {Ze sprintů se vytvoří # cykly.} many {Ze sprintů se vytvoří # cyklu.} other {Ze sprintů se vytvoří # cyklů.}}",
+      "unmapped": "{count, plural, one {# osoba není namapována a zůstane nepřiřazená.} few {# osoby nejsou namapovány a zůstanou nepřiřazené.} many {# osoby není namapováno a zůstane nepřiřazeno.} other {# osob není namapováno a zůstane nepřiřazeno.}}",
+      "rerun": "Dříve importované položky se párují podle ID z Jiry, takže nic nebude zdvojeno.",
+      "silent": "Neodesílají se žádná oznámení ani e-maily. Import můžete později vrátit."
+    },
+    "progress": {
+      "title_uploaded": "Nezahájeno",
+      "title_queued": "Čeká na spuštění…",
+      "title_running": "Importují se pracovní položky…",
+      "title_completed": "Import dokončen",
+      "title_failed": "Import selhal",
+      "title_undoing": "Vrací se…",
+      "title_undone": "Import vrácen",
+      "running_hint": "Toto okno můžete zavřít. Import bude pokračovat na pozadí.",
+      "done_hint": "Zkontrolujte výsledky níže. Import můžete vrátit na stránce Importy.",
+      "errors_title": "{count, plural, one {# problém} few {# problémy} many {# problému} other {# problémů}}"
+    }
+  }
+}

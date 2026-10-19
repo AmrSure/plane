@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "匯入",
+    "heading": "匯入",
+    "description": "將其他工具中的工作事項匯入此工作區。",
+    "no_access": "只有工作區管理員和專案管理員可以匯入工作事項。",
+    "jira": {
+      "title": "從 Jira 匯入",
+      "description": "上傳從 Jira 匯出的 CSV 檔案。狀態、衝刺、Epic、人員、留言和連結會自動對應，供您檢閱。",
+      "start": "從 Jira 匯入"
+    },
+    "history": {
+      "title": "先前的匯入",
+      "meta": "{items} 項 · {size} · {who} · {when}",
+      "continue": "繼續設定",
+      "rerun": "重新執行",
+      "undo": "復原匯入",
+      "delete": "從記錄中移除",
+      "errors": "{count, plural, one {# 列無法匯入} other {# 列無法匯入}}",
+      "empty_title": "尚無匯入",
+      "empty_description": "您執行的匯入會連同進度和結果列在這裡。"
+    },
+    "toast": {
+      "undo_started": "正在復原匯入",
+      "deleted": "已從記錄中移除匯入",
+      "load_failed": "無法載入此匯入"
+    },
+    "errors": {
+      "generic": "發生錯誤，請再試一次。",
+      "missing_file": "請選擇從 Jira 匯出的 CSV 檔案。",
+      "invalid_type": "檔案必須是從 Jira 匯出的 CSV 檔案。",
+      "file_too_large": "檔案超過 {size} MB 的上傳限制。",
+      "invalid_encoding": "無法讀取檔案的文字編碼。請重新匯出為 CSV。",
+      "empty_file": "檔案是空的。",
+      "invalid_csv": "檔案不是有效的 CSV 檔案。",
+      "missing_columns": "這看起來不像 Jira 匯出檔案。檔案需要包含 Issue key 和 Summary 欄位。",
+      "no_work_items": "檔案中沒有工作事項。",
+      "storage_failed": "無法儲存檔案，請再試一次。",
+      "forbidden": "您沒有執行此操作的權限。",
+      "not_found": "此匯入已不存在。",
+      "import_active": "此匯入正在執行中。",
+      "not_undoable": "只能復原已完成的匯入。",
+      "invalid_jira_project": "請從檔案中選擇一個 Jira 專案。",
+      "missing_target": "請選擇工作事項的匯入位置。",
+      "invalid_name": "請輸入不含特殊字元的專案名稱。",
+      "name_taken": "已有相同名稱的專案。",
+      "identifier_length": "識別碼必須為 1 到 12 個字元。",
+      "identifier_invalid": "識別碼只能包含字母和數字。",
+      "identifier_taken": "此識別碼已被其他專案使用。",
+      "invalid_state": "所選狀態之一已不存在。請檢查狀態對應。",
+      "invalid_member": "所選人員之一已不是工作區成員。請檢查人員對應。"
+    },
+    "undo": {
+      "title": "要復原此匯入嗎？",
+      "description": "此匯入在 {project} 中建立的所有內容都將被移除。先前已存在的工作事項會保留。",
+      "description_project": "專案 {project} 由此匯入建立，將連同其中所有內容一併移除。",
+      "confirm": "復原匯入"
+    },
+    "delete": {
+      "title": "要從記錄中移除嗎？",
+      "description": "上傳的檔案和此筆記錄將被移除。已匯入的工作事項會保留。",
+      "confirm": "移除"
+    },
+    "common": {
+      "working": "處理中…",
+      "items": "{count, plural, one {# 項} other {# 項}}"
+    },
+    "status": {
+      "uploaded": "未開始",
+      "queued": "排隊中",
+      "running": "匯入中",
+      "completed": "已完成",
+      "failed": "失敗",
+      "undoing": "復原中",
+      "undone": "已復原"
+    },
+    "summary": {
+      "created": "已建立",
+      "updated": "已更新",
+      "skipped": "已略過",
+      "failed": "失敗",
+      "cycles": "週期",
+      "modules": "模組",
+      "states": "新狀態",
+      "labels": "新標籤",
+      "comments": "留言",
+      "links": "附件連結",
+      "relations": "關聯"
+    },
+    "modal": {
+      "title": "從 Jira 匯入",
+      "close": "關閉",
+      "open_project": "開啟專案",
+      "back": "返回",
+      "analyze": "上傳並分析",
+      "analyzing": "分析中…",
+      "start": "開始匯入",
+      "next": "下一步"
+    },
+    "steps": {
+      "upload": "上傳",
+      "project": "專案",
+      "mapping": "狀態",
+      "people": "人員",
+      "options": "檢閱",
+      "progress": "匯入"
+    },
+    "upload": {
+      "drop_title": "將 Jira CSV 檔案拖放到這裡，或按一下選擇檔案",
+      "drop_hint": "CSV 檔案，上限 {size}",
+      "how_title": "如何從 Jira 匯出",
+      "how_step_1": "在 Jira 中開啟 Filters，搜尋要移轉的工作事項，例如 project = ALMS。",
+      "how_step_2": "選擇 Export，然後選擇 Export CSV (all fields)（匯出 CSV，所有欄位）。",
+      "how_step_3": "在這裡上傳下載的檔案。在您檢閱對應之前，不會匯入任何內容。"
+    },
+    "target": {
+      "stats": {
+        "work_items": "工作事項",
+        "sprints": "衝刺",
+        "people": "人員",
+        "keys": "鍵值"
+      },
+      "jira_project": "Jira 專案",
+      "new_project": "建立新專案",
+      "new_project_hint": "建議選項。Jira 鍵值維持不變。",
+      "new_project_admin_only": "只有工作區管理員可以建立專案。",
+      "existing_project": "匯入現有專案",
+      "existing_project_hint": "將工作事項新增到您管理的專案。",
+      "no_projects": "您沒有管理任何專案。",
+      "project_name": "專案名稱",
+      "identifier": "識別碼",
+      "identifier_invalid": "請使用 1 到 12 個字母或數字。",
+      "identifier_taken": "{identifier} 已在此工作區中使用。請選擇其他識別碼。",
+      "project": "專案",
+      "keys_kept": "Jira 鍵值維持不變，ALMS-12 仍是 ALMS-12。",
+      "keys_renumbered": "此專案已有工作事項，因此匯入的工作事項會取得新編號。每個工作事項的描述中會顯示其 Jira 鍵值。"
+    },
+    "warnings": {
+      "multiple_projects": "檔案包含多個 Jira 專案。只會匯入所選專案。",
+      "duplicate_keys": "部分 Jira 鍵值出現多次。每個重複的鍵值只會匯入一次。",
+      "unparsed_dates": "{count, plural, one {# 個日期無法讀取，將保留空白。} other {# 個日期無法讀取，將保留空白。}}"
+    },
+    "mapping": {
+      "statuses_title": "狀態",
+      "statuses_hint": "為每個 Jira 狀態選擇對應的狀態。新狀態會建立在您選擇的群組中。",
+      "create_state": "在 {group} 中新增狀態「{name}」",
+      "priorities_title": "優先順序",
+      "no_priority": "無優先順序"
+    },
+    "groups": {
+      "backlog": "待辦事項",
+      "unstarted": "未開始",
+      "started": "已開始",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "priorities": {
+      "urgent": "緊急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "none": "無"
+    },
+    "people": {
+      "hint": "人員會依姓名與工作區成員比對。未比對到的人員將維持未指派，其姓名會保留在工作事項中。",
+      "matched": "已比對 {matched}/{total}。",
+      "none": "檔案中找不到任何人員。",
+      "leave_unassigned": "維持未指派",
+      "roles": {
+        "assignee": "指派對象",
+        "reporter": "回報者",
+        "creator": "建立者",
+        "watcher": "關注者",
+        "commenter": "留言者"
+      }
+    },
+    "options": {
+      "not_in_file": "此檔案中沒有",
+      "keep_keys": {
+        "title": "保留 Jira 鍵值",
+        "description": "匯入的工作事項會保留其 Jira 編號。"
+      },
+      "sprints_as_cycles": {
+        "title": "衝刺轉為週期",
+        "description": "週期日期會依每個衝刺中的工作事項推算。"
+      },
+      "epics_as_modules": {
+        "title": "Epic 轉為模組",
+        "description": "Epic 中的工作事項會加入對應的模組。"
+      },
+      "issue_types_as_labels": {
+        "title": "Issue 類型轉為標籤",
+        "description": "Task、Bug、Story 等類型會以標籤形式新增。"
+      },
+      "comments": {
+        "title": "留言",
+        "description": "留言會保留原始日期和作者。"
+      },
+      "attachments": {
+        "title": "附件以連結形式匯入",
+        "description": "附件會連結至 Jira。開啟附件仍需要 Jira 存取權限。"
+      },
+      "watchers": {
+        "title": "關注者轉為訂閱者",
+        "description": "已對應的關注者會訂閱該工作事項。"
+      },
+      "on_existing": {
+        "title": "先前匯入的工作事項",
+        "description": "再次匯入此檔案時，已匯入的工作事項會被更新或略過。",
+        "update": "更新",
+        "skip": "略過"
+      }
+    },
+    "review": {
+      "title": "接下來會發生什麼",
+      "target": "工作事項將匯入 {project}。",
+      "work_items": "{count, plural, one {將匯入 # 個工作事項。} other {將匯入 # 個工作事項。}}",
+      "new_states": "{count, plural, one {將建立 # 個新狀態。} other {將建立 # 個新狀態。}}",
+      "cycles": "{count, plural, one {將從衝刺建立 # 個週期。} other {將從衝刺建立 # 個週期。}}",
+      "unmapped": "{count, plural, one {# 人未對應，將維持未指派。} other {# 人未對應，將維持未指派。}}",
+      "rerun": "先前匯入的工作事項會依其 Jira ID 比對，因此不會重複。",
+      "silent": "不會傳送任何通知或電子郵件。您之後可以復原匯入。"
+    },
+    "progress": {
+      "title_uploaded": "未開始",
+      "title_queued": "等待開始…",
+      "title_running": "正在匯入工作事項…",
+      "title_completed": "匯入完成",
+      "title_failed": "匯入失敗",
+      "title_undoing": "復原中…",
+      "title_undone": "已復原匯入",
+      "running_hint": "您可以關閉此視窗。匯入會在背景繼續進行。",
+      "done_hint": "請檢閱下方結果。您可以在匯入頁面復原匯入。",
+      "errors_title": "{count, plural, one {# 個問題} other {# 個問題}}"
+    }
+  }
+}

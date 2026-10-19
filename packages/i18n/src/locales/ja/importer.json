@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "インポート",
+    "heading": "インポート",
+    "description": "他のツールからこのワークスペースに作業項目を取り込みます。",
+    "no_access": "作業項目をインポートできるのは、ワークスペース管理者とプロジェクト管理者のみです。",
+    "jira": {
+      "title": "Jira からインポート",
+      "description": "Jira からエクスポートした CSV をアップロードします。ステータス、スプリント、エピック、ユーザー、コメント、リンクは自動でマッピングされ、確認できます。",
+      "start": "Jira からインポート"
+    },
+    "history": {
+      "title": "過去のインポート",
+      "meta": "{items} 件 · {size} · {who} · {when}",
+      "continue": "設定を続ける",
+      "rerun": "再実行",
+      "undo": "インポートを元に戻す",
+      "delete": "履歴から削除",
+      "errors": "{count, plural, one {# 行をインポートできませんでした} other {# 行をインポートできませんでした}}",
+      "empty_title": "インポートはまだありません",
+      "empty_description": "実行したインポートは、進行状況と結果とともにここに表示されます。"
+    },
+    "toast": {
+      "undo_started": "インポートを元に戻しています",
+      "deleted": "インポートを履歴から削除しました",
+      "load_failed": "インポートを読み込めませんでした"
+    },
+    "errors": {
+      "generic": "問題が発生しました。もう一度お試しください。",
+      "missing_file": "Jira からエクスポートした CSV ファイルを選択してください。",
+      "invalid_type": "ファイルは Jira からエクスポートした CSV である必要があります。",
+      "file_too_large": "ファイルがアップロード上限の {size} MB を超えています。",
+      "invalid_encoding": "ファイルの文字エンコーディングを読み取れませんでした。CSV として再度エクスポートしてください。",
+      "empty_file": "ファイルが空です。",
+      "invalid_csv": "有効な CSV ファイルではありません。",
+      "missing_columns": "Jira のエクスポートではないようです。Issue key 列と Summary 列が必要です。",
+      "no_work_items": "ファイルに作業項目がありません。",
+      "storage_failed": "ファイルを保存できませんでした。もう一度お試しください。",
+      "forbidden": "この操作を行う権限がありません。",
+      "not_found": "このインポートはもう存在しません。",
+      "import_active": "このインポートはすでに実行中です。",
+      "not_undoable": "元に戻せるのは完了したインポートのみです。",
+      "invalid_jira_project": "ファイル内の Jira プロジェクトを選択してください。",
+      "missing_target": "作業項目のインポート先を選択してください。",
+      "invalid_name": "特殊文字を含まないプロジェクト名を入力してください。",
+      "name_taken": "この名前のプロジェクトはすでに存在します。",
+      "identifier_length": "識別子は 1～12 文字で入力してください。",
+      "identifier_invalid": "識別子に使用できるのは英字と数字のみです。",
+      "identifier_taken": "この識別子は別のプロジェクトで使用されています。",
+      "invalid_state": "選択したステータスの一部が存在しなくなりました。ステータスのマッピングを確認してください。",
+      "invalid_member": "選択したユーザーの一部がワークスペースのメンバーではなくなりました。ユーザーのマッピングを確認してください。"
+    },
+    "undo": {
+      "title": "このインポートを元に戻しますか？",
+      "description": "このインポートで {project} に作成されたものはすべて削除されます。以前から存在する作業項目は保持されます。",
+      "description_project": "プロジェクト {project} はこのインポートで作成されたため、含まれるすべての内容とともに削除されます。",
+      "confirm": "インポートを元に戻す"
+    },
+    "delete": {
+      "title": "履歴から削除しますか？",
+      "description": "アップロードされたファイルとこの履歴は削除されます。インポートされた作業項目は保持されます。",
+      "confirm": "削除"
+    },
+    "common": {
+      "working": "処理中…",
+      "items": "{count, plural, one {# 件} other {# 件}}"
+    },
+    "status": {
+      "uploaded": "未開始",
+      "queued": "待機中",
+      "running": "インポート中",
+      "completed": "完了",
+      "failed": "失敗",
+      "undoing": "元に戻しています",
+      "undone": "元に戻しました"
+    },
+    "summary": {
+      "created": "作成",
+      "updated": "更新",
+      "skipped": "スキップ",
+      "failed": "失敗",
+      "cycles": "サイクル",
+      "modules": "モジュール",
+      "states": "新しいステータス",
+      "labels": "新しいラベル",
+      "comments": "コメント",
+      "links": "添付ファイルのリンク",
+      "relations": "関連"
+    },
+    "modal": {
+      "title": "Jira からインポート",
+      "close": "閉じる",
+      "open_project": "プロジェクトを開く",
+      "back": "戻る",
+      "analyze": "アップロードして分析",
+      "analyzing": "分析中…",
+      "start": "インポートを開始",
+      "next": "次へ"
+    },
+    "steps": {
+      "upload": "アップロード",
+      "project": "プロジェクト",
+      "mapping": "ステータス",
+      "people": "ユーザー",
+      "options": "確認",
+      "progress": "インポート"
+    },
+    "upload": {
+      "drop_title": "Jira の CSV ファイルをここにドロップするか、クリックして選択してください",
+      "drop_hint": "{size} までの CSV ファイル",
+      "how_title": "Jira からエクスポートする方法",
+      "how_step_1": "Jira でフィルターを開き、移行したい作業項目を検索します（例: project = ALMS）。",
+      "how_step_2": "エクスポートを選択し、Export CSV (all fields)（CSV をエクスポート（すべてのフィールド））を選択します。",
+      "how_step_3": "ダウンロードしたファイルをここにアップロードします。マッピングを確認するまで何もインポートされません。"
+    },
+    "target": {
+      "stats": {
+        "work_items": "作業項目",
+        "sprints": "スプリント",
+        "people": "ユーザー",
+        "keys": "キー"
+      },
+      "jira_project": "Jira プロジェクト",
+      "new_project": "新しいプロジェクトを作成",
+      "new_project_hint": "推奨。Jira のキーはそのまま保持されます。",
+      "new_project_admin_only": "プロジェクトを作成できるのはワークスペース管理者のみです。",
+      "existing_project": "既存のプロジェクトにインポート",
+      "existing_project_hint": "管理しているプロジェクトに作業項目を追加します。",
+      "no_projects": "管理しているプロジェクトがありません。",
+      "project_name": "プロジェクト名",
+      "identifier": "識別子",
+      "identifier_invalid": "1～12 文字の英字または数字を使用してください。",
+      "identifier_taken": "{identifier} はこのワークスペースですでに使用されています。別の識別子を選択してください。",
+      "project": "プロジェクト",
+      "keys_kept": "Jira のキーが保持されるため、ALMS-12 は ALMS-12 のままです。",
+      "keys_renumbered": "このプロジェクトにはすでに作業項目があるため、インポートされた項目には新しい番号が付きます。各項目の説明に Jira のキーが表示されます。"
+    },
+    "warnings": {
+      "multiple_projects": "ファイルに複数の Jira プロジェクトが含まれています。選択したプロジェクトのみがインポートされます。",
+      "duplicate_keys": "一部の Jira キーが重複しています。重複したキーはそれぞれ 1 回だけインポートされます。",
+      "unparsed_dates": "{count, plural, one {# 件の日付を読み取れなかったため、空欄になります。} other {# 件の日付を読み取れなかったため、空欄になります。}}"
+    },
+    "mapping": {
+      "statuses_title": "ステータス",
+      "statuses_hint": "各 Jira ステータスの変換先となるステータスを選択してください。新しいステータスは選択したグループに作成されます。",
+      "create_state": "{group} に新しいステータス「{name}」",
+      "priorities_title": "優先度",
+      "no_priority": "優先度なし"
+    },
+    "groups": {
+      "backlog": "バックログ",
+      "unstarted": "未開始",
+      "started": "開始済み",
+      "completed": "完了",
+      "cancelled": "キャンセル"
+    },
+    "priorities": {
+      "urgent": "緊急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "none": "なし"
+    },
+    "people": {
+      "hint": "ユーザーは名前でワークスペースのメンバーと照合されます。一致しないユーザーは未割り当てになり、名前は作業項目に保持されます。",
+      "matched": "{total} 人中 {matched} 人が一致しました。",
+      "none": "ファイルにユーザーが見つかりませんでした。",
+      "leave_unassigned": "未割り当てのままにする",
+      "roles": {
+        "assignee": "担当者",
+        "reporter": "報告者",
+        "creator": "作成者",
+        "watcher": "ウォッチャー",
+        "commenter": "コメント投稿者"
+      }
+    },
+    "options": {
+      "not_in_file": "このファイルにはありません",
+      "keep_keys": {
+        "title": "Jira のキーを保持",
+        "description": "インポートされた項目は Jira の番号を保持します。"
+      },
+      "sprints_as_cycles": {
+        "title": "スプリントをサイクルに変換",
+        "description": "サイクルの日付は各スプリントの項目から推定されます。"
+      },
+      "epics_as_modules": {
+        "title": "エピックをモジュールに変換",
+        "description": "エピック内の項目は対応するモジュールに追加されます。"
+      },
+      "issue_types_as_labels": {
+        "title": "課題タイプをラベルに変換",
+        "description": "Task, Bug, Story などのタイプがラベルとして追加されます。"
+      },
+      "comments": {
+        "title": "コメント",
+        "description": "コメントは元の日付と作成者を保持します。"
+      },
+      "attachments": {
+        "title": "添付ファイルをリンクとして追加",
+        "description": "添付ファイルは Jira にリンクされます。開くには引き続き Jira へのアクセスが必要です。"
+      },
+      "watchers": {
+        "title": "ウォッチャーを購読者に変換",
+        "description": "マッピングされたウォッチャーが作業項目を購読します。"
+      },
+      "on_existing": {
+        "title": "以前にインポートした項目",
+        "description": "このファイルを再度インポートすると、インポート済みの項目は更新またはスキップされます。",
+        "update": "更新",
+        "skip": "スキップ"
+      }
+    },
+    "review": {
+      "title": "この後の処理",
+      "target": "作業項目は {project} に追加されます。",
+      "work_items": "{count, plural, one {# 件の作業項目がインポートされます。} other {# 件の作業項目がインポートされます。}}",
+      "new_states": "{count, plural, one {# 件の新しいステータスが作成されます。} other {# 件の新しいステータスが作成されます。}}",
+      "cycles": "{count, plural, one {スプリントから # 件のサイクルが作成されます。} other {スプリントから # 件のサイクルが作成されます。}}",
+      "unmapped": "{count, plural, one {# 人がマッピングされず、未割り当てになります。} other {# 人がマッピングされず、未割り当てになります。}}",
+      "rerun": "以前にインポートした項目は Jira の ID で照合されるため、重複しません。",
+      "silent": "通知やメールは送信されません。インポートは後から元に戻せます。"
+    },
+    "progress": {
+      "title_uploaded": "未開始",
+      "title_queued": "開始を待っています…",
+      "title_running": "作業項目をインポートしています…",
+      "title_completed": "インポートが完了しました",
+      "title_failed": "インポートに失敗しました",
+      "title_undoing": "元に戻しています…",
+      "title_undone": "インポートを元に戻しました",
+      "running_hint": "このウィンドウを閉じても構いません。インポートはバックグラウンドで続行されます。",
+      "done_hint": "以下の結果を確認してください。インポートは「インポート」ページから元に戻せます。",
+      "errors_title": "{count, plural, one {# 件の問題} other {# 件の問題}}"
+    }
+  }
+}

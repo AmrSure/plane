@@ -42,6 +42,7 @@ export * from "./project";
 export * from "./publish";
 export * from "./reaction";
 export * from "./reports";
+export * from "./jira-import";
 export * from "./intake";
 export * from "./rich-filters";
 export * from "./search";

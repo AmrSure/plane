@@ -14,6 +14,7 @@ export const NAMESPACES = [
   "editor",
   "empty-state",
   "home",
+  "importer",
   "inbox",
   "integration",
   "module",

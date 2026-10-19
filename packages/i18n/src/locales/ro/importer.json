@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Importuri",
+    "heading": "Importuri",
+    "description": "Aduceți activități din alte instrumente în acest spațiu de lucru.",
+    "no_access": "Doar administratorii spațiului de lucru și administratorii de proiect pot importa activități.",
+    "jira": {
+      "title": "Importă din Jira",
+      "description": "Încărcați un export CSV din Jira. Statusurile, sprinturile, epicele, persoanele, comentariile și linkurile sunt mapate pentru a le verifica.",
+      "start": "Importă din Jira"
+    },
+    "history": {
+      "title": "Importuri anterioare",
+      "meta": "Elemente: {items} · {size} · {who} · {when}",
+      "continue": "Continuă configurarea",
+      "rerun": "Rulează din nou",
+      "undo": "Anulează importul",
+      "delete": "Elimină din istoric",
+      "errors": "{count, plural, one {# rând nu a putut fi importat} few {# rânduri nu au putut fi importate} other {# de rânduri nu au putut fi importate}}",
+      "empty_title": "Niciun import încă",
+      "empty_description": "Importurile pe care le rulați vor apărea aici, împreună cu progresul și rezultatele lor."
+    },
+    "toast": {
+      "undo_started": "Se anulează importul",
+      "deleted": "Importul a fost eliminat din istoric",
+      "load_failed": "Importul nu a putut fi încărcat"
+    },
+    "errors": {
+      "generic": "A apărut o eroare. Încercați din nou.",
+      "missing_file": "Alegeți un fișier CSV exportat din Jira.",
+      "invalid_type": "Fișierul trebuie să fie un export CSV din Jira.",
+      "file_too_large": "Fișierul depășește limita de încărcare de {size} MB.",
+      "invalid_encoding": "Codificarea textului din fișier nu a putut fi citită. Exportați-l din nou ca CSV.",
+      "empty_file": "Fișierul este gol.",
+      "invalid_csv": "Fișierul nu este un fișier CSV valid.",
+      "missing_columns": "Acesta nu pare a fi un export Jira. Sunt necesare coloanele Issue key și Summary.",
+      "no_work_items": "Fișierul nu conține activități.",
+      "storage_failed": "Fișierul nu a putut fi stocat. Încercați din nou.",
+      "forbidden": "Nu aveți permisiunea de a face acest lucru.",
+      "not_found": "Acest import nu mai există.",
+      "import_active": "Acest import rulează deja.",
+      "not_undoable": "Doar importurile finalizate pot fi anulate.",
+      "invalid_jira_project": "Alegeți un proiect Jira din fișier.",
+      "missing_target": "Alegeți unde să fie importate activitățile.",
+      "invalid_name": "Introduceți un nume de proiect fără caractere speciale.",
+      "name_taken": "Există deja un proiect cu acest nume.",
+      "identifier_length": "Identificatorul trebuie să aibă între 1 și 12 caractere.",
+      "identifier_invalid": "Identificatorul poate conține doar litere și cifre.",
+      "identifier_taken": "Acest identificator este deja folosit de alt proiect.",
+      "invalid_state": "Una dintre stările alese nu mai există. Verificați maparea statusurilor.",
+      "invalid_member": "Una dintre persoanele alese nu mai este membru al spațiului de lucru. Verificați maparea persoanelor."
+    },
+    "undo": {
+      "title": "Anulați acest import?",
+      "description": "Tot ce a creat acest import în {project} va fi eliminat. Activitățile care existau anterior sunt păstrate.",
+      "description_project": "Proiectul {project} a fost creat de acest import și va fi eliminat împreună cu tot conținutul său.",
+      "confirm": "Anulează importul"
+    },
+    "delete": {
+      "title": "Eliminați din istoric?",
+      "description": "Fișierul încărcat și această intrare sunt eliminate. Activitățile importate sunt păstrate.",
+      "confirm": "Elimină"
+    },
+    "common": {
+      "working": "Se procesează…",
+      "items": "{count, plural, one {# element} few {# elemente} other {# de elemente}}"
+    },
+    "status": {
+      "uploaded": "Neînceput",
+      "queued": "În coadă",
+      "running": "Se importă",
+      "completed": "Finalizat",
+      "failed": "Eșuat",
+      "undoing": "Se anulează",
+      "undone": "Anulat"
+    },
+    "summary": {
+      "created": "Create",
+      "updated": "Actualizate",
+      "skipped": "Omise",
+      "failed": "Eșuate",
+      "cycles": "Cicluri",
+      "modules": "Module",
+      "states": "Stări noi",
+      "labels": "Etichete noi",
+      "comments": "Comentarii",
+      "links": "Linkuri către atașamente",
+      "relations": "Relații"
+    },
+    "modal": {
+      "title": "Importă din Jira",
+      "close": "Închide",
+      "open_project": "Deschide proiectul",
+      "back": "Înapoi",
+      "analyze": "Încarcă și analizează",
+      "analyzing": "Se analizează…",
+      "start": "Pornește importul",
+      "next": "Înainte"
+    },
+    "steps": {
+      "upload": "Încărcare",
+      "project": "Proiect",
+      "mapping": "Statusuri",
+      "people": "Persoane",
+      "options": "Verificare",
+      "progress": "Import"
+    },
+    "upload": {
+      "drop_title": "Plasați aici un fișier CSV din Jira sau faceți clic pentru a alege unul",
+      "drop_hint": "Fișiere CSV de până la {size}",
+      "how_title": "Cum exportați din Jira",
+      "how_step_1": "În Jira, deschideți Filtre și căutați activitățile pe care doriți să le mutați, de exemplu project = ALMS.",
+      "how_step_2": "Alegeți Export, apoi Export CSV (all fields) (Export CSV (toate câmpurile)).",
+      "how_step_3": "Încărcați aici fișierul descărcat. Nimic nu este importat până nu verificați maparea."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Activități",
+        "sprints": "Sprinturi",
+        "people": "Persoane",
+        "keys": "Chei"
+      },
+      "jira_project": "Proiect Jira",
+      "new_project": "Creează un proiect nou",
+      "new_project_hint": "Recomandat. Cheile Jira sunt păstrate așa cum sunt.",
+      "new_project_admin_only": "Doar administratorii spațiului de lucru pot crea proiecte.",
+      "existing_project": "Importă într-un proiect existent",
+      "existing_project_hint": "Adăugați activitățile într-un proiect pe care îl administrați.",
+      "no_projects": "Nu administrați niciun proiect.",
+      "project_name": "Numele proiectului",
+      "identifier": "Identificator",
+      "identifier_invalid": "Folosiți între 1 și 12 litere sau cifre.",
+      "identifier_taken": "{identifier} este deja folosit în acest spațiu de lucru. Alegeți alt identificator.",
+      "project": "Proiect",
+      "keys_kept": "Cheile Jira sunt păstrate, deci ALMS-12 rămâne ALMS-12.",
+      "keys_renumbered": "Acest proiect are deja activități, așa că elementele importate primesc numere noi. Fiecare își afișează cheia Jira în descriere."
+    },
+    "warnings": {
+      "multiple_projects": "Fișierul conține mai multe proiecte Jira. Este importat doar proiectul ales.",
+      "duplicate_keys": "Unele chei Jira apar de mai multe ori. Fiecare cheie repetată este importată o singură dată.",
+      "unparsed_dates": "{count, plural, one {# dată nu a putut fi citită și va rămâne goală.} few {# date nu au putut fi citite și vor rămâne goale.} other {# de date nu au putut fi citite și vor rămâne goale.}}"
+    },
+    "mapping": {
+      "statuses_title": "Statusuri",
+      "statuses_hint": "Alegeți starea în care devine fiecare status Jira. Stările noi sunt create în grupul ales.",
+      "create_state": "Stare nouă „{name}” în {group}",
+      "priorities_title": "Priorități",
+      "no_priority": "Fără prioritate"
+    },
+    "groups": {
+      "backlog": "Restante",
+      "unstarted": "Neîncepute",
+      "started": "În desfășurare",
+      "completed": "Finalizate",
+      "cancelled": "Anulate"
+    },
+    "priorities": {
+      "urgent": "Urgentă",
+      "high": "Importantă",
+      "medium": "Medie",
+      "low": "Scăzută",
+      "none": "Niciuna"
+    },
+    "people": {
+      "hint": "Persoanele sunt asociate cu membrii spațiului de lucru după nume. Persoanele neasociate rămân neatribuite, iar numele lor sunt păstrate în activitate.",
+      "matched": "{matched} din {total} asociate.",
+      "none": "Nu au fost găsite persoane în fișier.",
+      "leave_unassigned": "Lasă neatribuit",
+      "roles": {
+        "assignee": "Responsabil",
+        "reporter": "Raportor",
+        "creator": "Creator",
+        "watcher": "Observator",
+        "commenter": "Autor de comentarii"
+      }
+    },
+    "options": {
+      "not_in_file": "Nu există în acest fișier",
+      "keep_keys": {
+        "title": "Păstrează cheile Jira",
+        "description": "Elementele importate își păstrează numerele din Jira."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprinturile devin cicluri",
+        "description": "Datele ciclurilor sunt deduse din elementele fiecărui sprint."
+      },
+      "epics_as_modules": {
+        "title": "Epicele devin module",
+        "description": "Elementele dintr-un epic sunt adăugate în modulul corespunzător."
+      },
+      "issue_types_as_labels": {
+        "title": "Tipurile de issue devin etichete",
+        "description": "Task, Bug, Story și alte tipuri sunt adăugate ca etichete."
+      },
+      "comments": {
+        "title": "Comentarii",
+        "description": "Comentariile își păstrează data și autorul originale."
+      },
+      "attachments": {
+        "title": "Atașamente ca linkuri",
+        "description": "Atașamentele sunt legate la Jira. Deschiderea lor necesită în continuare acces la Jira."
+      },
+      "watchers": {
+        "title": "Observatorii devin abonați",
+        "description": "Observatorii mapați urmăresc activitatea."
+      },
+      "on_existing": {
+        "title": "Elemente importate anterior",
+        "description": "Când acest fișier este importat din nou, elementele deja importate sunt actualizate sau omise.",
+        "update": "Actualizează",
+        "skip": "Omite"
+      }
+    },
+    "review": {
+      "title": "Ce urmează",
+      "target": "Activitățile ajung în {project}.",
+      "work_items": "{count, plural, one {# activitate este importată.} few {# activități sunt importate.} other {# de activități sunt importate.}}",
+      "new_states": "{count, plural, one {# stare nouă este creată.} few {# stări noi sunt create.} other {# de stări noi sunt create.}}",
+      "cycles": "{count, plural, one {# ciclu este creat din sprinturi.} few {# cicluri sunt create din sprinturi.} other {# de cicluri sunt create din sprinturi.}}",
+      "unmapped": "{count, plural, one {# persoană nu este mapată și rămâne neatribuită.} few {# persoane nu sunt mapate și rămân neatribuite.} other {# de persoane nu sunt mapate și rămân neatribuite.}}",
+      "rerun": "Elementele importate anterior sunt asociate după ID-ul Jira, deci nimic nu este duplicat.",
+      "silent": "Nu se trimit notificări sau e-mailuri. Puteți anula importul ulterior."
+    },
+    "progress": {
+      "title_uploaded": "Neînceput",
+      "title_queued": "Se așteaptă pornirea…",
+      "title_running": "Se importă activitățile…",
+      "title_completed": "Import finalizat",
+      "title_failed": "Importul a eșuat",
+      "title_undoing": "Se anulează…",
+      "title_undone": "Import anulat",
+      "running_hint": "Puteți închide această fereastră. Importul continuă în fundal.",
+      "done_hint": "Verificați rezultatele de mai jos. Puteți anula importul din pagina Importuri.",
+      "errors_title": "{count, plural, one {# problemă} few {# probleme} other {# de probleme}}"
+    }
+  }
+}

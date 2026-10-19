@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "Imports",
+    "heading": "Imports",
+    "description": "Bring work items from other tools into this workspace.",
+    "no_access": "Only workspace admins and project admins can import work items.",
+    "jira": {
+      "title": "Import from Jira",
+      "description": "Upload a CSV export from Jira. Statuses, sprints, epics, people, comments and links are mapped for you to review.",
+      "start": "Import from Jira"
+    },
+    "history": {
+      "title": "Previous imports",
+      "meta": "{items} items · {size} · {who} · {when}",
+      "continue": "Continue setup",
+      "rerun": "Run again",
+      "undo": "Undo import",
+      "delete": "Remove from history",
+      "errors": "{count, plural, one {# row could not be imported} other {# rows could not be imported}}",
+      "empty_title": "No imports yet",
+      "empty_description": "Imports you run will be listed here with their progress and results."
+    },
+    "toast": {
+      "undo_started": "Undoing the import",
+      "deleted": "Import removed from history",
+      "load_failed": "The import could not be loaded"
+    },
+    "errors": {
+      "generic": "Something went wrong. Try again.",
+      "missing_file": "Choose a CSV file exported from Jira.",
+      "invalid_type": "The file must be a CSV export from Jira.",
+      "file_too_large": "The file is larger than the {size} MB upload limit.",
+      "invalid_encoding": "The file's text encoding could not be read. Export it again as CSV.",
+      "empty_file": "The file is empty.",
+      "invalid_csv": "The file is not a valid CSV file.",
+      "missing_columns": "This doesn't look like a Jira export. It needs the Issue key and Summary columns.",
+      "no_work_items": "The file has no work items.",
+      "storage_failed": "The file could not be stored. Try again.",
+      "forbidden": "You don't have permission to do this.",
+      "not_found": "This import no longer exists.",
+      "import_active": "This import is already running.",
+      "not_undoable": "Only finished imports can be undone.",
+      "invalid_jira_project": "Choose a Jira project from the file.",
+      "missing_target": "Choose where to import the work items.",
+      "invalid_name": "Enter a project name without special characters.",
+      "name_taken": "A project with this name already exists.",
+      "identifier_length": "The identifier must be 1 to 12 characters.",
+      "identifier_invalid": "The identifier can only contain letters and numbers.",
+      "identifier_taken": "This identifier is already used by another project.",
+      "invalid_state": "One of the chosen states no longer exists. Review the status mapping.",
+      "invalid_member": "One of the chosen people is no longer a workspace member. Review the people mapping."
+    },
+    "undo": {
+      "title": "Undo this import?",
+      "description": "Everything this import created in {project} will be removed. Work items that existed before are kept.",
+      "description_project": "The project {project} was created by this import and will be removed with everything in it.",
+      "confirm": "Undo import"
+    },
+    "delete": {
+      "title": "Remove from history?",
+      "description": "The uploaded file and this entry are removed. Imported work items are kept.",
+      "confirm": "Remove"
+    },
+    "common": {
+      "working": "Working…",
+      "items": "{count, plural, one {# item} other {# items}}"
+    },
+    "status": {
+      "uploaded": "Not started",
+      "queued": "Queued",
+      "running": "Importing",
+      "completed": "Completed",
+      "failed": "Failed",
+      "undoing": "Undoing",
+      "undone": "Undone"
+    },
+    "summary": {
+      "created": "Created",
+      "updated": "Updated",
+      "skipped": "Skipped",
+      "failed": "Failed",
+      "cycles": "Cycles",
+      "modules": "Modules",
+      "states": "New states",
+      "labels": "New labels",
+      "comments": "Comments",
+      "links": "Attachment links",
+      "relations": "Relations"
+    },
+    "modal": {
+      "title": "Import from Jira",
+      "close": "Close",
+      "open_project": "Open project",
+      "back": "Back",
+      "analyze": "Upload and analyze",
+      "analyzing": "Analyzing…",
+      "start": "Start import",
+      "next": "Next"
+    },
+    "steps": {
+      "upload": "Upload",
+      "project": "Project",
+      "mapping": "Statuses",
+      "people": "People",
+      "options": "Review",
+      "progress": "Import"
+    },
+    "upload": {
+      "drop_title": "Drop a Jira CSV file here, or click to choose one",
+      "drop_hint": "CSV files up to {size}",
+      "how_title": "How to export from Jira",
+      "how_step_1": "In Jira, open Filters and search for the work items you want to move, for example project = ALMS.",
+      "how_step_2": "Choose Export, then Export CSV (all fields).",
+      "how_step_3": "Upload the downloaded file here. Nothing is imported until you review the mapping."
+    },
+    "target": {
+      "stats": {
+        "work_items": "Work items",
+        "sprints": "Sprints",
+        "people": "People",
+        "keys": "Keys"
+      },
+      "jira_project": "Jira project",
+      "new_project": "Create a new project",
+      "new_project_hint": "Recommended. Jira keys are kept as they are.",
+      "new_project_admin_only": "Only workspace admins can create projects.",
+      "existing_project": "Import into an existing project",
+      "existing_project_hint": "Add the work items to a project you administer.",
+      "no_projects": "You don't administer any project.",
+      "project_name": "Project name",
+      "identifier": "Identifier",
+      "identifier_invalid": "Use 1 to 12 letters or numbers.",
+      "identifier_taken": "{identifier} is already used in this workspace. Choose another identifier.",
+      "project": "Project",
+      "keys_kept": "Jira keys are kept, so ALMS-12 stays ALMS-12.",
+      "keys_renumbered": "This project already has work items, so imported items get new numbers. Each one shows its Jira key in its description."
+    },
+    "warnings": {
+      "multiple_projects": "The file contains more than one Jira project. Only the chosen project is imported.",
+      "duplicate_keys": "Some Jira keys appear more than once. Each repeated key is imported once.",
+      "unparsed_dates": "{count, plural, one {# date could not be read and will be left empty.} other {# dates could not be read and will be left empty.}}"
+    },
+    "mapping": {
+      "statuses_title": "Statuses",
+      "statuses_hint": "Choose the state each Jira status becomes. New states are created in the group you pick.",
+      "create_state": "New state “{name}” in {group}",
+      "priorities_title": "Priorities",
+      "no_priority": "No priority"
+    },
+    "groups": {
+      "backlog": "Backlog",
+      "unstarted": "Unstarted",
+      "started": "Started",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "priorities": {
+      "urgent": "Urgent",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "none": "None"
+    },
+    "people": {
+      "hint": "People are matched to workspace members by name. Unmatched people are left unassigned, and their names are kept on the work item.",
+      "matched": "{matched} of {total} matched.",
+      "none": "No people were found in the file.",
+      "leave_unassigned": "Leave unassigned",
+      "roles": {
+        "assignee": "Assignee",
+        "reporter": "Reporter",
+        "creator": "Creator",
+        "watcher": "Watcher",
+        "commenter": "Commenter"
+      }
+    },
+    "options": {
+      "not_in_file": "Not in this file",
+      "keep_keys": {
+        "title": "Keep Jira keys",
+        "description": "Imported items keep their Jira numbers."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprints become cycles",
+        "description": "Cycle dates are inferred from the items in each sprint."
+      },
+      "epics_as_modules": {
+        "title": "Epics become modules",
+        "description": "Items in an epic are added to its module."
+      },
+      "issue_types_as_labels": {
+        "title": "Issue types become labels",
+        "description": "Task, Bug, Story and other types are added as labels."
+      },
+      "comments": {
+        "title": "Comments",
+        "description": "Comments keep their original date and author."
+      },
+      "attachments": {
+        "title": "Attachments as links",
+        "description": "Attachments are linked to Jira. Opening them still needs Jira access."
+      },
+      "watchers": {
+        "title": "Watchers become subscribers",
+        "description": "Mapped watchers follow the work item."
+      },
+      "on_existing": {
+        "title": "Items imported before",
+        "description": "When this file is imported again, items already imported are updated or skipped.",
+        "update": "Update",
+        "skip": "Skip"
+      }
+    },
+    "review": {
+      "title": "What happens next",
+      "target": "Work items go into {project}.",
+      "work_items": "{count, plural, one {# work item is imported.} other {# work items are imported.}}",
+      "new_states": "{count, plural, one {# new state is created.} other {# new states are created.}}",
+      "cycles": "{count, plural, one {# cycle is created from sprints.} other {# cycles are created from sprints.}}",
+      "unmapped": "{count, plural, one {# person is not mapped and is left unassigned.} other {# people are not mapped and are left unassigned.}}",
+      "rerun": "Items imported earlier are matched by their Jira id, so nothing is duplicated.",
+      "silent": "No notifications or emails are sent. You can undo the import afterwards."
+    },
+    "progress": {
+      "title_uploaded": "Not started",
+      "title_queued": "Waiting to start…",
+      "title_running": "Importing work items…",
+      "title_completed": "Import complete",
+      "title_failed": "Import failed",
+      "title_undoing": "Undoing…",
+      "title_undone": "Import undone",
+      "running_hint": "You can close this window. The import continues in the background.",
+      "done_hint": "Review the results below. You can undo the import from the Imports page.",
+      "errors_title": "{count, plural, one {# problem} other {# problems}}"
+    }
+  }
+}

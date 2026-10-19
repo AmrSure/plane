@@ -1,0 +1,237 @@
+{
+  "importer": {
+    "settings_title": "İçe aktarmalar",
+    "heading": "İçe aktarmalar",
+    "description": "Diğer araçlardaki iş öğelerini bu çalışma alanına aktarın.",
+    "no_access": "İş öğelerini yalnızca çalışma alanı yöneticileri ve proje yöneticileri içe aktarabilir.",
+    "jira": {
+      "title": "Jira'dan içe aktar",
+      "description": "Jira'dan alınmış bir CSV dışa aktarımı yükleyin. Durumlar, sprintler, epikler, kişiler, yorumlar ve bağlantılar incelemeniz için eşlenir.",
+      "start": "Jira'dan içe aktar"
+    },
+    "history": {
+      "title": "Önceki içe aktarmalar",
+      "meta": "{items} öğe · {size} · {who} · {when}",
+      "continue": "Kuruluma devam et",
+      "rerun": "Yeniden çalıştır",
+      "undo": "İçe aktarmayı geri al",
+      "delete": "Geçmişten kaldır",
+      "errors": "{count, plural, one {# satır içe aktarılamadı} other {# satır içe aktarılamadı}}",
+      "empty_title": "Henüz içe aktarma yok",
+      "empty_description": "Çalıştırdığınız içe aktarmalar ilerleme durumları ve sonuçlarıyla burada listelenir."
+    },
+    "toast": {
+      "undo_started": "İçe aktarma geri alınıyor",
+      "deleted": "İçe aktarma geçmişten kaldırıldı",
+      "load_failed": "İçe aktarma yüklenemedi"
+    },
+    "errors": {
+      "generic": "Bir şeyler ters gitti. Tekrar deneyin.",
+      "missing_file": "Jira'dan dışa aktarılmış bir CSV dosyası seçin.",
+      "invalid_type": "Dosya, Jira'dan alınmış bir CSV dışa aktarımı olmalıdır.",
+      "file_too_large": "Dosya, {size} MB yükleme sınırından büyük.",
+      "invalid_encoding": "Dosyanın metin kodlaması okunamadı. Dosyayı CSV olarak yeniden dışa aktarın.",
+      "empty_file": "Dosya boş.",
+      "invalid_csv": "Dosya geçerli bir CSV dosyası değil.",
+      "missing_columns": "Bu bir Jira dışa aktarımına benzemiyor. Issue key ve Summary sütunları gereklidir.",
+      "no_work_items": "Dosyada hiç iş öğesi yok.",
+      "storage_failed": "Dosya kaydedilemedi. Tekrar deneyin.",
+      "forbidden": "Bunu yapma izniniz yok.",
+      "not_found": "Bu içe aktarma artık mevcut değil.",
+      "import_active": "Bu içe aktarma zaten çalışıyor.",
+      "not_undoable": "Yalnızca tamamlanmış içe aktarmalar geri alınabilir.",
+      "invalid_jira_project": "Dosyadan bir Jira projesi seçin.",
+      "missing_target": "İş öğelerinin nereye aktarılacağını seçin.",
+      "invalid_name": "Özel karakter içermeyen bir proje adı girin.",
+      "name_taken": "Bu ada sahip bir proje zaten var.",
+      "identifier_length": "Tanımlayıcı 1 ile 12 karakter arasında olmalıdır.",
+      "identifier_invalid": "Tanımlayıcı yalnızca harf ve rakam içerebilir.",
+      "identifier_taken": "Bu tanımlayıcı başka bir proje tarafından kullanılıyor.",
+      "invalid_state": "Seçilen durumlardan biri artık mevcut değil. Durum eşlemesini gözden geçirin.",
+      "invalid_member": "Seçilen kişilerden biri artık çalışma alanı üyesi değil. Kişi eşlemesini gözden geçirin."
+    },
+    "undo": {
+      "title": "Bu içe aktarma geri alınsın mı?",
+      "description": "Bu içe aktarmanın {project} içinde oluşturduğu her şey kaldırılacak. Önceden var olan iş öğeleri korunur.",
+      "description_project": "{project} projesi bu içe aktarma tarafından oluşturuldu ve içindeki her şeyle birlikte kaldırılacak.",
+      "confirm": "İçe aktarmayı geri al"
+    },
+    "delete": {
+      "title": "Geçmişten kaldırılsın mı?",
+      "description": "Yüklenen dosya ve bu kayıt kaldırılır. İçe aktarılan iş öğeleri korunur.",
+      "confirm": "Kaldır"
+    },
+    "common": {
+      "working": "İşleniyor…",
+      "items": "{count, plural, one {# öğe} other {# öğe}}"
+    },
+    "status": {
+      "uploaded": "Başlatılmadı",
+      "queued": "Sırada",
+      "running": "İçe aktarılıyor",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız",
+      "undoing": "Geri alınıyor",
+      "undone": "Geri alındı"
+    },
+    "summary": {
+      "created": "Oluşturuldu",
+      "updated": "Güncellendi",
+      "skipped": "Atlandı",
+      "failed": "Başarısız",
+      "cycles": "Döngüler",
+      "modules": "Modüller",
+      "states": "Yeni durumlar",
+      "labels": "Yeni etiketler",
+      "comments": "Yorumlar",
+      "links": "Ek bağlantıları",
+      "relations": "İlişkiler"
+    },
+    "modal": {
+      "title": "Jira'dan içe aktar",
+      "close": "Kapat",
+      "open_project": "Projeyi aç",
+      "back": "Geri",
+      "analyze": "Yükle ve analiz et",
+      "analyzing": "Analiz ediliyor…",
+      "start": "İçe aktarmayı başlat",
+      "next": "İleri"
+    },
+    "steps": {
+      "upload": "Yükleme",
+      "project": "Proje",
+      "mapping": "Durumlar",
+      "people": "Kişiler",
+      "options": "İnceleme",
+      "progress": "İçe aktarma"
+    },
+    "upload": {
+      "drop_title": "Jira CSV dosyasını buraya bırakın veya seçmek için tıklayın",
+      "drop_hint": "En fazla {size} boyutunda CSV dosyaları",
+      "how_title": "Jira'dan nasıl dışa aktarılır",
+      "how_step_1": "Jira'da Filters'ı açın ve taşımak istediğiniz iş öğelerini arayın, örneğin project = ALMS.",
+      "how_step_2": "Export'u, ardından Export CSV (all fields) (CSV olarak dışa aktar, tüm alanlar) seçeneğini seçin.",
+      "how_step_3": "İndirilen dosyayı buraya yükleyin. Eşlemeyi gözden geçirene kadar hiçbir şey içe aktarılmaz."
+    },
+    "target": {
+      "stats": {
+        "work_items": "İş öğeleri",
+        "sprints": "Sprintler",
+        "people": "Kişiler",
+        "keys": "Anahtarlar"
+      },
+      "jira_project": "Jira projesi",
+      "new_project": "Yeni proje oluştur",
+      "new_project_hint": "Önerilen. Jira anahtarları olduğu gibi korunur.",
+      "new_project_admin_only": "Projeleri yalnızca çalışma alanı yöneticileri oluşturabilir.",
+      "existing_project": "Mevcut bir projeye aktar",
+      "existing_project_hint": "İş öğelerini yönettiğiniz bir projeye ekleyin.",
+      "no_projects": "Yönettiğiniz bir proje yok.",
+      "project_name": "Proje adı",
+      "identifier": "Tanımlayıcı",
+      "identifier_invalid": "1 ile 12 arasında harf veya rakam kullanın.",
+      "identifier_taken": "{identifier} bu çalışma alanında zaten kullanılıyor. Başka bir tanımlayıcı seçin.",
+      "project": "Proje",
+      "keys_kept": "Jira anahtarları korunur, yani ALMS-12, ALMS-12 olarak kalır.",
+      "keys_renumbered": "Bu projede zaten iş öğeleri var, bu nedenle içe aktarılan öğeler yeni numaralar alır. Her öğenin açıklamasında Jira anahtarı gösterilir."
+    },
+    "warnings": {
+      "multiple_projects": "Dosya birden fazla Jira projesi içeriyor. Yalnızca seçilen proje içe aktarılır.",
+      "duplicate_keys": "Bazı Jira anahtarları birden fazla kez geçiyor. Tekrarlanan her anahtar bir kez içe aktarılır.",
+      "unparsed_dates": "{count, plural, one {# tarih okunamadı ve boş bırakılacak.} other {# tarih okunamadı ve boş bırakılacak.}}"
+    },
+    "mapping": {
+      "statuses_title": "Durumlar",
+      "statuses_hint": "Her Jira durumunun hangi duruma dönüşeceğini seçin. Yeni durumlar seçtiğiniz grupta oluşturulur.",
+      "create_state": "{group} grubunda yeni durum “{name}”",
+      "priorities_title": "Öncelikler",
+      "no_priority": "Öncelik yok"
+    },
+    "groups": {
+      "backlog": "Bekleme Listesi",
+      "unstarted": "Başlatılmadı",
+      "started": "Başlatıldı",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "priorities": {
+      "urgent": "Acil",
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Düşük",
+      "none": "Yok"
+    },
+    "people": {
+      "hint": "Kişiler, adlarına göre çalışma alanı üyeleriyle eşleştirilir. Eşleşmeyen kişiler atanmamış bırakılır ve adları iş öğesinde korunur.",
+      "matched": "{total} kişiden {matched} tanesi eşleşti.",
+      "none": "Dosyada hiç kişi bulunamadı.",
+      "leave_unassigned": "Atanmamış bırak",
+      "roles": {
+        "assignee": "Atanan",
+        "reporter": "Raporlayan",
+        "creator": "Oluşturan",
+        "watcher": "İzleyici",
+        "commenter": "Yorum yapan"
+      }
+    },
+    "options": {
+      "not_in_file": "Bu dosyada yok",
+      "keep_keys": {
+        "title": "Jira anahtarlarını koru",
+        "description": "İçe aktarılan öğeler Jira numaralarını korur."
+      },
+      "sprints_as_cycles": {
+        "title": "Sprintler döngü olur",
+        "description": "Döngü tarihleri her sprintteki öğelerden çıkarılır."
+      },
+      "epics_as_modules": {
+        "title": "Epikler modül olur",
+        "description": "Bir epikteki öğeler o epiğin modülüne eklenir."
+      },
+      "issue_types_as_labels": {
+        "title": "Issue türleri etiket olur",
+        "description": "Task, Bug, Story ve diğer türler etiket olarak eklenir."
+      },
+      "comments": {
+        "title": "Yorumlar",
+        "description": "Yorumlar orijinal tarihlerini ve yazarlarını korur."
+      },
+      "attachments": {
+        "title": "Bağlantı olarak ekler",
+        "description": "Ekler Jira'ya bağlanır. Bunları açmak için yine Jira erişimi gerekir."
+      },
+      "watchers": {
+        "title": "İzleyiciler abone olur",
+        "description": "Eşlenen izleyiciler iş öğesini takip eder."
+      },
+      "on_existing": {
+        "title": "Daha önce içe aktarılan öğeler",
+        "description": "Bu dosya yeniden içe aktarıldığında, daha önce içe aktarılmış öğeler güncellenir veya atlanır.",
+        "update": "Güncelle",
+        "skip": "Atla"
+      }
+    },
+    "review": {
+      "title": "Sonra ne olacak",
+      "target": "İş öğeleri {project} projesine eklenir.",
+      "work_items": "{count, plural, one {# iş öğesi içe aktarılır.} other {# iş öğesi içe aktarılır.}}",
+      "new_states": "{count, plural, one {# yeni durum oluşturulur.} other {# yeni durum oluşturulur.}}",
+      "cycles": "{count, plural, one {Sprintlerden # döngü oluşturulur.} other {Sprintlerden # döngü oluşturulur.}}",
+      "unmapped": "{count, plural, one {# kişi eşlenmedi ve atanmamış bırakılır.} other {# kişi eşlenmedi ve atanmamış bırakılır.}}",
+      "rerun": "Daha önce içe aktarılan öğeler Jira kimlikleriyle eşleştirilir, böylece hiçbir şey çoğaltılmaz.",
+      "silent": "Hiçbir bildirim veya e-posta gönderilmez. İçe aktarmayı daha sonra geri alabilirsiniz."
+    },
+    "progress": {
+      "title_uploaded": "Başlatılmadı",
+      "title_queued": "Başlaması bekleniyor…",
+      "title_running": "İş öğeleri içe aktarılıyor…",
+      "title_completed": "İçe aktarma tamamlandı",
+      "title_failed": "İçe aktarma başarısız oldu",
+      "title_undoing": "Geri alınıyor…",
+      "title_undone": "İçe aktarma geri alındı",
+      "running_hint": "Bu pencereyi kapatabilirsiniz. İçe aktarma arka planda devam eder.",
+      "done_hint": "Aşağıdaki sonuçları inceleyin. İçe aktarmayı İçe aktarmalar sayfasından geri alabilirsiniz.",
+      "errors_title": "{count, plural, one {# sorun} other {# sorun}}"
+    }
+  }
+}
