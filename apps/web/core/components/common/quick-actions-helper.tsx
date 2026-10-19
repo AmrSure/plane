@@ -4,11 +4,14 @@
  * See the LICENSE file for details.
  */
 
+import { FileChartColumn } from "lucide-react";
+import { useTranslation } from "@plane/i18n";
 // types
 import type { ICycle, IModule, IProjectView, IWorkspaceView } from "@plane/types";
 import type { TContextMenuItem } from "@plane/ui";
 // hooks
 import { useQuickActionsFactory } from "@/components/common/quick-actions-factory";
+import { useAppRouter } from "@/hooks/use-app-router";
 
 // Types
 interface UseCycleMenuItemsProps {
@@ -66,6 +69,8 @@ type MenuResult = {
 
 export const useCycleMenuItems = (props: UseCycleMenuItemsProps): MenuResult => {
   const factory = useQuickActionsFactory();
+  const { t } = useTranslation();
+  const router = useAppRouter();
   const { cycleDetails, isEditingAllowed, ...handlers } = props;
 
   const isArchived = !!cycleDetails?.archived_at;
@@ -75,6 +80,13 @@ export const useCycleMenuItems = (props: UseCycleMenuItemsProps): MenuResult => 
   const items = [
     factory.createEditMenuItem(handlers.handleEdit, isEditingAllowed && !isCompleted && !isArchived),
     factory.createOpenInNewTabMenuItem(handlers.handleOpenInNewTab),
+    {
+      key: "report",
+      title: t("cycle_report.view_report"),
+      icon: FileChartColumn,
+      action: () => router.push(`/${props.workspaceSlug}/projects/${props.projectId}/cycles/${props.cycleId}/report`),
+      shouldRender: Boolean(cycleDetails?.start_date && cycleDetails?.end_date),
+    },
     factory.createCopyLinkMenuItem(handlers.handleCopyLink),
     factory.createArchiveMenuItem(handlers.handleArchive, {
       shouldRender: isEditingAllowed && !isArchived,

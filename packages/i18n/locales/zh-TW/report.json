@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "報告",
+    "page_title": "{workspace} - 報告",
+    "list": {
+      "new": "新增報告",
+      "title": "已儲存的報告",
+      "search_placeholder": "搜尋報告",
+      "no_results": "沒有符合搜尋條件的報告。",
+      "empty": {
+        "title": "將工作資料轉換為報告",
+        "description": "依任意維度將工作事項分組、比較指標並匯出結果。",
+        "cta": "建立報告"
+      }
+    },
+    "builder": {
+      "new_title": "新增報告",
+      "dimension": "分組依據",
+      "group_by": "拆分依據",
+      "none": "無",
+      "metric": "度量",
+      "date_grouping": "日期間隔",
+      "date_range": "日期範圍",
+      "date_field": "日期欄位",
+      "all_time": "所有時間",
+      "chart_type": "圖表類型",
+      "filters": "篩選器",
+      "projects": "專案",
+      "all_projects": "我的所有專案",
+      "state_groups": "狀態群組",
+      "priorities": "優先順序",
+      "assignees": "指派對象",
+      "labels": "標籤",
+      "include_sub_work_items": "包含子工作事項",
+      "save": "儲存",
+      "save_as": "另存為新報告",
+      "copy_link": "複製連結",
+      "unsaved": "未儲存的變更",
+      "total": "總計",
+      "work_items": "工作事項",
+      "table_title": "符合的工作事項",
+      "table_truncated": "正在顯示 {total} 個工作事項中的 {shown} 個。匯出即可取得完整清單。",
+      "result_summary": "{projects, plural, one{# 個專案} other{# 個專案}}中的{count, plural, one{# 個工作事項} other{# 個工作事項}}",
+      "clear_filters": "清除過濾器",
+      "start_date": "開始",
+      "end_date": "結束"
+    },
+    "metrics": {
+      "work_item_count": "工作事項數量",
+      "estimate_points": "評估點數"
+    },
+    "dimensions": {
+      "states": "狀態",
+      "state_groups": "狀態群組",
+      "priority": "優先順序",
+      "assignees": "指派對象",
+      "labels": "標籤",
+      "projects": "專案",
+      "cycles": "週期",
+      "modules": "模組",
+      "estimate_points": "評估",
+      "created_by": "建立者",
+      "created_at": "建立日期",
+      "completed_at": "完成日期",
+      "start_date": "開始日期",
+      "target_date": "截止日期"
+    },
+    "date_groupings": {
+      "day": "日",
+      "week": "週",
+      "month": "月",
+      "year": "年"
+    },
+    "date_fields": {
+      "created_at": "建立日期",
+      "completed_at": "完成日期",
+      "start_date": "開始日期",
+      "target_date": "截止日期"
+    },
+    "date_presets": {
+      "last_7_days": "過去 7 天",
+      "last_30_days": "過去 30 天",
+      "last_90_days": "過去 90 天",
+      "this_month": "本月",
+      "last_month": "上個月",
+      "this_quarter": "本季",
+      "this_year": "今年",
+      "custom": "自訂範圍"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "標題",
+      "project": "專案",
+      "state": "狀態",
+      "state_group": "狀態群組",
+      "priority": "優先順序",
+      "assignees": "指派對象",
+      "labels": "標籤",
+      "start_date": "開始日期",
+      "target_date": "截止日期",
+      "completed_at": "完成日期",
+      "created_at": "建立日期",
+      "estimate": "評估"
+    },
+    "values": {
+      "urgent": "緊急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "backlog": "待辦事項",
+      "unstarted": "未開始",
+      "started": "已開始",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "none": "無",
+      "other": "其他"
+    },
+    "export": {
+      "label": "匯出",
+      "csv": "匯出 CSV",
+      "xlsx": "匯出 Excel（XLSX）",
+      "success": "匯出檔案已下載",
+      "error": "無法匯出報告。",
+      "sheets": {
+        "summary": "摘要",
+        "items": "工作事項"
+      }
+    },
+    "save_modal": {
+      "title": "儲存報告",
+      "edit_title": "報告設定",
+      "name": "名稱",
+      "name_placeholder": "例如：依優先順序劃分的錯誤",
+      "name_required": "名稱為必填",
+      "description": "描述",
+      "visibility": "可見性",
+      "save": "儲存報告",
+      "saving": "儲存中"
+    },
+    "access": {
+      "private": "私人",
+      "workspace": "工作區",
+      "private_description": "只有您可以開啟此報告。",
+      "workspace_description": "工作區中的所有人都可以開啟。每個人只會看到自己所屬專案的資料。"
+    },
+    "delete": {
+      "title": "刪除報告",
+      "description": "要刪除「{name}」嗎？此操作無法復原。",
+      "success": "報告已刪除"
+    },
+    "toast": {
+      "saved": "報告已儲存",
+      "error": "發生錯誤，請再試一次。",
+      "link_copied": "連結已複製到剪貼簿"
+    },
+    "errors": {
+      "timeout": "此報告執行時間過長。請縮小篩選範圍後再試一次。",
+      "generic": "無法執行此報告。"
+    },
+    "not_found": {
+      "title": "找不到報告",
+      "description": "它可能已被刪除，或僅限擁有者檢視。"
+    }
+  },
+  "cycle_report": {
+    "title": "週期報告",
+    "view_report": "檢視報告",
+    "page_title": "{cycle} - 報告",
+    "status": {
+      "upcoming": "即將開始",
+      "current": "進行中",
+      "completed": "已完成"
+    },
+    "summary": {
+      "scope": "範圍",
+      "completed": "已完成",
+      "pending": "待處理",
+      "cancelled": "已取消",
+      "completion": "完成率",
+      "days_left": "剩餘天數",
+      "days_left_count": "{count, plural, one{剩餘 # 天} other{剩餘 # 天}}",
+      "elapsed": "第 {elapsed} 天，共 {total} 天",
+      "points_of": "{completed} / {total} 點"
+    },
+    "toggle": {
+      "issues": "工作事項",
+      "points": "點數"
+    },
+    "burndown": {
+      "title": "燃盡圖",
+      "ideal": "理想",
+      "remaining": "剩餘"
+    },
+    "breakdown": {
+      "title": "細分",
+      "assignees": "指派對象",
+      "labels": "標籤",
+      "state_groups": "狀態",
+      "priorities": "優先順序",
+      "unassigned": "未指派",
+      "no_label": "無標籤",
+      "name": "名稱",
+      "total": "總計",
+      "completed": "已完成",
+      "pending": "待處理"
+    },
+    "scope_changes": {
+      "title": "範圍變更",
+      "added": "已新增",
+      "removed": "已移除",
+      "net": "淨變化",
+      "none": "週期開始後沒有新增或移除任何工作事項。",
+      "unavailable": "此週期的範圍歷程記錄無法使用。",
+      "accuracy_note": "依據活動記錄。最近幾秒內的變更可能尚未顯示。"
+    },
+    "incomplete": {
+      "title": "未完成的工作事項",
+      "transferred_title": "已轉移的工作事項",
+      "empty": "此週期中的所有工作事項皆已完成。",
+      "truncated": "僅顯示前 {count} 個工作事項。"
+    },
+    "source": {
+      "snapshot": "快照",
+      "live": "即時資料",
+      "snapshot_hint": "數據記錄於轉移未完成工作事項時。",
+      "live_hint": "數據反映此週期中工作事項的目前狀態。",
+      "priorities_live": "優先順序一律反映目前資料。"
+    },
+    "errors": {
+      "no_dates": "請為此週期設定開始日期和結束日期以檢視其報告。",
+      "guest_restricted": "訪客無法檢視此專案中的週期報告。",
+      "not_found": "找不到此週期。",
+      "generic": "無法載入週期報告。"
+    },
+    "export": {
+      "section_csv": "匯出此區段（CSV）",
+      "workbook": "全部匯出（XLSX）"
+    },
+    "columns": {
+      "metric": "指標",
+      "value": "值",
+      "date": "日期",
+      "remaining_issues": "剩餘工作事項",
+      "remaining_points": "剩餘點數",
+      "change": "變化",
+      "id": "ID",
+      "state": "狀態",
+      "priority": "優先順序",
+      "assignees": "指派對象",
+      "target_date": "截止日期",
+      "estimate": "評估",
+      "points_total": "點數",
+      "points_completed": "已完成點數",
+      "days_total": "天數"
+    }
+  }
+}

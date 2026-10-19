@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "儀表板",
+    "page_title": "{workspace} - 儀表板",
+    "list": {
+      "new": "新增儀表板",
+      "search_placeholder": "搜尋儀表板",
+      "no_results": "沒有符合搜尋條件的儀表板。",
+      "widget_count": "{count, plural, one{# 個小工具} other{# 個小工具}}",
+      "owned_by_you": "由您建立",
+      "shared": "已與工作區共用",
+      "empty": {
+        "title": "使用儀表板將您的工作視覺化",
+        "description": "使用圖表、數字和表格建立儀表板，追蹤各專案的進度。",
+        "cta": "建立儀表板"
+      }
+    },
+    "access": {
+      "label": "可見性",
+      "private": "私人",
+      "workspace": "工作區",
+      "private_description": "只有您可以檢視此儀表板。",
+      "workspace_description": "工作區中的所有人都可以檢視。每個人只會看到自己所屬專案的資料。"
+    },
+    "form": {
+      "create_title": "建立儀表板",
+      "edit_title": "編輯儀表板",
+      "name": "名稱",
+      "name_placeholder": "例如：交付概覽",
+      "name_required": "名稱為必填",
+      "description": "描述",
+      "description_placeholder": "此儀表板的用途是什麼？",
+      "create": "建立儀表板",
+      "update": "儲存變更",
+      "creating": "建立中",
+      "updating": "儲存中"
+    },
+    "actions": {
+      "add_widget": "新增小工具",
+      "edit_layout": "編輯版面配置",
+      "done": "完成",
+      "edit": "編輯儀表板",
+      "copy_link": "複製連結",
+      "delete": "刪除儀表板"
+    },
+    "delete": {
+      "title": "刪除儀表板",
+      "description": "要刪除「{name}」及其所有小工具嗎？此操作無法復原。",
+      "confirm": "刪除",
+      "deleting": "刪除中"
+    },
+    "toast": {
+      "created": "儀表板已建立",
+      "updated": "儀表板已更新",
+      "deleted": "儀表板已刪除",
+      "error": "發生錯誤，請再試一次。",
+      "link_copied": "連結已複製到剪貼簿"
+    },
+    "empty_widgets": {
+      "title": "此儀表板尚無小工具",
+      "description": "新增圖表、數字或表格，開始追蹤您的工作。",
+      "viewer_description": "擁有者尚未新增任何小工具。"
+    },
+    "not_found": {
+      "title": "找不到儀表板",
+      "description": "它可能已被刪除，或僅限擁有者檢視。"
+    },
+    "restricted": {
+      "title": "您沒有存取權限",
+      "description": "儀表板和報告僅供工作區管理員和成員使用。"
+    },
+    "widget": {
+      "types": {
+        "number": "數字",
+        "bar": "長條圖",
+        "stacked_bar": "堆疊長條圖",
+        "line": "折線圖",
+        "area": "區域圖",
+        "pie": "圓餅圖",
+        "donut": "環圈圖",
+        "table": "表格"
+      },
+      "sizes": {
+        "label": "大小",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "full": "全寬"
+      },
+      "color_palettes": {
+        "modern": "現代",
+        "horizon": "地平線",
+        "earthen": "大地"
+      },
+      "editor": {
+        "create_title": "新增小工具",
+        "edit_title": "編輯小工具",
+        "name": "標題",
+        "name_placeholder": "例如：依狀態劃分的工作事項",
+        "type": "視覺化",
+        "data": "資料",
+        "appearance": "外觀",
+        "palette": "調色盤",
+        "show_legend": "顯示圖例",
+        "preview": "預覽",
+        "preview_hint": "預覽會使用您自己的專案存取權限。",
+        "save": "新增小工具",
+        "update": "儲存小工具",
+        "saving": "儲存中"
+      },
+      "actions": {
+        "edit": "編輯",
+        "duplicate": "複製",
+        "delete": "刪除",
+        "resize": "調整大小"
+      },
+      "delete": {
+        "title": "刪除小工具",
+        "description": "要從此儀表板刪除「{name}」嗎？"
+      },
+      "states": {
+        "error": "無法載入此小工具。",
+        "retry": "重試",
+        "empty": "沒有符合這些設定的工作事項。",
+        "truncated": "僅顯示最大的群組。",
+        "timeout": "此小工具載入時間過長。請縮小其篩選範圍。"
+      },
+      "scope_hint": "顯示您所屬專案的資料。",
+      "untitled": "未命名小工具",
+      "work_items": "{count, plural, one{# 個工作事項} other{# 個工作事項}}",
+      "points": "{count} 點"
+    }
+  }
+}

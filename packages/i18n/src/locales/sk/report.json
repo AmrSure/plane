@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Reporty",
+    "page_title": "{workspace} - Reporty",
+    "list": {
+      "new": "Nový report",
+      "title": "Uložené reporty",
+      "search_placeholder": "Hľadať reporty",
+      "no_results": "Vášmu hľadaniu nezodpovedajú žiadne reporty.",
+      "empty": {
+        "title": "Premeňte údaje o práci na reporty",
+        "description": "Zoskupujte pracovné položky podľa ľubovoľnej dimenzie, porovnávajte metriky a exportujte výsledky.",
+        "cta": "Vytvoriť report"
+      }
+    },
+    "builder": {
+      "new_title": "Nový report",
+      "dimension": "Zoskupiť podľa",
+      "group_by": "Rozdeliť podľa",
+      "none": "Žiadne",
+      "metric": "Metrika",
+      "date_grouping": "Interval dátumov",
+      "date_range": "Rozsah dátumov",
+      "date_field": "Pole dátumu",
+      "all_time": "Celé obdobie",
+      "chart_type": "Typ grafu",
+      "filters": "Filtre",
+      "projects": "Projekty",
+      "all_projects": "Všetky moje projekty",
+      "state_groups": "Skupiny stavov",
+      "priorities": "Priority",
+      "assignees": "Priradení",
+      "labels": "Štítky",
+      "include_sub_work_items": "Zahrnúť podriadené pracovné položky",
+      "save": "Uložiť",
+      "save_as": "Uložiť ako nový",
+      "copy_link": "Kopírovať odkaz",
+      "unsaved": "Neuložené zmeny",
+      "total": "Celkom",
+      "work_items": "Pracovné položky",
+      "table_title": "Zodpovedajúce pracovné položky",
+      "table_truncated": "Zobrazených {shown} z {total} pracovných položiek. Celý zoznam získate exportom.",
+      "result_summary": "{count, plural, one{# pracovná položka} few{# pracovné položky} many{# pracovnej položky} other{# pracovných položiek}} v {projects, plural, one{# projekte} few{# projektoch} many{# projektu} other{# projektoch}}",
+      "clear_filters": "Vymazať filtre",
+      "start_date": "Začiatok",
+      "end_date": "Koniec"
+    },
+    "metrics": {
+      "work_item_count": "Počet pracovných položiek",
+      "estimate_points": "Body odhadu"
+    },
+    "dimensions": {
+      "states": "Stav",
+      "state_groups": "Skupina stavov",
+      "priority": "Priorita",
+      "assignees": "Priradený",
+      "labels": "Štítok",
+      "projects": "Projekt",
+      "cycles": "Cyklus",
+      "modules": "Modul",
+      "estimate_points": "Odhad",
+      "created_by": "Vytvoril",
+      "created_at": "Dátum vytvorenia",
+      "completed_at": "Dátum dokončenia",
+      "start_date": "Dátum začiatku",
+      "target_date": "Termín"
+    },
+    "date_groupings": {
+      "day": "Deň",
+      "week": "Týždeň",
+      "month": "Mesiac",
+      "year": "Rok"
+    },
+    "date_fields": {
+      "created_at": "Dátum vytvorenia",
+      "completed_at": "Dátum dokončenia",
+      "start_date": "Dátum začiatku",
+      "target_date": "Termín"
+    },
+    "date_presets": {
+      "last_7_days": "Posledných 7 dní",
+      "last_30_days": "Posledných 30 dní",
+      "last_90_days": "Posledných 90 dní",
+      "this_month": "Tento mesiac",
+      "last_month": "Minulý mesiac",
+      "this_quarter": "Tento štvrťrok",
+      "this_year": "Tento rok",
+      "custom": "Vlastný rozsah"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Názov",
+      "project": "Projekt",
+      "state": "Stav",
+      "state_group": "Skupina stavov",
+      "priority": "Priorita",
+      "assignees": "Priradení",
+      "labels": "Štítky",
+      "start_date": "Dátum začiatku",
+      "target_date": "Termín",
+      "completed_at": "Dátum dokončenia",
+      "created_at": "Dátum vytvorenia",
+      "estimate": "Odhad"
+    },
+    "values": {
+      "urgent": "Naliehavá",
+      "high": "Vysoká",
+      "medium": "Stredná",
+      "low": "Nízka",
+      "backlog": "Backlog",
+      "unstarted": "Nezačaté",
+      "started": "Začaté",
+      "completed": "Dokončené",
+      "cancelled": "Zrušené",
+      "none": "Žiadne",
+      "other": "Iné"
+    },
+    "export": {
+      "label": "Exportovať",
+      "csv": "Exportovať CSV",
+      "xlsx": "Exportovať Excel (XLSX)",
+      "success": "Export stiahnutý",
+      "error": "Report sa nepodarilo exportovať.",
+      "sheets": {
+        "summary": "Zhrnutie",
+        "items": "Pracovné položky"
+      }
+    },
+    "save_modal": {
+      "title": "Uložiť report",
+      "edit_title": "Nastavenia reportu",
+      "name": "Názov",
+      "name_placeholder": "napr. Chyby podľa priority",
+      "name_required": "Názov je povinný",
+      "description": "Popis",
+      "visibility": "Viditeľnosť",
+      "save": "Uložiť report",
+      "saving": "Ukladanie"
+    },
+    "access": {
+      "private": "Súkromný",
+      "workspace": "Pracovný priestor",
+      "private_description": "Tento report môžete otvoriť iba vy.",
+      "workspace_description": "Môže ho otvoriť ktokoľvek v pracovnom priestore. Každý vidí údaje iba z projektov, ktorých je členom."
+    },
+    "delete": {
+      "title": "Zmazať report",
+      "description": "Zmazať „{name}“? Túto akciu nie je možné vrátiť späť.",
+      "success": "Report bol zmazaný"
+    },
+    "toast": {
+      "saved": "Report bol uložený",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova.",
+      "link_copied": "Odkaz skopírovaný do schránky"
+    },
+    "errors": {
+      "timeout": "Spracovanie reportu trvalo príliš dlho. Zúžte filtre a skúste to znova.",
+      "generic": "Tento report sa nepodarilo spustiť."
+    },
+    "not_found": {
+      "title": "Report sa nenašiel",
+      "description": "Mohol byť zmazaný alebo je súkromný."
+    }
+  },
+  "cycle_report": {
+    "title": "Report cyklu",
+    "view_report": "Zobraziť report",
+    "page_title": "{cycle} - Report",
+    "status": {
+      "upcoming": "Nadchádzajúci",
+      "current": "Prebieha",
+      "completed": "Dokončené"
+    },
+    "summary": {
+      "scope": "Rozsah",
+      "completed": "Dokončené",
+      "pending": "Čakajúce",
+      "cancelled": "Zrušené",
+      "completion": "Dokončenie",
+      "days_left": "Zostáva dní",
+      "days_left_count": "{count, plural, one{Zostáva # deň} few{Zostávajú # dni} many{Zostáva # dňa} other{Zostáva # dní}}",
+      "elapsed": "Deň {elapsed} z {total}",
+      "points_of": "Body: {completed} z {total}"
+    },
+    "toggle": {
+      "issues": "Pracovné položky",
+      "points": "Body"
+    },
+    "burndown": {
+      "title": "Burndown",
+      "ideal": "Ideálne",
+      "remaining": "Zostáva"
+    },
+    "breakdown": {
+      "title": "Rozpis",
+      "assignees": "Priradení",
+      "labels": "Štítky",
+      "state_groups": "Stavy",
+      "priorities": "Priority",
+      "unassigned": "Nepriradené",
+      "no_label": "Bez štítku",
+      "name": "Názov",
+      "total": "Celkom",
+      "completed": "Dokončené",
+      "pending": "Čakajúce"
+    },
+    "scope_changes": {
+      "title": "Zmeny rozsahu",
+      "added": "Pridané",
+      "removed": "Odobrané",
+      "net": "Čistá zmena",
+      "none": "Po začiatku cyklu neboli pridané ani odobrané žiadne pracovné položky.",
+      "unavailable": "História rozsahu nie je pre tento cyklus dostupná.",
+      "accuracy_note": "Na základe denníka aktivít. Zmeny z posledných niekoľkých sekúnd sa ešte nemusia zobraziť."
+    },
+    "incomplete": {
+      "title": "Nedokončené pracovné položky",
+      "transferred_title": "Presunuté pracovné položky",
+      "empty": "Všetky pracovné položky v tomto cykle sú hotové.",
+      "truncated": "Zobrazených prvých {count} pracovných položiek."
+    },
+    "source": {
+      "snapshot": "Snímka",
+      "live": "Aktuálne údaje",
+      "snapshot_hint": "Hodnoty boli zachytené pri presune nedokončených pracovných položiek.",
+      "live_hint": "Hodnoty odrážajú aktuálny stav pracovných položiek v tomto cykle.",
+      "priorities_live": "Priority vždy odrážajú aktuálne údaje."
+    },
+    "errors": {
+      "no_dates": "Nastavte dátum začiatku a konca tohto cyklu, aby ste videli jeho report.",
+      "guest_restricted": "Hostia nemôžu v tomto projekte zobraziť reporty cyklov.",
+      "not_found": "Tento cyklus sa nenašiel.",
+      "generic": "Report cyklu sa nepodarilo načítať."
+    },
+    "export": {
+      "section_csv": "Exportovať sekciu (CSV)",
+      "workbook": "Exportovať všetko (XLSX)"
+    },
+    "columns": {
+      "metric": "Metrika",
+      "value": "Hodnota",
+      "date": "Dátum",
+      "remaining_issues": "Zostávajúce pracovné položky",
+      "remaining_points": "Zostávajúce body",
+      "change": "Zmena",
+      "id": "ID",
+      "state": "Stav",
+      "priority": "Priorita",
+      "assignees": "Priradení",
+      "target_date": "Termín",
+      "estimate": "Odhad",
+      "points_total": "Body",
+      "points_completed": "Dokončené body",
+      "days_total": "Dni"
+    }
+  }
+}

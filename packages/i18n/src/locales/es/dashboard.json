@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Tableros",
+    "page_title": "{workspace} - Tableros",
+    "list": {
+      "new": "Nuevo tablero",
+      "search_placeholder": "Buscar tableros",
+      "no_results": "Ningún tablero coincide con tu búsqueda.",
+      "widget_count": "{count, plural, one{# widget} other{# widgets}}",
+      "owned_by_you": "Creado por ti",
+      "shared": "Compartido con el espacio de trabajo",
+      "empty": {
+        "title": "Visualiza tu trabajo con tableros",
+        "description": "Crea tableros con gráficos, números y tablas para seguir el progreso de tus proyectos.",
+        "cta": "Crear tablero"
+      }
+    },
+    "access": {
+      "label": "Visibilidad",
+      "private": "Privado",
+      "workspace": "Espacio de trabajo",
+      "private_description": "Solo tú puedes ver este tablero.",
+      "workspace_description": "Todos en el espacio de trabajo pueden verlo. Cada persona solo ve datos de los proyectos a los que pertenece."
+    },
+    "form": {
+      "create_title": "Crear tablero",
+      "edit_title": "Editar tablero",
+      "name": "Nombre",
+      "name_placeholder": "p. ej., Resumen de entregas",
+      "name_required": "El nombre es obligatorio",
+      "description": "Descripción",
+      "description_placeholder": "¿Para qué sirve este tablero?",
+      "create": "Crear tablero",
+      "update": "Guardar cambios",
+      "creating": "Creando",
+      "updating": "Guardando"
+    },
+    "actions": {
+      "add_widget": "Agregar widget",
+      "edit_layout": "Editar diseño",
+      "done": "Listo",
+      "edit": "Editar tablero",
+      "copy_link": "Copiar enlace",
+      "delete": "Eliminar tablero"
+    },
+    "delete": {
+      "title": "Eliminar tablero",
+      "description": "¿Eliminar \"{name}\" y todos sus widgets? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar",
+      "deleting": "Eliminando"
+    },
+    "toast": {
+      "created": "Tablero creado",
+      "updated": "Tablero actualizado",
+      "deleted": "Tablero eliminado",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "link_copied": "Enlace copiado al portapapeles"
+    },
+    "empty_widgets": {
+      "title": "Este tablero aún no tiene widgets",
+      "description": "Agrega un gráfico, un número o una tabla para empezar a seguir tu trabajo.",
+      "viewer_description": "El propietario aún no ha agregado widgets."
+    },
+    "not_found": {
+      "title": "Tablero no encontrado",
+      "description": "Es posible que se haya eliminado o que solo sea visible para su propietario."
+    },
+    "restricted": {
+      "title": "No tienes acceso",
+      "description": "Los tableros y los informes están disponibles para los administradores y miembros del espacio de trabajo."
+    },
+    "widget": {
+      "types": {
+        "number": "Número",
+        "bar": "Gráfico de barras",
+        "stacked_bar": "Gráfico de barras apiladas",
+        "line": "Gráfico de líneas",
+        "area": "Gráfico de áreas",
+        "pie": "Gráfico circular",
+        "donut": "Gráfico de anillo",
+        "table": "Tabla"
+      },
+      "sizes": {
+        "label": "Tamaño",
+        "small": "Pequeño",
+        "medium": "Mediano",
+        "large": "Grande",
+        "full": "Ancho completo"
+      },
+      "color_palettes": {
+        "modern": "Moderna",
+        "horizon": "Horizonte",
+        "earthen": "Terrosa"
+      },
+      "editor": {
+        "create_title": "Agregar widget",
+        "edit_title": "Editar widget",
+        "name": "Título",
+        "name_placeholder": "p. ej., Elementos de trabajo por estado",
+        "type": "Visualización",
+        "data": "Datos",
+        "appearance": "Apariencia",
+        "palette": "Paleta de colores",
+        "show_legend": "Mostrar leyenda",
+        "preview": "Vista previa",
+        "preview_hint": "La vista previa usa tu propio acceso a los proyectos.",
+        "save": "Agregar widget",
+        "update": "Guardar widget",
+        "saving": "Guardando"
+      },
+      "actions": {
+        "edit": "Editar",
+        "duplicate": "Duplicar",
+        "delete": "Eliminar",
+        "resize": "Cambiar tamaño"
+      },
+      "delete": {
+        "title": "Eliminar widget",
+        "description": "¿Eliminar \"{name}\" de este tablero?"
+      },
+      "states": {
+        "error": "No se pudo cargar este widget.",
+        "retry": "Reintentar",
+        "empty": "Ningún elemento de trabajo coincide con esta configuración.",
+        "truncated": "Solo se muestran los grupos más grandes.",
+        "timeout": "Este widget tardó demasiado en cargarse. Acota sus filtros."
+      },
+      "scope_hint": "Muestra datos de los proyectos de los que eres miembro.",
+      "untitled": "Widget sin título",
+      "work_items": "{count, plural, one{# elemento de trabajo} other{# elementos de trabajo}}",
+      "points": "{count} puntos"
+    }
+  }
+}

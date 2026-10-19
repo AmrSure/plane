@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Tableaux de bord",
+    "page_title": "{workspace} - Tableaux de bord",
+    "list": {
+      "new": "Nouveau tableau de bord",
+      "search_placeholder": "Rechercher des tableaux de bord",
+      "no_results": "Aucun tableau de bord ne correspond à votre recherche.",
+      "widget_count": "{count, plural, one{# widget} many{# widgets} other{# widgets}}",
+      "owned_by_you": "Créé par vous",
+      "shared": "Partagé avec l’espace de travail",
+      "empty": {
+        "title": "Visualisez votre travail avec des tableaux de bord",
+        "description": "Créez des tableaux de bord à partir de graphiques, de chiffres et de tableaux pour suivre l’avancement de vos projets.",
+        "cta": "Créer un tableau de bord"
+      }
+    },
+    "access": {
+      "label": "Visibilité",
+      "private": "Privé",
+      "workspace": "Espace de travail",
+      "private_description": "Vous seul pouvez voir ce tableau de bord.",
+      "workspace_description": "Tous les membres de l’espace de travail peuvent le consulter. Chacun ne voit que les données des projets dont il fait partie."
+    },
+    "form": {
+      "create_title": "Créer un tableau de bord",
+      "edit_title": "Modifier le tableau de bord",
+      "name": "Nom",
+      "name_placeholder": "ex. Vue d’ensemble des livraisons",
+      "name_required": "Le nom est obligatoire",
+      "description": "Description",
+      "description_placeholder": "À quoi sert ce tableau de bord ?",
+      "create": "Créer le tableau de bord",
+      "update": "Enregistrer les modifications",
+      "creating": "Création",
+      "updating": "Enregistrement"
+    },
+    "actions": {
+      "add_widget": "Ajouter un widget",
+      "edit_layout": "Modifier la disposition",
+      "done": "Terminé",
+      "edit": "Modifier le tableau de bord",
+      "copy_link": "Copier le lien",
+      "delete": "Supprimer le tableau de bord"
+    },
+    "delete": {
+      "title": "Supprimer le tableau de bord",
+      "description": "Supprimer « {name} » et tous ses widgets ? Cette action est irréversible.",
+      "confirm": "Supprimer",
+      "deleting": "Suppression"
+    },
+    "toast": {
+      "created": "Tableau de bord créé",
+      "updated": "Tableau de bord mis à jour",
+      "deleted": "Tableau de bord supprimé",
+      "error": "Une erreur s’est produite. Veuillez réessayer.",
+      "link_copied": "Lien copié dans le presse-papiers"
+    },
+    "empty_widgets": {
+      "title": "Ce tableau de bord ne contient encore aucun widget",
+      "description": "Ajoutez un graphique, un chiffre ou un tableau pour commencer à suivre votre travail.",
+      "viewer_description": "Le propriétaire n’a encore ajouté aucun widget."
+    },
+    "not_found": {
+      "title": "Tableau de bord introuvable",
+      "description": "Il a peut-être été supprimé, ou il est réservé à son propriétaire."
+    },
+    "restricted": {
+      "title": "Vous n’y avez pas accès",
+      "description": "Les tableaux de bord et les rapports sont accessibles aux administrateurs et aux membres de l’espace de travail."
+    },
+    "widget": {
+      "types": {
+        "number": "Chiffre",
+        "bar": "Graphique à barres",
+        "stacked_bar": "Graphique à barres empilées",
+        "line": "Graphique linéaire",
+        "area": "Graphique en aires",
+        "pie": "Graphique circulaire",
+        "donut": "Graphique en anneau",
+        "table": "Tableau"
+      },
+      "sizes": {
+        "label": "Taille",
+        "small": "Petite",
+        "medium": "Moyenne",
+        "large": "Grande",
+        "full": "Pleine largeur"
+      },
+      "color_palettes": {
+        "modern": "Moderne",
+        "horizon": "Horizon",
+        "earthen": "Tons terre"
+      },
+      "editor": {
+        "create_title": "Ajouter un widget",
+        "edit_title": "Modifier le widget",
+        "name": "Titre",
+        "name_placeholder": "ex. Éléments de travail par état",
+        "type": "Visualisation",
+        "data": "Données",
+        "appearance": "Apparence",
+        "palette": "Palette de couleurs",
+        "show_legend": "Afficher la légende",
+        "preview": "Aperçu",
+        "preview_hint": "L’aperçu utilise vos propres accès aux projets.",
+        "save": "Ajouter le widget",
+        "update": "Enregistrer le widget",
+        "saving": "Enregistrement"
+      },
+      "actions": {
+        "edit": "Modifier",
+        "duplicate": "Dupliquer",
+        "delete": "Supprimer",
+        "resize": "Redimensionner"
+      },
+      "delete": {
+        "title": "Supprimer le widget",
+        "description": "Supprimer « {name} » de ce tableau de bord ?"
+      },
+      "states": {
+        "error": "Impossible de charger ce widget.",
+        "retry": "Réessayer",
+        "empty": "Aucun élément de travail ne correspond à ces paramètres.",
+        "truncated": "Seuls les groupes les plus importants sont affichés.",
+        "timeout": "Le chargement de ce widget a pris trop de temps. Affinez ses filtres."
+      },
+      "scope_hint": "Affiche les données des projets dont vous êtes membre.",
+      "untitled": "Widget sans titre",
+      "work_items": "{count, plural, one{# élément de travail} many{# éléments de travail} other{# éléments de travail}}",
+      "points": "{count} points"
+    }
+  }
+}

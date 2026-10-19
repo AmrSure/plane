@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Přehledy",
+    "page_title": "{workspace} - Přehledy",
+    "list": {
+      "new": "Nový přehled",
+      "search_placeholder": "Hledat přehledy",
+      "no_results": "Vašemu hledání neodpovídají žádné přehledy.",
+      "widget_count": "{count, plural, one{# widget} few{# widgety} many{# widgetu} other{# widgetů}}",
+      "owned_by_you": "Vytvořeno vámi",
+      "shared": "Sdíleno s pracovním prostorem",
+      "empty": {
+        "title": "Vizualizujte svou práci pomocí přehledů",
+        "description": "Sestavujte přehledy z grafů, čísel a tabulek a sledujte pokrok ve svých projektech.",
+        "cta": "Vytvořit přehled"
+      }
+    },
+    "access": {
+      "label": "Viditelnost",
+      "private": "Soukromý",
+      "workspace": "Pracovní prostor",
+      "private_description": "Tento přehled vidíte pouze vy.",
+      "workspace_description": "Může ho zobrazit kdokoli v pracovním prostoru. Každý vidí data pouze z projektů, jejichž je členem."
+    },
+    "form": {
+      "create_title": "Vytvořit přehled",
+      "edit_title": "Upravit přehled",
+      "name": "Název",
+      "name_placeholder": "např. Přehled dodávek",
+      "name_required": "Název je povinný",
+      "description": "Popis",
+      "description_placeholder": "K čemu tento přehled slouží?",
+      "create": "Vytvořit přehled",
+      "update": "Uložit změny",
+      "creating": "Vytváření",
+      "updating": "Ukládání"
+    },
+    "actions": {
+      "add_widget": "Přidat widget",
+      "edit_layout": "Upravit rozložení",
+      "done": "Hotovo",
+      "edit": "Upravit přehled",
+      "copy_link": "Kopírovat odkaz",
+      "delete": "Smazat přehled"
+    },
+    "delete": {
+      "title": "Smazat přehled",
+      "description": "Smazat „{name}“ a všechny jeho widgety? Tuto akci nelze vrátit zpět.",
+      "confirm": "Smazat",
+      "deleting": "Mazání"
+    },
+    "toast": {
+      "created": "Přehled vytvořen",
+      "updated": "Přehled aktualizován",
+      "deleted": "Přehled smazán",
+      "error": "Něco se pokazilo. Zkuste to prosím znovu.",
+      "link_copied": "Odkaz zkopírován do schránky"
+    },
+    "empty_widgets": {
+      "title": "Tento přehled zatím nemá žádné widgety",
+      "description": "Přidejte graf, číslo nebo tabulku a začněte sledovat svou práci.",
+      "viewer_description": "Vlastník zatím nepřidal žádné widgety."
+    },
+    "not_found": {
+      "title": "Přehled nebyl nalezen",
+      "description": "Mohl být smazán, nebo je soukromý."
+    },
+    "restricted": {
+      "title": "Nemáte přístup",
+      "description": "Přehledy a reporty jsou dostupné správcům a členům pracovního prostoru."
+    },
+    "widget": {
+      "types": {
+        "number": "Číslo",
+        "bar": "Sloupcový graf",
+        "stacked_bar": "Skládaný sloupcový graf",
+        "line": "Spojnicový graf",
+        "area": "Plošný graf",
+        "pie": "Výsečový graf",
+        "donut": "Prstencový graf",
+        "table": "Tabulka"
+      },
+      "sizes": {
+        "label": "Velikost",
+        "small": "Malý",
+        "medium": "Střední",
+        "large": "Velký",
+        "full": "Plná šířka"
+      },
+      "color_palettes": {
+        "modern": "Moderní",
+        "horizon": "Horizont",
+        "earthen": "Zemitá"
+      },
+      "editor": {
+        "create_title": "Přidat widget",
+        "edit_title": "Upravit widget",
+        "name": "Název",
+        "name_placeholder": "např. Pracovní položky podle stavu",
+        "type": "Vizualizace",
+        "data": "Data",
+        "appearance": "Vzhled",
+        "palette": "Barevná paleta",
+        "show_legend": "Zobrazit legendu",
+        "preview": "Náhled",
+        "preview_hint": "Náhled používá váš přístup k projektům.",
+        "save": "Přidat widget",
+        "update": "Uložit widget",
+        "saving": "Ukládání"
+      },
+      "actions": {
+        "edit": "Upravit",
+        "duplicate": "Duplikovat",
+        "delete": "Smazat",
+        "resize": "Změnit velikost"
+      },
+      "delete": {
+        "title": "Smazat widget",
+        "description": "Smazat „{name}“ z tohoto přehledu?"
+      },
+      "states": {
+        "error": "Tento widget se nepodařilo načíst.",
+        "retry": "Zkusit znovu",
+        "empty": "Těmto nastavením neodpovídají žádné pracovní položky.",
+        "truncated": "Zobrazeny jsou pouze největší skupiny.",
+        "timeout": "Načítání tohoto widgetu trvalo příliš dlouho. Zužte jeho filtry."
+      },
+      "scope_hint": "Zobrazuje data z projektů, jejichž jste členem.",
+      "untitled": "Widget bez názvu",
+      "work_items": "{count, plural, one{# pracovní položka} few{# pracovní položky} many{# pracovní položky} other{# pracovních položek}}",
+      "points": "Body: {count}"
+    }
+  }
+}

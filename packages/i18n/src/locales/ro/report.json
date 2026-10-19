@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Rapoarte",
+    "page_title": "{workspace} - Rapoarte",
+    "list": {
+      "new": "Raport nou",
+      "title": "Rapoarte salvate",
+      "search_placeholder": "Căutați rapoarte",
+      "no_results": "Niciun raport nu corespunde căutării.",
+      "empty": {
+        "title": "Transformați datele despre muncă în rapoarte",
+        "description": "Grupați activitățile după orice dimensiune, comparați indicatorii și exportați rezultatele.",
+        "cta": "Creați un raport"
+      }
+    },
+    "builder": {
+      "new_title": "Raport nou",
+      "dimension": "Grupare după",
+      "group_by": "Împărțire după",
+      "none": "Niciuna",
+      "metric": "Măsură",
+      "date_grouping": "Interval de grupare",
+      "date_range": "Interval de date",
+      "date_field": "Câmp de dată",
+      "all_time": "Toată perioada",
+      "chart_type": "Tip de grafic",
+      "filters": "Filtre",
+      "projects": "Proiecte",
+      "all_projects": "Toate proiectele mele",
+      "state_groups": "Grupuri de stări",
+      "priorities": "Priorități",
+      "assignees": "Responsabili",
+      "labels": "Etichete",
+      "include_sub_work_items": "Includeți sub-activitățile",
+      "save": "Salvați",
+      "save_as": "Salvați ca nou",
+      "copy_link": "Copiați link-ul",
+      "unsaved": "Modificări nesalvate",
+      "total": "Total",
+      "work_items": "Activități",
+      "table_title": "Activități corespunzătoare",
+      "table_truncated": "Se afișează {shown} din {total} activități. Exportați pentru a obține lista completă.",
+      "result_summary": "{count, plural, one{# activitate} few{# activități} other{# de activități}} în {projects, plural, one{# proiect} few{# proiecte} other{# de proiecte}}",
+      "clear_filters": "Ștergeți filtrele",
+      "start_date": "Început",
+      "end_date": "Sfârșit"
+    },
+    "metrics": {
+      "work_item_count": "Număr de activități",
+      "estimate_points": "Puncte de estimare"
+    },
+    "dimensions": {
+      "states": "Stare",
+      "state_groups": "Grup de stare",
+      "priority": "Prioritate",
+      "assignees": "Responsabil",
+      "labels": "Etichetă",
+      "projects": "Proiect",
+      "cycles": "Ciclu",
+      "modules": "Modul",
+      "estimate_points": "Estimare",
+      "created_by": "Creat de",
+      "created_at": "Data creării",
+      "completed_at": "Data finalizării",
+      "start_date": "Data de început",
+      "target_date": "Data limită"
+    },
+    "date_groupings": {
+      "day": "Zi",
+      "week": "Săptămână",
+      "month": "Lună",
+      "year": "An"
+    },
+    "date_fields": {
+      "created_at": "Data creării",
+      "completed_at": "Data finalizării",
+      "start_date": "Data de început",
+      "target_date": "Data limită"
+    },
+    "date_presets": {
+      "last_7_days": "Ultimele 7 zile",
+      "last_30_days": "Ultimele 30 de zile",
+      "last_90_days": "Ultimele 90 de zile",
+      "this_month": "Luna aceasta",
+      "last_month": "Luna trecută",
+      "this_quarter": "Trimestrul acesta",
+      "this_year": "Anul acesta",
+      "custom": "Interval personalizat"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Titlu",
+      "project": "Proiect",
+      "state": "Stare",
+      "state_group": "Grup de stare",
+      "priority": "Prioritate",
+      "assignees": "Responsabili",
+      "labels": "Etichete",
+      "start_date": "Data de început",
+      "target_date": "Data limită",
+      "completed_at": "Data finalizării",
+      "created_at": "Data creării",
+      "estimate": "Estimare"
+    },
+    "values": {
+      "urgent": "Urgentă",
+      "high": "Ridicată",
+      "medium": "Medie",
+      "low": "Scăzută",
+      "backlog": "Restante",
+      "unstarted": "Neîncepute",
+      "started": "În desfășurare",
+      "completed": "Finalizat",
+      "cancelled": "Anulat",
+      "none": "Niciuna",
+      "other": "Altele"
+    },
+    "export": {
+      "label": "Exportați",
+      "csv": "Exportați CSV",
+      "xlsx": "Exportați Excel (XLSX)",
+      "success": "Export descărcat",
+      "error": "Raportul nu a putut fi exportat.",
+      "sheets": {
+        "summary": "Rezumat",
+        "items": "Activități"
+      }
+    },
+    "save_modal": {
+      "title": "Salvați raportul",
+      "edit_title": "Setările raportului",
+      "name": "Nume",
+      "name_placeholder": "de ex. Erori după prioritate",
+      "name_required": "Numele este obligatoriu",
+      "description": "Descriere",
+      "visibility": "Vizibilitate",
+      "save": "Salvați raportul",
+      "saving": "Se salvează"
+    },
+    "access": {
+      "private": "Privat",
+      "workspace": "Spațiu de lucru",
+      "private_description": "Doar dvs. puteți deschide acest raport.",
+      "workspace_description": "Toți membrii spațiului de lucru îl pot deschide. Fiecare persoană vede doar datele din proiectele din care face parte."
+    },
+    "delete": {
+      "title": "Ștergeți raportul",
+      "description": "Ștergeți „{name}”? Această acțiune nu poate fi anulată.",
+      "success": "Raport șters"
+    },
+    "toast": {
+      "saved": "Raport salvat",
+      "error": "Ceva nu a funcționat. Vă rugăm să încercați din nou.",
+      "link_copied": "Link-ul a fost copiat în memoria temporară"
+    },
+    "errors": {
+      "timeout": "Acest raport a durat prea mult. Restrângeți filtrele și încercați din nou.",
+      "generic": "Acest raport nu a putut fi rulat."
+    },
+    "not_found": {
+      "title": "Raportul nu a fost găsit",
+      "description": "Este posibil să fi fost șters sau să fie vizibil doar pentru proprietarul său."
+    }
+  },
+  "cycle_report": {
+    "title": "Raport de ciclu",
+    "view_report": "Vizualizați raportul",
+    "page_title": "{cycle} - Raport",
+    "status": {
+      "upcoming": "Viitor",
+      "current": "În desfășurare",
+      "completed": "Finalizat"
+    },
+    "summary": {
+      "scope": "Domeniu",
+      "completed": "Finalizat",
+      "pending": "În așteptare",
+      "cancelled": "Anulat",
+      "completion": "Grad de finalizare",
+      "days_left": "Zile rămase",
+      "days_left_count": "{count, plural, one{# zi rămasă} few{# zile rămase} other{# de zile rămase}}",
+      "elapsed": "Ziua {elapsed} din {total}",
+      "points_of": "{completed} din {total} puncte"
+    },
+    "toggle": {
+      "issues": "Activități",
+      "points": "Puncte"
+    },
+    "burndown": {
+      "title": "Grafic de finalizare",
+      "ideal": "Ideal",
+      "remaining": "Rămas"
+    },
+    "breakdown": {
+      "title": "Defalcare",
+      "assignees": "Responsabili",
+      "labels": "Etichete",
+      "state_groups": "Stări",
+      "priorities": "Priorități",
+      "unassigned": "Fără responsabil",
+      "no_label": "Fără etichetă",
+      "name": "Nume",
+      "total": "Total",
+      "completed": "Finalizat",
+      "pending": "În așteptare"
+    },
+    "scope_changes": {
+      "title": "Modificări ale domeniului",
+      "added": "Adăugate",
+      "removed": "Eliminate",
+      "net": "Modificare netă",
+      "none": "Nicio activitate nu a fost adăugată sau eliminată după începerea ciclului.",
+      "unavailable": "Istoricul domeniului nu este disponibil pentru acest ciclu.",
+      "accuracy_note": "Pe baza jurnalului de activitate. Este posibil ca modificările din ultimele câteva secunde să nu apară încă."
+    },
+    "incomplete": {
+      "title": "Activități nefinalizate",
+      "transferred_title": "Activități transferate",
+      "empty": "Toate activitățile din acest ciclu sunt finalizate.",
+      "truncated": "Se afișează primele {count} activități."
+    },
+    "source": {
+      "snapshot": "Instantaneu",
+      "live": "Date în timp real",
+      "snapshot_hint": "Cifrele au fost înregistrate când activitățile nefinalizate au fost transferate.",
+      "live_hint": "Cifrele reflectă starea actuală a activităților din acest ciclu.",
+      "priorities_live": "Prioritățile reflectă întotdeauna datele actuale."
+    },
+    "errors": {
+      "no_dates": "Setați o dată de început și una de sfârșit pentru acest ciclu pentru a vedea raportul.",
+      "guest_restricted": "Invitații nu pot vizualiza rapoartele de ciclu în acest proiect.",
+      "not_found": "Acest ciclu nu a fost găsit.",
+      "generic": "Raportul ciclului nu a putut fi încărcat."
+    },
+    "export": {
+      "section_csv": "Exportați secțiunea (CSV)",
+      "workbook": "Exportați tot (XLSX)"
+    },
+    "columns": {
+      "metric": "Indicator",
+      "value": "Valoare",
+      "date": "Dată",
+      "remaining_issues": "Activități rămase",
+      "remaining_points": "Puncte rămase",
+      "change": "Modificare",
+      "id": "ID",
+      "state": "Stare",
+      "priority": "Prioritate",
+      "assignees": "Responsabili",
+      "target_date": "Data limită",
+      "estimate": "Estimare",
+      "points_total": "Puncte",
+      "points_completed": "Puncte finalizate",
+      "days_total": "Zile"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dashboards",
+    "page_title": "{workspace} - Dashboards",
+    "list": {
+      "new": "Novo dashboard",
+      "search_placeholder": "Pesquisar dashboards",
+      "no_results": "Nenhum dashboard corresponde à sua pesquisa.",
+      "widget_count": "{count, plural, one{# widget} many{# widgets} other{# widgets}}",
+      "owned_by_you": "Criado por você",
+      "shared": "Compartilhado com o espaço de trabalho",
+      "empty": {
+        "title": "Visualize seu trabalho com dashboards",
+        "description": "Crie dashboards com gráficos, números e tabelas para acompanhar o progresso dos seus projetos.",
+        "cta": "Criar dashboard"
+      }
+    },
+    "access": {
+      "label": "Visibilidade",
+      "private": "Privado",
+      "workspace": "Espaço de trabalho",
+      "private_description": "Somente você pode ver este dashboard.",
+      "workspace_description": "Todos no espaço de trabalho podem visualizá-lo. Cada pessoa vê apenas dados dos projetos dos quais participa."
+    },
+    "form": {
+      "create_title": "Criar dashboard",
+      "edit_title": "Editar dashboard",
+      "name": "Nome",
+      "name_placeholder": "ex.: Visão geral das entregas",
+      "name_required": "O nome é obrigatório",
+      "description": "Descrição",
+      "description_placeholder": "Para que serve este dashboard?",
+      "create": "Criar dashboard",
+      "update": "Salvar alterações",
+      "creating": "Criando",
+      "updating": "Salvando"
+    },
+    "actions": {
+      "add_widget": "Adicionar widget",
+      "edit_layout": "Editar layout",
+      "done": "Concluir",
+      "edit": "Editar dashboard",
+      "copy_link": "Copiar link",
+      "delete": "Excluir dashboard"
+    },
+    "delete": {
+      "title": "Excluir dashboard",
+      "description": "Excluir \"{name}\" e todos os seus widgets? Esta ação não pode ser desfeita.",
+      "confirm": "Excluir",
+      "deleting": "Excluindo"
+    },
+    "toast": {
+      "created": "Dashboard criado",
+      "updated": "Dashboard atualizado",
+      "deleted": "Dashboard excluído",
+      "error": "Algo deu errado. Por favor, tente novamente.",
+      "link_copied": "Link copiado para a área de transferência"
+    },
+    "empty_widgets": {
+      "title": "Este dashboard ainda não tem widgets",
+      "description": "Adicione um gráfico, um número ou uma tabela para começar a acompanhar seu trabalho.",
+      "viewer_description": "O proprietário ainda não adicionou widgets."
+    },
+    "not_found": {
+      "title": "Dashboard não encontrado",
+      "description": "Ele pode ter sido excluído ou ser restrito ao proprietário."
+    },
+    "restricted": {
+      "title": "Você não tem acesso",
+      "description": "Dashboards e relatórios estão disponíveis para administradores e membros do espaço de trabalho."
+    },
+    "widget": {
+      "types": {
+        "number": "Número",
+        "bar": "Gráfico de barras",
+        "stacked_bar": "Gráfico de barras empilhadas",
+        "line": "Gráfico de linhas",
+        "area": "Gráfico de área",
+        "pie": "Gráfico de pizza",
+        "donut": "Gráfico de rosca",
+        "table": "Tabela"
+      },
+      "sizes": {
+        "label": "Tamanho",
+        "small": "Pequeno",
+        "medium": "Médio",
+        "large": "Grande",
+        "full": "Largura total"
+      },
+      "color_palettes": {
+        "modern": "Moderna",
+        "horizon": "Horizonte",
+        "earthen": "Terrosa"
+      },
+      "editor": {
+        "create_title": "Adicionar widget",
+        "edit_title": "Editar widget",
+        "name": "Título",
+        "name_placeholder": "ex.: Itens de trabalho por estado",
+        "type": "Visualização",
+        "data": "Dados",
+        "appearance": "Aparência",
+        "palette": "Paleta de cores",
+        "show_legend": "Mostrar legenda",
+        "preview": "Pré-visualização",
+        "preview_hint": "A pré-visualização usa seu próprio acesso aos projetos.",
+        "save": "Adicionar widget",
+        "update": "Salvar widget",
+        "saving": "Salvando"
+      },
+      "actions": {
+        "edit": "Editar",
+        "duplicate": "Duplicar",
+        "delete": "Excluir",
+        "resize": "Redimensionar"
+      },
+      "delete": {
+        "title": "Excluir widget",
+        "description": "Excluir \"{name}\" deste dashboard?"
+      },
+      "states": {
+        "error": "Não foi possível carregar este widget.",
+        "retry": "Tentar novamente",
+        "empty": "Nenhum item de trabalho corresponde a estas configurações.",
+        "truncated": "Mostrando apenas os maiores grupos.",
+        "timeout": "Este widget demorou demais para carregar. Restrinja os filtros."
+      },
+      "scope_hint": "Mostra dados dos projetos dos quais você é membro.",
+      "untitled": "Widget sem título",
+      "work_items": "{count, plural, one{# item de trabalho} many{# itens de trabalho} other{# itens de trabalho}}",
+      "points": "{count} pontos"
+    }
+  }
+}

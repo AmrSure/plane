@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "报告",
+    "page_title": "{workspace} - 报告",
+    "list": {
+      "new": "新建报告",
+      "title": "已保存的报告",
+      "search_placeholder": "搜索报告",
+      "no_results": "没有与搜索匹配的报告。",
+      "empty": {
+        "title": "将工作数据转化为报告",
+        "description": "按任意维度对工作项分组、比较指标并导出结果。",
+        "cta": "创建报告"
+      }
+    },
+    "builder": {
+      "new_title": "新建报告",
+      "dimension": "分组方式",
+      "group_by": "拆分方式",
+      "none": "无",
+      "metric": "度量",
+      "date_grouping": "日期间隔",
+      "date_range": "日期范围",
+      "date_field": "日期字段",
+      "all_time": "全部时间",
+      "chart_type": "图表类型",
+      "filters": "筛选",
+      "projects": "项目",
+      "all_projects": "我的所有项目",
+      "state_groups": "状态组",
+      "priorities": "优先级",
+      "assignees": "负责人",
+      "labels": "标签",
+      "include_sub_work_items": "包含子工作项",
+      "save": "保存",
+      "save_as": "另存为新报告",
+      "copy_link": "复制链接",
+      "unsaved": "未保存的更改",
+      "total": "总计",
+      "work_items": "工作项",
+      "table_title": "匹配的工作项",
+      "table_truncated": "正在显示 {total} 个工作项中的 {shown} 个。导出可获取完整列表。",
+      "result_summary": "{projects, plural, one{# 个项目} other{# 个项目}}中的{count, plural, one{# 个工作项} other{# 个工作项}}",
+      "clear_filters": "清除过滤器",
+      "start_date": "开始",
+      "end_date": "结束"
+    },
+    "metrics": {
+      "work_item_count": "工作项数量",
+      "estimate_points": "估算点数"
+    },
+    "dimensions": {
+      "states": "状态",
+      "state_groups": "状态组",
+      "priority": "优先级",
+      "assignees": "负责人",
+      "labels": "标签",
+      "projects": "项目",
+      "cycles": "周期",
+      "modules": "模块",
+      "estimate_points": "估算",
+      "created_by": "创建者",
+      "created_at": "创建日期",
+      "completed_at": "完成日期",
+      "start_date": "开始日期",
+      "target_date": "截止日期"
+    },
+    "date_groupings": {
+      "day": "日",
+      "week": "周",
+      "month": "月",
+      "year": "年"
+    },
+    "date_fields": {
+      "created_at": "创建日期",
+      "completed_at": "完成日期",
+      "start_date": "开始日期",
+      "target_date": "截止日期"
+    },
+    "date_presets": {
+      "last_7_days": "过去 7 天",
+      "last_30_days": "过去 30 天",
+      "last_90_days": "过去 90 天",
+      "this_month": "本月",
+      "last_month": "上月",
+      "this_quarter": "本季度",
+      "this_year": "今年",
+      "custom": "自定义范围"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "标题",
+      "project": "项目",
+      "state": "状态",
+      "state_group": "状态组",
+      "priority": "优先级",
+      "assignees": "负责人",
+      "labels": "标签",
+      "start_date": "开始日期",
+      "target_date": "截止日期",
+      "completed_at": "完成日期",
+      "created_at": "创建日期",
+      "estimate": "估算"
+    },
+    "values": {
+      "urgent": "紧急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "backlog": "待办",
+      "unstarted": "未开始",
+      "started": "进行中",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "none": "无",
+      "other": "其他"
+    },
+    "export": {
+      "label": "导出",
+      "csv": "导出 CSV",
+      "xlsx": "导出 Excel（XLSX）",
+      "success": "导出文件已下载",
+      "error": "无法导出报告。",
+      "sheets": {
+        "summary": "摘要",
+        "items": "工作项"
+      }
+    },
+    "save_modal": {
+      "title": "保存报告",
+      "edit_title": "报告设置",
+      "name": "名称",
+      "name_placeholder": "例如：按优先级划分的缺陷",
+      "name_required": "名称为必填项",
+      "description": "描述",
+      "visibility": "可见性",
+      "save": "保存报告",
+      "saving": "保存中"
+    },
+    "access": {
+      "private": "私有",
+      "workspace": "工作区",
+      "private_description": "只有您可以打开此报告。",
+      "workspace_description": "工作区中的所有人都可以打开。每个人只能看到自己所属项目的数据。"
+    },
+    "delete": {
+      "title": "删除报告",
+      "description": "要删除“{name}”吗？此操作无法撤销。",
+      "success": "报告已删除"
+    },
+    "toast": {
+      "saved": "报告已保存",
+      "error": "出现错误。请重试。",
+      "link_copied": "链接已复制到剪贴板"
+    },
+    "errors": {
+      "timeout": "此报告运行时间过长。请缩小筛选范围后重试。",
+      "generic": "无法运行此报告。"
+    },
+    "not_found": {
+      "title": "未找到报告",
+      "description": "它可能已被删除，或仅对其所有者可见。"
+    }
+  },
+  "cycle_report": {
+    "title": "周期报告",
+    "view_report": "查看报告",
+    "page_title": "{cycle} - 报告",
+    "status": {
+      "upcoming": "即将开始",
+      "current": "进行中",
+      "completed": "已完成"
+    },
+    "summary": {
+      "scope": "范围",
+      "completed": "已完成",
+      "pending": "待处理",
+      "cancelled": "已取消",
+      "completion": "完成率",
+      "days_left": "剩余天数",
+      "days_left_count": "{count, plural, one{剩余 # 天} other{剩余 # 天}}",
+      "elapsed": "第 {elapsed} 天，共 {total} 天",
+      "points_of": "{completed} / {total} 点"
+    },
+    "toggle": {
+      "issues": "工作项",
+      "points": "点数"
+    },
+    "burndown": {
+      "title": "燃尽图",
+      "ideal": "理想",
+      "remaining": "剩余"
+    },
+    "breakdown": {
+      "title": "细分",
+      "assignees": "负责人",
+      "labels": "标签",
+      "state_groups": "状态",
+      "priorities": "优先级",
+      "unassigned": "未分配",
+      "no_label": "无标签",
+      "name": "名称",
+      "total": "总计",
+      "completed": "已完成",
+      "pending": "待处理"
+    },
+    "scope_changes": {
+      "title": "范围变更",
+      "added": "已添加",
+      "removed": "已移除",
+      "net": "净变化",
+      "none": "周期开始后没有添加或移除任何工作项。",
+      "unavailable": "此周期的范围历史不可用。",
+      "accuracy_note": "基于活动日志。最近几秒内的更改可能尚未显示。"
+    },
+    "incomplete": {
+      "title": "未完成的工作项",
+      "transferred_title": "已转移的工作项",
+      "empty": "此周期中的所有工作项均已完成。",
+      "truncated": "仅显示前 {count} 个工作项。"
+    },
+    "source": {
+      "snapshot": "快照",
+      "live": "实时数据",
+      "snapshot_hint": "数据记录于转移未完成工作项时。",
+      "live_hint": "数据反映此周期中工作项的当前状态。",
+      "priorities_live": "优先级始终反映当前数据。"
+    },
+    "errors": {
+      "no_dates": "请为此周期设置开始日期和结束日期以查看其报告。",
+      "guest_restricted": "访客无法查看此项目中的周期报告。",
+      "not_found": "未找到此周期。",
+      "generic": "无法加载周期报告。"
+    },
+    "export": {
+      "section_csv": "导出此部分（CSV）",
+      "workbook": "全部导出（XLSX）"
+    },
+    "columns": {
+      "metric": "指标",
+      "value": "值",
+      "date": "日期",
+      "remaining_issues": "剩余工作项",
+      "remaining_points": "剩余点数",
+      "change": "变化",
+      "id": "ID",
+      "state": "状态",
+      "priority": "优先级",
+      "assignees": "负责人",
+      "target_date": "截止日期",
+      "estimate": "估算",
+      "points_total": "点数",
+      "points_completed": "已完成点数",
+      "days_total": "天数"
+    }
+  }
+}

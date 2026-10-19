@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dešbordy",
+    "page_title": "{workspace} - Dešbordy",
+    "list": {
+      "new": "Nový dešbord",
+      "search_placeholder": "Hľadať dešbordy",
+      "no_results": "Vášmu hľadaniu nezodpovedajú žiadne dešbordy.",
+      "widget_count": "{count, plural, one{# widget} few{# widgety} many{# widgetu} other{# widgetov}}",
+      "owned_by_you": "Vytvorené vami",
+      "shared": "Zdieľané s pracovným priestorom",
+      "empty": {
+        "title": "Vizualizujte svoju prácu pomocou dešbordov",
+        "description": "Zostavujte dešbordy z grafov, čísel a tabuliek a sledujte pokrok vo svojich projektoch.",
+        "cta": "Vytvoriť dešbord"
+      }
+    },
+    "access": {
+      "label": "Viditeľnosť",
+      "private": "Súkromný",
+      "workspace": "Pracovný priestor",
+      "private_description": "Tento dešbord vidíte iba vy.",
+      "workspace_description": "Môže ho zobraziť ktokoľvek v pracovnom priestore. Každý vidí údaje iba z projektov, ktorých je členom."
+    },
+    "form": {
+      "create_title": "Vytvoriť dešbord",
+      "edit_title": "Upraviť dešbord",
+      "name": "Názov",
+      "name_placeholder": "napr. Prehľad dodávok",
+      "name_required": "Názov je povinný",
+      "description": "Popis",
+      "description_placeholder": "Na čo slúži tento dešbord?",
+      "create": "Vytvoriť dešbord",
+      "update": "Uložiť zmeny",
+      "creating": "Vytváranie",
+      "updating": "Ukladanie"
+    },
+    "actions": {
+      "add_widget": "Pridať widget",
+      "edit_layout": "Upraviť rozloženie",
+      "done": "Hotovo",
+      "edit": "Upraviť dešbord",
+      "copy_link": "Kopírovať odkaz",
+      "delete": "Zmazať dešbord"
+    },
+    "delete": {
+      "title": "Zmazať dešbord",
+      "description": "Zmazať „{name}“ a všetky jeho widgety? Túto akciu nie je možné vrátiť späť.",
+      "confirm": "Zmazať",
+      "deleting": "Mazanie"
+    },
+    "toast": {
+      "created": "Dešbord bol vytvorený",
+      "updated": "Dešbord bol aktualizovaný",
+      "deleted": "Dešbord bol zmazaný",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova.",
+      "link_copied": "Odkaz skopírovaný do schránky"
+    },
+    "empty_widgets": {
+      "title": "Tento dešbord zatiaľ nemá žiadne widgety",
+      "description": "Pridajte graf, číslo alebo tabuľku a začnite sledovať svoju prácu.",
+      "viewer_description": "Vlastník zatiaľ nepridal žiadne widgety."
+    },
+    "not_found": {
+      "title": "Dešbord sa nenašiel",
+      "description": "Mohol byť zmazaný alebo je súkromný."
+    },
+    "restricted": {
+      "title": "Nemáte prístup",
+      "description": "Dešbordy a reporty sú dostupné správcom a členom pracovného priestoru."
+    },
+    "widget": {
+      "types": {
+        "number": "Číslo",
+        "bar": "Stĺpcový graf",
+        "stacked_bar": "Skladaný stĺpcový graf",
+        "line": "Čiarový graf",
+        "area": "Plošný graf",
+        "pie": "Koláčový graf",
+        "donut": "Prstencový graf",
+        "table": "Tabuľka"
+      },
+      "sizes": {
+        "label": "Veľkosť",
+        "small": "Malý",
+        "medium": "Stredný",
+        "large": "Veľký",
+        "full": "Plná šírka"
+      },
+      "color_palettes": {
+        "modern": "Moderná",
+        "horizon": "Horizont",
+        "earthen": "Zemitá"
+      },
+      "editor": {
+        "create_title": "Pridať widget",
+        "edit_title": "Upraviť widget",
+        "name": "Názov",
+        "name_placeholder": "napr. Pracovné položky podľa stavu",
+        "type": "Vizualizácia",
+        "data": "Údaje",
+        "appearance": "Vzhľad",
+        "palette": "Farebná paleta",
+        "show_legend": "Zobraziť legendu",
+        "preview": "Náhľad",
+        "preview_hint": "Náhľad používa váš prístup k projektom.",
+        "save": "Pridať widget",
+        "update": "Uložiť widget",
+        "saving": "Ukladanie"
+      },
+      "actions": {
+        "edit": "Upraviť",
+        "duplicate": "Duplikovať",
+        "delete": "Zmazať",
+        "resize": "Zmeniť veľkosť"
+      },
+      "delete": {
+        "title": "Zmazať widget",
+        "description": "Zmazať „{name}“ z tohto dešbordu?"
+      },
+      "states": {
+        "error": "Tento widget sa nepodarilo načítať.",
+        "retry": "Skúsiť znova",
+        "empty": "Týmto nastaveniam nezodpovedajú žiadne pracovné položky.",
+        "truncated": "Zobrazujú sa iba najväčšie skupiny.",
+        "timeout": "Načítanie tohto widgetu trvalo príliš dlho. Zúžte jeho filtre."
+      },
+      "scope_hint": "Zobrazuje údaje z projektov, ktorých ste členom.",
+      "untitled": "Widget bez názvu",
+      "work_items": "{count, plural, one{# pracovná položka} few{# pracovné položky} many{# pracovnej položky} other{# pracovných položiek}}",
+      "points": "Body: {count}"
+    }
+  }
+}

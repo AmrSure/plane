@@ -4,10 +4,12 @@
  * See the LICENSE file for details.
  */
 
+import { FileChartColumn } from "lucide-react";
 import {
   AnalyticsIcon,
   ArchiveIcon,
   CycleIcon,
+  DashboardIcon,
   DraftIcon,
   HomeIcon,
   InboxIcon,
@@ -32,6 +34,10 @@ export const getSidebarNavigationItemIcon = (key: string, className: string = ""
       return <CycleIcon className={cn("size-4 flex-shrink-0", className)} />;
     case "analytics":
       return <AnalyticsIcon className={cn("size-4 flex-shrink-0", className)} />;
+    case "dashboards":
+      return <DashboardIcon className={cn("size-4 flex-shrink-0", className)} />;
+    case "reports":
+      return <FileChartColumn className={cn("size-4 flex-shrink-0", className)} />;
     case "your_work":
       return <YourWorkIcon className={cn("size-4 flex-shrink-0", className)} />;
     case "drafts":

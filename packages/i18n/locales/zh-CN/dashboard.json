@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "仪表板",
+    "page_title": "{workspace} - 仪表板",
+    "list": {
+      "new": "新建仪表板",
+      "search_placeholder": "搜索仪表板",
+      "no_results": "没有与搜索匹配的仪表板。",
+      "widget_count": "{count, plural, one{# 个小部件} other{# 个小部件}}",
+      "owned_by_you": "由您创建",
+      "shared": "已与工作区共享",
+      "empty": {
+        "title": "使用仪表板可视化您的工作",
+        "description": "使用图表、数字和表格构建仪表板，跟踪各个项目的进度。",
+        "cta": "创建仪表板"
+      }
+    },
+    "access": {
+      "label": "可见性",
+      "private": "私有",
+      "workspace": "工作区",
+      "private_description": "只有您可以查看此仪表板。",
+      "workspace_description": "工作区中的所有人都可以查看。每个人只能看到自己所属项目的数据。"
+    },
+    "form": {
+      "create_title": "创建仪表板",
+      "edit_title": "编辑仪表板",
+      "name": "名称",
+      "name_placeholder": "例如：交付概览",
+      "name_required": "名称为必填项",
+      "description": "描述",
+      "description_placeholder": "此仪表板的用途是什么？",
+      "create": "创建仪表板",
+      "update": "保存更改",
+      "creating": "创建中",
+      "updating": "保存中"
+    },
+    "actions": {
+      "add_widget": "添加小部件",
+      "edit_layout": "编辑布局",
+      "done": "完成",
+      "edit": "编辑仪表板",
+      "copy_link": "复制链接",
+      "delete": "删除仪表板"
+    },
+    "delete": {
+      "title": "删除仪表板",
+      "description": "要删除“{name}”及其所有小部件吗？此操作无法撤销。",
+      "confirm": "删除",
+      "deleting": "删除中"
+    },
+    "toast": {
+      "created": "仪表板已创建",
+      "updated": "仪表板已更新",
+      "deleted": "仪表板已删除",
+      "error": "出现错误。请重试。",
+      "link_copied": "链接已复制到剪贴板"
+    },
+    "empty_widgets": {
+      "title": "此仪表板还没有小部件",
+      "description": "添加图表、数字或表格，开始跟踪您的工作。",
+      "viewer_description": "所有者尚未添加任何小部件。"
+    },
+    "not_found": {
+      "title": "未找到仪表板",
+      "description": "它可能已被删除，或仅对其所有者可见。"
+    },
+    "restricted": {
+      "title": "您没有访问权限",
+      "description": "仪表板和报告仅供工作区管理员和成员使用。"
+    },
+    "widget": {
+      "types": {
+        "number": "数字",
+        "bar": "柱状图",
+        "stacked_bar": "堆叠柱状图",
+        "line": "折线图",
+        "area": "面积图",
+        "pie": "饼图",
+        "donut": "环形图",
+        "table": "表格"
+      },
+      "sizes": {
+        "label": "尺寸",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "full": "全宽"
+      },
+      "color_palettes": {
+        "modern": "现代",
+        "horizon": "地平线",
+        "earthen": "大地"
+      },
+      "editor": {
+        "create_title": "添加小部件",
+        "edit_title": "编辑小部件",
+        "name": "标题",
+        "name_placeholder": "例如：按状态划分的工作项",
+        "type": "可视化",
+        "data": "数据",
+        "appearance": "外观",
+        "palette": "调色板",
+        "show_legend": "显示图例",
+        "preview": "预览",
+        "preview_hint": "预览使用您自己的项目访问权限。",
+        "save": "添加小部件",
+        "update": "保存小部件",
+        "saving": "保存中"
+      },
+      "actions": {
+        "edit": "编辑",
+        "duplicate": "复制",
+        "delete": "删除",
+        "resize": "调整大小"
+      },
+      "delete": {
+        "title": "删除小部件",
+        "description": "要从此仪表板中删除“{name}”吗？"
+      },
+      "states": {
+        "error": "无法加载此小部件。",
+        "retry": "重试",
+        "empty": "没有符合这些设置的工作项。",
+        "truncated": "仅显示最大的分组。",
+        "timeout": "此小部件加载时间过长。请缩小其筛选范围。"
+      },
+      "scope_hint": "显示您所属项目的数据。",
+      "untitled": "未命名小部件",
+      "work_items": "{count, plural, one{# 个工作项} other{# 个工作项}}",
+      "points": "{count} 点"
+    }
+  }
+}

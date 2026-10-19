@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Pulpity nawigacyjne",
+    "page_title": "{workspace} - Pulpity nawigacyjne",
+    "list": {
+      "new": "Nowy pulpit nawigacyjny",
+      "search_placeholder": "Szukaj pulpitów nawigacyjnych",
+      "no_results": "Brak pulpitów nawigacyjnych pasujących do wyszukiwania.",
+      "widget_count": "{count, plural, one{# widżet} few{# widżety} many{# widżetów} other{# widżetu}}",
+      "owned_by_you": "Utworzone przez Ciebie",
+      "shared": "Udostępnione przestrzeni roboczej",
+      "empty": {
+        "title": "Wizualizuj swoją pracę za pomocą pulpitów nawigacyjnych",
+        "description": "Twórz pulpity nawigacyjne z wykresów, liczb i tabel, aby śledzić postęp w swoich projektach.",
+        "cta": "Utwórz pulpit nawigacyjny"
+      }
+    },
+    "access": {
+      "label": "Widoczność",
+      "private": "Prywatny",
+      "workspace": "Przestrzeń robocza",
+      "private_description": "Tylko Ty widzisz ten pulpit nawigacyjny.",
+      "workspace_description": "Każdy w przestrzeni roboczej może go wyświetlić. Każda osoba widzi dane tylko z projektów, do których należy."
+    },
+    "form": {
+      "create_title": "Utwórz pulpit nawigacyjny",
+      "edit_title": "Edytuj pulpit nawigacyjny",
+      "name": "Nazwa",
+      "name_placeholder": "np. Przegląd dostaw",
+      "name_required": "Nazwa jest wymagana",
+      "description": "Opis",
+      "description_placeholder": "Do czego służy ten pulpit nawigacyjny?",
+      "create": "Utwórz pulpit nawigacyjny",
+      "update": "Zapisz zmiany",
+      "creating": "Tworzenie",
+      "updating": "Zapisywanie"
+    },
+    "actions": {
+      "add_widget": "Dodaj widżet",
+      "edit_layout": "Edytuj układ",
+      "done": "Gotowe",
+      "edit": "Edytuj pulpit nawigacyjny",
+      "copy_link": "Kopiuj link",
+      "delete": "Usuń pulpit nawigacyjny"
+    },
+    "delete": {
+      "title": "Usuń pulpit nawigacyjny",
+      "description": "Usunąć „{name}” i wszystkie jego widżety? Tej operacji nie można cofnąć.",
+      "confirm": "Usuń",
+      "deleting": "Usuwanie"
+    },
+    "toast": {
+      "created": "Pulpit nawigacyjny utworzony",
+      "updated": "Pulpit nawigacyjny zaktualizowany",
+      "deleted": "Pulpit nawigacyjny usunięty",
+      "error": "Coś poszło nie tak. Spróbuj ponownie.",
+      "link_copied": "Link skopiowano do schowka"
+    },
+    "empty_widgets": {
+      "title": "Ten pulpit nawigacyjny nie ma jeszcze widżetów",
+      "description": "Dodaj wykres, liczbę lub tabelę, aby zacząć śledzić swoją pracę.",
+      "viewer_description": "Właściciel nie dodał jeszcze żadnych widżetów."
+    },
+    "not_found": {
+      "title": "Nie znaleziono pulpitu nawigacyjnego",
+      "description": "Mógł zostać usunięty lub jest prywatny."
+    },
+    "restricted": {
+      "title": "Nie masz dostępu",
+      "description": "Pulpity nawigacyjne i raporty są dostępne dla administratorów i członków przestrzeni roboczej."
+    },
+    "widget": {
+      "types": {
+        "number": "Liczba",
+        "bar": "Wykres słupkowy",
+        "stacked_bar": "Skumulowany wykres słupkowy",
+        "line": "Wykres liniowy",
+        "area": "Wykres warstwowy",
+        "pie": "Wykres kołowy",
+        "donut": "Wykres pierścieniowy",
+        "table": "Tabela"
+      },
+      "sizes": {
+        "label": "Rozmiar",
+        "small": "Mały",
+        "medium": "Średni",
+        "large": "Duży",
+        "full": "Pełna szerokość"
+      },
+      "color_palettes": {
+        "modern": "Nowoczesna",
+        "horizon": "Horyzont",
+        "earthen": "Ziemista"
+      },
+      "editor": {
+        "create_title": "Dodaj widżet",
+        "edit_title": "Edytuj widżet",
+        "name": "Tytuł",
+        "name_placeholder": "np. Elementy pracy według stanu",
+        "type": "Wizualizacja",
+        "data": "Dane",
+        "appearance": "Wygląd",
+        "palette": "Paleta kolorów",
+        "show_legend": "Pokaż legendę",
+        "preview": "Podgląd",
+        "preview_hint": "Podgląd uwzględnia Twój dostęp do projektów.",
+        "save": "Dodaj widżet",
+        "update": "Zapisz widżet",
+        "saving": "Zapisywanie"
+      },
+      "actions": {
+        "edit": "Edytuj",
+        "duplicate": "Duplikuj",
+        "delete": "Usuń",
+        "resize": "Zmień rozmiar"
+      },
+      "delete": {
+        "title": "Usuń widżet",
+        "description": "Usunąć „{name}” z tego pulpitu nawigacyjnego?"
+      },
+      "states": {
+        "error": "Nie udało się załadować tego widżetu.",
+        "retry": "Ponów",
+        "empty": "Brak elementów pracy pasujących do tych ustawień.",
+        "truncated": "Wyświetlane są tylko największe grupy.",
+        "timeout": "Ładowanie tego widżetu trwało zbyt długo. Zawęź jego filtry."
+      },
+      "scope_hint": "Pokazuje dane z projektów, których jesteś członkiem.",
+      "untitled": "Widżet bez tytułu",
+      "work_items": "{count, plural, one{# element pracy} few{# elementy pracy} many{# elementów pracy} other{# elementu pracy}}",
+      "points": "Punkty: {count}"
+    }
+  }
+}

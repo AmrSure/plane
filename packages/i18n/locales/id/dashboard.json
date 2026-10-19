@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dasbor",
+    "page_title": "{workspace} - Dasbor",
+    "list": {
+      "new": "Dasbor baru",
+      "search_placeholder": "Cari dasbor",
+      "no_results": "Tidak ada dasbor yang cocok dengan pencarian Anda.",
+      "widget_count": "{count, plural, one{# widget} other{# widget}}",
+      "owned_by_you": "Dibuat oleh Anda",
+      "shared": "Dibagikan dengan ruang kerja",
+      "empty": {
+        "title": "Visualisasikan pekerjaan Anda dengan dasbor",
+        "description": "Buat dasbor dari grafik, angka, dan tabel untuk memantau kemajuan di seluruh proyek Anda.",
+        "cta": "Buat dasbor"
+      }
+    },
+    "access": {
+      "label": "Visibilitas",
+      "private": "Pribadi",
+      "workspace": "Ruang kerja",
+      "private_description": "Hanya Anda yang dapat melihat dasbor ini.",
+      "workspace_description": "Semua orang di ruang kerja dapat melihatnya. Setiap orang hanya melihat data dari proyek tempat mereka bergabung."
+    },
+    "form": {
+      "create_title": "Buat dasbor",
+      "edit_title": "Edit dasbor",
+      "name": "Nama",
+      "name_placeholder": "mis. Ringkasan pengiriman",
+      "name_required": "Nama wajib diisi",
+      "description": "Deskripsi",
+      "description_placeholder": "Untuk apa dasbor ini?",
+      "create": "Buat dasbor",
+      "update": "Simpan perubahan",
+      "creating": "Membuat",
+      "updating": "Menyimpan"
+    },
+    "actions": {
+      "add_widget": "Tambah widget",
+      "edit_layout": "Edit tata letak",
+      "done": "Selesai",
+      "edit": "Edit dasbor",
+      "copy_link": "Salin tautan",
+      "delete": "Hapus dasbor"
+    },
+    "delete": {
+      "title": "Hapus dasbor",
+      "description": "Hapus \"{name}\" beserta semua widget-nya? Tindakan ini tidak dapat dibatalkan.",
+      "confirm": "Hapus",
+      "deleting": "Menghapus"
+    },
+    "toast": {
+      "created": "Dasbor dibuat",
+      "updated": "Dasbor diperbarui",
+      "deleted": "Dasbor dihapus",
+      "error": "Terjadi kesalahan. Silakan coba lagi.",
+      "link_copied": "Tautan disalin ke clipboard"
+    },
+    "empty_widgets": {
+      "title": "Dasbor ini belum memiliki widget",
+      "description": "Tambahkan grafik, angka, atau tabel untuk mulai memantau pekerjaan Anda.",
+      "viewer_description": "Pemilik belum menambahkan widget apa pun."
+    },
+    "not_found": {
+      "title": "Dasbor tidak ditemukan",
+      "description": "Dasbor mungkin telah dihapus, atau bersifat pribadi bagi pemiliknya."
+    },
+    "restricted": {
+      "title": "Anda tidak memiliki akses",
+      "description": "Dasbor dan laporan tersedia untuk admin dan anggota ruang kerja."
+    },
+    "widget": {
+      "types": {
+        "number": "Angka",
+        "bar": "Grafik batang",
+        "stacked_bar": "Grafik batang bertumpuk",
+        "line": "Grafik garis",
+        "area": "Grafik area",
+        "pie": "Grafik pai",
+        "donut": "Grafik donat",
+        "table": "Tabel"
+      },
+      "sizes": {
+        "label": "Ukuran",
+        "small": "Kecil",
+        "medium": "Sedang",
+        "large": "Besar",
+        "full": "Lebar penuh"
+      },
+      "color_palettes": {
+        "modern": "Modern",
+        "horizon": "Cakrawala",
+        "earthen": "Tanah"
+      },
+      "editor": {
+        "create_title": "Tambah widget",
+        "edit_title": "Edit widget",
+        "name": "Judul",
+        "name_placeholder": "mis. Item kerja berdasarkan status",
+        "type": "Visualisasi",
+        "data": "Data",
+        "appearance": "Tampilan",
+        "palette": "Palet warna",
+        "show_legend": "Tampilkan legenda",
+        "preview": "Pratinjau",
+        "preview_hint": "Pratinjau menggunakan akses proyek Anda sendiri.",
+        "save": "Tambah widget",
+        "update": "Simpan widget",
+        "saving": "Menyimpan"
+      },
+      "actions": {
+        "edit": "Edit",
+        "duplicate": "Duplikat",
+        "delete": "Hapus",
+        "resize": "Ubah ukuran"
+      },
+      "delete": {
+        "title": "Hapus widget",
+        "description": "Hapus \"{name}\" dari dasbor ini?"
+      },
+      "states": {
+        "error": "Tidak dapat memuat widget ini.",
+        "retry": "Coba lagi",
+        "empty": "Tidak ada item kerja yang cocok dengan pengaturan ini.",
+        "truncated": "Hanya menampilkan grup terbesar.",
+        "timeout": "Widget ini terlalu lama dimuat. Persempit filternya."
+      },
+      "scope_hint": "Menampilkan data dari proyek tempat Anda menjadi anggota.",
+      "untitled": "Widget tanpa judul",
+      "work_items": "{count, plural, one{# item kerja} other{# item kerja}}",
+      "points": "{count} poin"
+    }
+  }
+}

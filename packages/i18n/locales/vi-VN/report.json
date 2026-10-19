@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Báo cáo",
+    "page_title": "{workspace} - Báo cáo",
+    "list": {
+      "new": "Báo cáo mới",
+      "title": "Báo cáo đã lưu",
+      "search_placeholder": "Tìm kiếm báo cáo",
+      "no_results": "Không có báo cáo nào khớp với tìm kiếm của bạn.",
+      "empty": {
+        "title": "Biến dữ liệu công việc thành báo cáo",
+        "description": "Nhóm các mục công việc theo bất kỳ chiều dữ liệu nào, so sánh các chỉ số và xuất kết quả.",
+        "cta": "Tạo báo cáo"
+      }
+    },
+    "builder": {
+      "new_title": "Báo cáo mới",
+      "dimension": "Nhóm theo",
+      "group_by": "Chia theo",
+      "none": "Không có",
+      "metric": "Thước đo",
+      "date_grouping": "Khoảng ngày",
+      "date_range": "Khoảng thời gian",
+      "date_field": "Trường ngày",
+      "all_time": "Mọi thời điểm",
+      "chart_type": "Loại biểu đồ",
+      "filters": "Bộ lọc",
+      "projects": "Dự án",
+      "all_projects": "Tất cả dự án của tôi",
+      "state_groups": "Nhóm trạng thái",
+      "priorities": "Ưu tiên",
+      "assignees": "Người phụ trách",
+      "labels": "Nhãn",
+      "include_sub_work_items": "Bao gồm mục công việc con",
+      "save": "Lưu",
+      "save_as": "Lưu thành báo cáo mới",
+      "copy_link": "Sao chép liên kết",
+      "unsaved": "Thay đổi chưa lưu",
+      "total": "Tổng",
+      "work_items": "Mục công việc",
+      "table_title": "Mục công việc phù hợp",
+      "table_truncated": "Đang hiển thị {shown} trên {total} mục công việc. Hãy xuất để nhận danh sách đầy đủ.",
+      "result_summary": "{count, plural, one{# mục công việc} other{# mục công việc}} trong {projects, plural, one{# dự án} other{# dự án}}",
+      "clear_filters": "Xóa bộ lọc",
+      "start_date": "Bắt đầu",
+      "end_date": "Kết thúc"
+    },
+    "metrics": {
+      "work_item_count": "Số lượng mục công việc",
+      "estimate_points": "Điểm ước tính"
+    },
+    "dimensions": {
+      "states": "Trạng thái",
+      "state_groups": "Nhóm trạng thái",
+      "priority": "Ưu tiên",
+      "assignees": "Người phụ trách",
+      "labels": "Nhãn",
+      "projects": "Dự án",
+      "cycles": "Chu kỳ",
+      "modules": "Mô-đun",
+      "estimate_points": "Ước tính",
+      "created_by": "Người tạo",
+      "created_at": "Ngày tạo",
+      "completed_at": "Ngày hoàn thành",
+      "start_date": "Ngày bắt đầu",
+      "target_date": "Ngày hết hạn"
+    },
+    "date_groupings": {
+      "day": "Ngày",
+      "week": "Tuần",
+      "month": "Tháng",
+      "year": "Năm"
+    },
+    "date_fields": {
+      "created_at": "Ngày tạo",
+      "completed_at": "Ngày hoàn thành",
+      "start_date": "Ngày bắt đầu",
+      "target_date": "Ngày hết hạn"
+    },
+    "date_presets": {
+      "last_7_days": "7 ngày qua",
+      "last_30_days": "30 ngày qua",
+      "last_90_days": "90 ngày qua",
+      "this_month": "Tháng này",
+      "last_month": "Tháng trước",
+      "this_quarter": "Quý này",
+      "this_year": "Năm nay",
+      "custom": "Khoảng tùy chỉnh"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Tiêu đề",
+      "project": "Dự án",
+      "state": "Trạng thái",
+      "state_group": "Nhóm trạng thái",
+      "priority": "Ưu tiên",
+      "assignees": "Người phụ trách",
+      "labels": "Nhãn",
+      "start_date": "Ngày bắt đầu",
+      "target_date": "Ngày hết hạn",
+      "completed_at": "Ngày hoàn thành",
+      "created_at": "Ngày tạo",
+      "estimate": "Ước tính"
+    },
+    "values": {
+      "urgent": "Khẩn cấp",
+      "high": "Cao",
+      "medium": "Trung bình",
+      "low": "Thấp",
+      "backlog": "Tồn đọng",
+      "unstarted": "Chưa bắt đầu",
+      "started": "Đang tiến hành",
+      "completed": "Đã hoàn thành",
+      "cancelled": "Đã hủy",
+      "none": "Không có",
+      "other": "Khác"
+    },
+    "export": {
+      "label": "Xuất",
+      "csv": "Xuất CSV",
+      "xlsx": "Xuất Excel (XLSX)",
+      "success": "Đã tải xuống tệp xuất",
+      "error": "Không thể xuất báo cáo.",
+      "sheets": {
+        "summary": "Tóm tắt",
+        "items": "Mục công việc"
+      }
+    },
+    "save_modal": {
+      "title": "Lưu báo cáo",
+      "edit_title": "Cài đặt báo cáo",
+      "name": "Tên",
+      "name_placeholder": "Ví dụ: Lỗi theo mức ưu tiên",
+      "name_required": "Tên là bắt buộc",
+      "description": "Mô tả",
+      "visibility": "Chế độ hiển thị",
+      "save": "Lưu báo cáo",
+      "saving": "Đang lưu"
+    },
+    "access": {
+      "private": "Riêng tư",
+      "workspace": "Không gian làm việc",
+      "private_description": "Chỉ bạn mới có thể mở báo cáo này.",
+      "workspace_description": "Mọi người trong không gian làm việc đều có thể mở. Mỗi người chỉ thấy dữ liệu từ các dự án mà họ tham gia."
+    },
+    "delete": {
+      "title": "Xóa báo cáo",
+      "description": "Xóa \"{name}\"? Không thể hoàn tác thao tác này.",
+      "success": "Đã xóa báo cáo"
+    },
+    "toast": {
+      "saved": "Đã lưu báo cáo",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "link_copied": "Đã sao chép liên kết vào bảng tạm"
+    },
+    "errors": {
+      "timeout": "Báo cáo này mất quá nhiều thời gian. Hãy thu hẹp bộ lọc và thử lại.",
+      "generic": "Không thể chạy báo cáo này."
+    },
+    "not_found": {
+      "title": "Không tìm thấy báo cáo",
+      "description": "Có thể nó đã bị xóa hoặc chỉ ở chế độ riêng tư cho chủ sở hữu."
+    }
+  },
+  "cycle_report": {
+    "title": "Báo cáo chu kỳ",
+    "view_report": "Xem báo cáo",
+    "page_title": "{cycle} - Báo cáo",
+    "status": {
+      "upcoming": "Sắp tới",
+      "current": "Đang tiến hành",
+      "completed": "Đã hoàn thành"
+    },
+    "summary": {
+      "scope": "Phạm vi",
+      "completed": "Đã hoàn thành",
+      "pending": "Đang chờ xử lý",
+      "cancelled": "Đã hủy",
+      "completion": "Mức hoàn thành",
+      "days_left": "Số ngày còn lại",
+      "days_left_count": "{count, plural, one{Còn # ngày} other{Còn # ngày}}",
+      "elapsed": "Ngày {elapsed} trên {total}",
+      "points_of": "{completed} trên {total} điểm"
+    },
+    "toggle": {
+      "issues": "Mục công việc",
+      "points": "Điểm"
+    },
+    "burndown": {
+      "title": "Biểu đồ burndown",
+      "ideal": "Lý tưởng",
+      "remaining": "Còn lại"
+    },
+    "breakdown": {
+      "title": "Phân tích chi tiết",
+      "assignees": "Người phụ trách",
+      "labels": "Nhãn",
+      "state_groups": "Trạng thái",
+      "priorities": "Ưu tiên",
+      "unassigned": "Chưa phân công",
+      "no_label": "Không có nhãn",
+      "name": "Tên",
+      "total": "Tổng",
+      "completed": "Đã hoàn thành",
+      "pending": "Đang chờ xử lý"
+    },
+    "scope_changes": {
+      "title": "Thay đổi phạm vi",
+      "added": "Đã thêm",
+      "removed": "Đã gỡ bỏ",
+      "net": "Thay đổi ròng",
+      "none": "Không có mục công việc nào được thêm hoặc gỡ bỏ sau khi chu kỳ bắt đầu.",
+      "unavailable": "Không có lịch sử phạm vi cho chu kỳ này.",
+      "accuracy_note": "Dựa trên nhật ký hoạt động. Các thay đổi trong vài giây gần đây có thể chưa xuất hiện."
+    },
+    "incomplete": {
+      "title": "Mục công việc chưa hoàn thành",
+      "transferred_title": "Mục công việc đã chuyển",
+      "empty": "Mọi mục công việc trong chu kỳ này đều đã hoàn thành.",
+      "truncated": "Đang hiển thị {count} mục công việc đầu tiên."
+    },
+    "source": {
+      "snapshot": "Ảnh chụp nhanh",
+      "live": "Dữ liệu trực tiếp",
+      "snapshot_hint": "Số liệu được ghi lại khi các mục công việc chưa hoàn thành được chuyển đi.",
+      "live_hint": "Số liệu phản ánh trạng thái hiện tại của các mục công việc trong chu kỳ này.",
+      "priorities_live": "Mức ưu tiên luôn phản ánh dữ liệu hiện tại."
+    },
+    "errors": {
+      "no_dates": "Đặt ngày bắt đầu và ngày kết thúc cho chu kỳ này để xem báo cáo.",
+      "guest_restricted": "Khách không thể xem báo cáo chu kỳ trong dự án này.",
+      "not_found": "Không tìm thấy chu kỳ này.",
+      "generic": "Không thể tải báo cáo chu kỳ."
+    },
+    "export": {
+      "section_csv": "Xuất phần này (CSV)",
+      "workbook": "Xuất tất cả (XLSX)"
+    },
+    "columns": {
+      "metric": "Chỉ số",
+      "value": "Giá trị",
+      "date": "Ngày",
+      "remaining_issues": "Mục công việc còn lại",
+      "remaining_points": "Điểm còn lại",
+      "change": "Thay đổi",
+      "id": "ID",
+      "state": "Trạng thái",
+      "priority": "Ưu tiên",
+      "assignees": "Người phụ trách",
+      "target_date": "Ngày hết hạn",
+      "estimate": "Ước tính",
+      "points_total": "Điểm",
+      "points_completed": "Điểm đã hoàn thành",
+      "days_total": "Số ngày"
+    }
+  }
+}

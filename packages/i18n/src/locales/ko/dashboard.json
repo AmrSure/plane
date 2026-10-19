@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "대시보드",
+    "page_title": "{workspace} - 대시보드",
+    "list": {
+      "new": "새 대시보드",
+      "search_placeholder": "대시보드 검색",
+      "no_results": "검색과 일치하는 대시보드가 없습니다.",
+      "widget_count": "{count, plural, one{위젯 #개} other{위젯 #개}}",
+      "owned_by_you": "내가 만든 대시보드",
+      "shared": "작업 공간과 공유됨",
+      "empty": {
+        "title": "대시보드로 작업을 시각화하세요",
+        "description": "차트, 숫자, 표로 대시보드를 만들어 여러 프로젝트의 진행 상황을 추적하세요.",
+        "cta": "대시보드 만들기"
+      }
+    },
+    "access": {
+      "label": "공개 범위",
+      "private": "비공개",
+      "workspace": "작업 공간",
+      "private_description": "나만 이 대시보드를 볼 수 있습니다.",
+      "workspace_description": "작업 공간의 모든 사용자가 볼 수 있습니다. 각 사용자는 자신이 속한 프로젝트의 데이터만 볼 수 있습니다."
+    },
+    "form": {
+      "create_title": "대시보드 만들기",
+      "edit_title": "대시보드 편집",
+      "name": "이름",
+      "name_placeholder": "예: 딜리버리 개요",
+      "name_required": "이름은 필수입니다",
+      "description": "설명",
+      "description_placeholder": "이 대시보드의 용도는 무엇인가요?",
+      "create": "대시보드 만들기",
+      "update": "변경 사항 저장",
+      "creating": "생성 중",
+      "updating": "저장 중"
+    },
+    "actions": {
+      "add_widget": "위젯 추가",
+      "edit_layout": "레이아웃 편집",
+      "done": "완료",
+      "edit": "대시보드 편집",
+      "copy_link": "링크 복사",
+      "delete": "대시보드 삭제"
+    },
+    "delete": {
+      "title": "대시보드 삭제",
+      "description": "\"{name}\" 및 모든 위젯을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "confirm": "삭제",
+      "deleting": "삭제 중"
+    },
+    "toast": {
+      "created": "대시보드가 생성되었습니다",
+      "updated": "대시보드가 업데이트되었습니다",
+      "deleted": "대시보드가 삭제되었습니다",
+      "error": "문제가 발생했습니다. 다시 시도해주세요.",
+      "link_copied": "링크가 클립보드에 복사되었습니다"
+    },
+    "empty_widgets": {
+      "title": "이 대시보드에는 아직 위젯이 없습니다",
+      "description": "차트, 숫자 또는 표를 추가하여 작업 추적을 시작하세요.",
+      "viewer_description": "소유자가 아직 위젯을 추가하지 않았습니다."
+    },
+    "not_found": {
+      "title": "대시보드를 찾을 수 없습니다",
+      "description": "삭제되었거나 소유자만 볼 수 있는 비공개 대시보드일 수 있습니다."
+    },
+    "restricted": {
+      "title": "접근 권한이 없습니다",
+      "description": "대시보드와 보고서는 작업 공간 관리자와 멤버가 사용할 수 있습니다."
+    },
+    "widget": {
+      "types": {
+        "number": "숫자",
+        "bar": "막대 차트",
+        "stacked_bar": "누적 막대 차트",
+        "line": "선 차트",
+        "area": "영역 차트",
+        "pie": "원형 차트",
+        "donut": "도넛 차트",
+        "table": "표"
+      },
+      "sizes": {
+        "label": "크기",
+        "small": "작게",
+        "medium": "중간",
+        "large": "크게",
+        "full": "전체 너비"
+      },
+      "color_palettes": {
+        "modern": "모던",
+        "horizon": "호라이즌",
+        "earthen": "어스"
+      },
+      "editor": {
+        "create_title": "위젯 추가",
+        "edit_title": "위젯 편집",
+        "name": "제목",
+        "name_placeholder": "예: 상태별 작업 항목",
+        "type": "시각화",
+        "data": "데이터",
+        "appearance": "모양",
+        "palette": "색상 팔레트",
+        "show_legend": "범례 표시",
+        "preview": "미리보기",
+        "preview_hint": "미리보기는 내 프로젝트 접근 권한을 사용합니다.",
+        "save": "위젯 추가",
+        "update": "위젯 저장",
+        "saving": "저장 중"
+      },
+      "actions": {
+        "edit": "편집",
+        "duplicate": "복제",
+        "delete": "삭제",
+        "resize": "크기 조정"
+      },
+      "delete": {
+        "title": "위젯 삭제",
+        "description": "이 대시보드에서 \"{name}\"을(를) 삭제하시겠습니까?"
+      },
+      "states": {
+        "error": "이 위젯을 불러올 수 없습니다.",
+        "retry": "다시 시도",
+        "empty": "이 설정과 일치하는 작업 항목이 없습니다.",
+        "truncated": "가장 큰 그룹만 표시합니다.",
+        "timeout": "이 위젯을 불러오는 데 시간이 너무 오래 걸렸습니다. 필터 범위를 좁혀주세요."
+      },
+      "scope_hint": "내가 멤버로 속한 프로젝트의 데이터를 표시합니다.",
+      "untitled": "제목 없는 위젯",
+      "work_items": "{count, plural, one{작업 항목 #개} other{작업 항목 #개}}",
+      "points": "{count} 포인트"
+    }
+  }
+}

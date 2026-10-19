@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "ダッシュボード",
+    "page_title": "{workspace} - ダッシュボード",
+    "list": {
+      "new": "新規ダッシュボード",
+      "search_placeholder": "ダッシュボードを検索",
+      "no_results": "検索に一致するダッシュボードはありません。",
+      "widget_count": "{count, plural, one{# 個のウィジェット} other{# 個のウィジェット}}",
+      "owned_by_you": "自分が作成",
+      "shared": "ワークスペースと共有",
+      "empty": {
+        "title": "ダッシュボードで作業を可視化",
+        "description": "グラフ、数値、テーブルからダッシュボードを作成し、プロジェクト全体の進捗を追跡します。",
+        "cta": "ダッシュボードを作成"
+      }
+    },
+    "access": {
+      "label": "公開範囲",
+      "private": "非公開",
+      "workspace": "ワークスペース",
+      "private_description": "このダッシュボードは自分だけが閲覧できます。",
+      "workspace_description": "ワークスペースの全員が閲覧できます。各ユーザーには、自分が所属するプロジェクトのデータのみが表示されます。"
+    },
+    "form": {
+      "create_title": "ダッシュボードを作成",
+      "edit_title": "ダッシュボードを編集",
+      "name": "名前",
+      "name_placeholder": "例：デリバリー概要",
+      "name_required": "名前は必須です",
+      "description": "説明",
+      "description_placeholder": "このダッシュボードの目的は何ですか？",
+      "create": "ダッシュボードを作成",
+      "update": "変更を保存",
+      "creating": "作成中",
+      "updating": "保存中"
+    },
+    "actions": {
+      "add_widget": "ウィジェットを追加",
+      "edit_layout": "レイアウトを編集",
+      "done": "完了",
+      "edit": "ダッシュボードを編集",
+      "copy_link": "リンクをコピー",
+      "delete": "ダッシュボードを削除"
+    },
+    "delete": {
+      "title": "ダッシュボードを削除",
+      "description": "「{name}」とそのすべてのウィジェットを削除しますか？この操作は元に戻せません。",
+      "confirm": "削除",
+      "deleting": "削除中"
+    },
+    "toast": {
+      "created": "ダッシュボードを作成しました",
+      "updated": "ダッシュボードを更新しました",
+      "deleted": "ダッシュボードを削除しました",
+      "error": "問題が発生しました。もう一度お試しください。",
+      "link_copied": "リンクをクリップボードにコピーしました"
+    },
+    "empty_widgets": {
+      "title": "このダッシュボードにはまだウィジェットがありません",
+      "description": "グラフ、数値、テーブルを追加して作業の追跡を始めましょう。",
+      "viewer_description": "所有者はまだウィジェットを追加していません。"
+    },
+    "not_found": {
+      "title": "ダッシュボードが見つかりません",
+      "description": "削除されたか、所有者のみが閲覧できる非公開のダッシュボードの可能性があります。"
+    },
+    "restricted": {
+      "title": "アクセス権がありません",
+      "description": "ダッシュボードとレポートは、ワークスペースの管理者とメンバーが利用できます。"
+    },
+    "widget": {
+      "types": {
+        "number": "数値",
+        "bar": "棒グラフ",
+        "stacked_bar": "積み上げ棒グラフ",
+        "line": "折れ線グラフ",
+        "area": "面グラフ",
+        "pie": "円グラフ",
+        "donut": "ドーナツグラフ",
+        "table": "テーブル"
+      },
+      "sizes": {
+        "label": "サイズ",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "full": "全幅"
+      },
+      "color_palettes": {
+        "modern": "モダン",
+        "horizon": "ホライズン",
+        "earthen": "アース"
+      },
+      "editor": {
+        "create_title": "ウィジェットを追加",
+        "edit_title": "ウィジェットを編集",
+        "name": "タイトル",
+        "name_placeholder": "例：ステータス別の作業項目",
+        "type": "表示形式",
+        "data": "データ",
+        "appearance": "外観",
+        "palette": "カラーパレット",
+        "show_legend": "凡例を表示",
+        "preview": "プレビュー",
+        "preview_hint": "プレビューには自分のプロジェクトのアクセス権が使用されます。",
+        "save": "ウィジェットを追加",
+        "update": "ウィジェットを保存",
+        "saving": "保存中"
+      },
+      "actions": {
+        "edit": "編集",
+        "duplicate": "複製",
+        "delete": "削除",
+        "resize": "サイズを変更"
+      },
+      "delete": {
+        "title": "ウィジェットを削除",
+        "description": "このダッシュボードから「{name}」を削除しますか？"
+      },
+      "states": {
+        "error": "このウィジェットを読み込めませんでした。",
+        "retry": "再試行",
+        "empty": "この設定に一致する作業項目はありません。",
+        "truncated": "最も大きいグループのみを表示しています。",
+        "timeout": "このウィジェットの読み込みに時間がかかりすぎました。フィルターを絞り込んでください。"
+      },
+      "scope_hint": "自分がメンバーであるプロジェクトのデータを表示します。",
+      "untitled": "無題のウィジェット",
+      "work_items": "{count, plural, one{# 件の作業項目} other{# 件の作業項目}}",
+      "points": "{count} ポイント"
+    }
+  }
+}

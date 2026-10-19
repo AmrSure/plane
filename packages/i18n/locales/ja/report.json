@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "レポート",
+    "page_title": "{workspace} - レポート",
+    "list": {
+      "new": "新規レポート",
+      "title": "保存済みレポート",
+      "search_placeholder": "レポートを検索",
+      "no_results": "検索に一致するレポートはありません。",
+      "empty": {
+        "title": "作業データをレポートにする",
+        "description": "任意の軸で作業項目をグループ化し、指標を比較して結果をエクスポートします。",
+        "cta": "レポートを作成"
+      }
+    },
+    "builder": {
+      "new_title": "新規レポート",
+      "dimension": "グループ化",
+      "group_by": "分割",
+      "none": "なし",
+      "metric": "指標",
+      "date_grouping": "日付の間隔",
+      "date_range": "日付範囲",
+      "date_field": "日付フィールド",
+      "all_time": "全期間",
+      "chart_type": "グラフの種類",
+      "filters": "フィルター",
+      "projects": "プロジェクト",
+      "all_projects": "自分のすべてのプロジェクト",
+      "state_groups": "ステータスグループ",
+      "priorities": "優先度",
+      "assignees": "担当者",
+      "labels": "ラベル",
+      "include_sub_work_items": "サブ作業項目を含める",
+      "save": "保存",
+      "save_as": "新規として保存",
+      "copy_link": "リンクをコピー",
+      "unsaved": "未保存の変更",
+      "total": "合計",
+      "work_items": "作業項目",
+      "table_title": "一致する作業項目",
+      "table_truncated": "{total} 件中 {shown} 件の作業項目を表示しています。全件を取得するにはエクスポートしてください。",
+      "result_summary": "{projects, plural, one{# 件のプロジェクト} other{# 件のプロジェクト}}に{count, plural, one{# 件の作業項目} other{# 件の作業項目}}",
+      "clear_filters": "フィルターをクリア",
+      "start_date": "開始",
+      "end_date": "終了"
+    },
+    "metrics": {
+      "work_item_count": "作業項目数",
+      "estimate_points": "見積もりポイント"
+    },
+    "dimensions": {
+      "states": "ステータス",
+      "state_groups": "ステータスグループ",
+      "priority": "優先度",
+      "assignees": "担当者",
+      "labels": "ラベル",
+      "projects": "プロジェクト",
+      "cycles": "サイクル",
+      "modules": "モジュール",
+      "estimate_points": "見積もり",
+      "created_by": "作成者",
+      "created_at": "作成日",
+      "completed_at": "完了日",
+      "start_date": "開始日",
+      "target_date": "期限"
+    },
+    "date_groupings": {
+      "day": "日",
+      "week": "週",
+      "month": "月",
+      "year": "年"
+    },
+    "date_fields": {
+      "created_at": "作成日",
+      "completed_at": "完了日",
+      "start_date": "開始日",
+      "target_date": "期限"
+    },
+    "date_presets": {
+      "last_7_days": "過去 7 日間",
+      "last_30_days": "過去 30 日間",
+      "last_90_days": "過去 90 日間",
+      "this_month": "今月",
+      "last_month": "先月",
+      "this_quarter": "今四半期",
+      "this_year": "今年",
+      "custom": "カスタム期間"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "タイトル",
+      "project": "プロジェクト",
+      "state": "ステータス",
+      "state_group": "ステータスグループ",
+      "priority": "優先度",
+      "assignees": "担当者",
+      "labels": "ラベル",
+      "start_date": "開始日",
+      "target_date": "期限",
+      "completed_at": "完了日",
+      "created_at": "作成日",
+      "estimate": "見積もり"
+    },
+    "values": {
+      "urgent": "緊急",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "backlog": "バックログ",
+      "unstarted": "未開始",
+      "started": "開始済み",
+      "completed": "完了",
+      "cancelled": "キャンセル",
+      "none": "なし",
+      "other": "その他"
+    },
+    "export": {
+      "label": "エクスポート",
+      "csv": "CSV をエクスポート",
+      "xlsx": "Excel（XLSX）をエクスポート",
+      "success": "エクスポートをダウンロードしました",
+      "error": "レポートをエクスポートできませんでした。",
+      "sheets": {
+        "summary": "概要",
+        "items": "作業項目"
+      }
+    },
+    "save_modal": {
+      "title": "レポートを保存",
+      "edit_title": "レポート設定",
+      "name": "名前",
+      "name_placeholder": "例：優先度別のバグ",
+      "name_required": "名前は必須です",
+      "description": "説明",
+      "visibility": "公開範囲",
+      "save": "レポートを保存",
+      "saving": "保存中"
+    },
+    "access": {
+      "private": "非公開",
+      "workspace": "ワークスペース",
+      "private_description": "このレポートは自分だけが開けます。",
+      "workspace_description": "ワークスペースの全員が開けます。各ユーザーには、自分が所属するプロジェクトのデータのみが表示されます。"
+    },
+    "delete": {
+      "title": "レポートを削除",
+      "description": "「{name}」を削除しますか？この操作は元に戻せません。",
+      "success": "レポートを削除しました"
+    },
+    "toast": {
+      "saved": "レポートを保存しました",
+      "error": "問題が発生しました。もう一度お試しください。",
+      "link_copied": "リンクをクリップボードにコピーしました"
+    },
+    "errors": {
+      "timeout": "このレポートの処理に時間がかかりすぎました。フィルターを絞り込んで、もう一度お試しください。",
+      "generic": "このレポートを実行できませんでした。"
+    },
+    "not_found": {
+      "title": "レポートが見つかりません",
+      "description": "削除されたか、所有者のみが閲覧できる非公開のレポートの可能性があります。"
+    }
+  },
+  "cycle_report": {
+    "title": "サイクルレポート",
+    "view_report": "レポートを表示",
+    "page_title": "{cycle} - レポート",
+    "status": {
+      "upcoming": "今後の予定",
+      "current": "進行中",
+      "completed": "完了"
+    },
+    "summary": {
+      "scope": "スコープ",
+      "completed": "完了",
+      "pending": "保留中",
+      "cancelled": "キャンセル",
+      "completion": "完了率",
+      "days_left": "残り日数",
+      "days_left_count": "{count, plural, one{残り # 日} other{残り # 日}}",
+      "elapsed": "{total} 日中 {elapsed} 日目",
+      "points_of": "{total} ポイント中 {completed} ポイント"
+    },
+    "toggle": {
+      "issues": "作業項目",
+      "points": "ポイント"
+    },
+    "burndown": {
+      "title": "バーンダウン",
+      "ideal": "理想",
+      "remaining": "残り"
+    },
+    "breakdown": {
+      "title": "内訳",
+      "assignees": "担当者",
+      "labels": "ラベル",
+      "state_groups": "ステータス",
+      "priorities": "優先度",
+      "unassigned": "未割り当て",
+      "no_label": "ラベルなし",
+      "name": "名前",
+      "total": "合計",
+      "completed": "完了",
+      "pending": "保留中"
+    },
+    "scope_changes": {
+      "title": "スコープの変更",
+      "added": "追加",
+      "removed": "削除",
+      "net": "純変化",
+      "none": "サイクル開始後に追加または削除された作業項目はありません。",
+      "unavailable": "このサイクルのスコープ履歴は利用できません。",
+      "accuracy_note": "アクティビティログに基づいています。直近数秒間の変更はまだ反映されていない場合があります。"
+    },
+    "incomplete": {
+      "title": "未完了の作業項目",
+      "transferred_title": "移行された作業項目",
+      "empty": "このサイクルのすべての作業項目が完了しています。",
+      "truncated": "最初の {count} 件の作業項目を表示しています。"
+    },
+    "source": {
+      "snapshot": "スナップショット",
+      "live": "ライブデータ",
+      "snapshot_hint": "数値は未完了の作業項目が移行された時点で記録されたものです。",
+      "live_hint": "数値はこのサイクルの作業項目の現在の状態を反映しています。",
+      "priorities_live": "優先度は常に現在のデータを反映します。"
+    },
+    "errors": {
+      "no_dates": "レポートを表示するには、このサイクルの開始日と終了日を設定してください。",
+      "guest_restricted": "このプロジェクトでは、ゲストはサイクルレポートを閲覧できません。",
+      "not_found": "このサイクルは見つかりませんでした。",
+      "generic": "サイクルレポートを読み込めませんでした。"
+    },
+    "export": {
+      "section_csv": "セクションをエクスポート（CSV）",
+      "workbook": "すべてエクスポート（XLSX）"
+    },
+    "columns": {
+      "metric": "指標",
+      "value": "値",
+      "date": "日付",
+      "remaining_issues": "残りの作業項目",
+      "remaining_points": "残りのポイント",
+      "change": "変化",
+      "id": "ID",
+      "state": "ステータス",
+      "priority": "優先度",
+      "assignees": "担当者",
+      "target_date": "期限",
+      "estimate": "見積もり",
+      "points_total": "ポイント",
+      "points_completed": "完了ポイント",
+      "days_total": "日数"
+    }
+  }
+}

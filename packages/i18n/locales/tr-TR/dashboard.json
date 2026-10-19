@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dashbordlar",
+    "page_title": "{workspace} - Dashbordlar",
+    "list": {
+      "new": "Yeni dashbord",
+      "search_placeholder": "Dashbordlarda ara",
+      "no_results": "Aramanızla eşleşen dashbord yok.",
+      "widget_count": "{count, plural, one{# widget} other{# widget}}",
+      "owned_by_you": "Sizin oluşturduğunuz",
+      "shared": "Çalışma alanıyla paylaşıldı",
+      "empty": {
+        "title": "Çalışmanızı dashbordlarla görselleştirin",
+        "description": "Projelerinizdeki ilerlemeyi takip etmek için grafik, sayı ve tablolardan dashbordlar oluşturun.",
+        "cta": "Dashbord oluştur"
+      }
+    },
+    "access": {
+      "label": "Görünürlük",
+      "private": "Özel",
+      "workspace": "Çalışma alanı",
+      "private_description": "Bu dashbordu yalnızca siz görebilirsiniz.",
+      "workspace_description": "Çalışma alanındaki herkes görüntüleyebilir. Her kişi yalnızca üyesi olduğu projelerin verilerini görür."
+    },
+    "form": {
+      "create_title": "Dashbord oluştur",
+      "edit_title": "Dashbordu düzenle",
+      "name": "Ad",
+      "name_placeholder": "örn. Teslimat genel bakışı",
+      "name_required": "Ad zorunludur",
+      "description": "Açıklama",
+      "description_placeholder": "Bu dashbord ne için?",
+      "create": "Dashbord oluştur",
+      "update": "Değişiklikleri kaydet",
+      "creating": "Oluşturuluyor",
+      "updating": "Kaydediliyor"
+    },
+    "actions": {
+      "add_widget": "Widget ekle",
+      "edit_layout": "Düzeni düzenle",
+      "done": "Bitti",
+      "edit": "Dashbordu düzenle",
+      "copy_link": "Bağlantıyı kopyala",
+      "delete": "Dashbordu sil"
+    },
+    "delete": {
+      "title": "Dashbordu sil",
+      "description": "\"{name}\" ve tüm widget'ları silinsin mi? Bu işlem geri alınamaz.",
+      "confirm": "Sil",
+      "deleting": "Siliniyor"
+    },
+    "toast": {
+      "created": "Dashbord oluşturuldu",
+      "updated": "Dashbord güncellendi",
+      "deleted": "Dashbord silindi",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+      "link_copied": "Bağlantı panoya kopyalandı"
+    },
+    "empty_widgets": {
+      "title": "Bu dashbordda henüz widget yok",
+      "description": "Çalışmanızı takip etmeye başlamak için bir grafik, sayı veya tablo ekleyin.",
+      "viewer_description": "Sahibi henüz widget eklemedi."
+    },
+    "not_found": {
+      "title": "Dashbord bulunamadı",
+      "description": "Silinmiş olabilir veya sahibine özel olabilir."
+    },
+    "restricted": {
+      "title": "Erişiminiz yok",
+      "description": "Dashbordlar ve raporlar çalışma alanı yöneticileri ve üyeleri tarafından kullanılabilir."
+    },
+    "widget": {
+      "types": {
+        "number": "Sayı",
+        "bar": "Çubuk grafik",
+        "stacked_bar": "Yığılmış çubuk grafik",
+        "line": "Çizgi grafik",
+        "area": "Alan grafiği",
+        "pie": "Pasta grafik",
+        "donut": "Halka grafik",
+        "table": "Tablo"
+      },
+      "sizes": {
+        "label": "Boyut",
+        "small": "Küçük",
+        "medium": "Orta",
+        "large": "Büyük",
+        "full": "Tam genişlik"
+      },
+      "color_palettes": {
+        "modern": "Modern",
+        "horizon": "Ufuk",
+        "earthen": "Toprak"
+      },
+      "editor": {
+        "create_title": "Widget ekle",
+        "edit_title": "Widget'ı düzenle",
+        "name": "Başlık",
+        "name_placeholder": "örn. Duruma göre iş öğeleri",
+        "type": "Görselleştirme",
+        "data": "Veri",
+        "appearance": "Görünüm",
+        "palette": "Renk paleti",
+        "show_legend": "Göstergeyi göster",
+        "preview": "Önizleme",
+        "preview_hint": "Önizleme, kendi proje erişiminizi kullanır.",
+        "save": "Widget ekle",
+        "update": "Widget'ı kaydet",
+        "saving": "Kaydediliyor"
+      },
+      "actions": {
+        "edit": "Düzenle",
+        "duplicate": "Çoğalt",
+        "delete": "Sil",
+        "resize": "Yeniden boyutlandır"
+      },
+      "delete": {
+        "title": "Widget'ı sil",
+        "description": "\"{name}\" bu dashborddan silinsin mi?"
+      },
+      "states": {
+        "error": "Bu widget yüklenemedi.",
+        "retry": "Tekrar dene",
+        "empty": "Bu ayarlarla eşleşen iş öğesi yok.",
+        "truncated": "Yalnızca en büyük gruplar gösteriliyor.",
+        "timeout": "Bu widget'ın yüklenmesi çok uzun sürdü. Filtrelerini daraltın."
+      },
+      "scope_hint": "Üyesi olduğunuz projelerin verilerini gösterir.",
+      "untitled": "Başlıksız widget",
+      "work_items": "{count, plural, one{# iş öğesi} other{# iş öğesi}}",
+      "points": "{count} puan"
+    }
+  }
+}

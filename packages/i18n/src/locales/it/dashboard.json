@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dashboard",
+    "page_title": "{workspace} - Dashboard",
+    "list": {
+      "new": "Nuova dashboard",
+      "search_placeholder": "Cerca dashboard",
+      "no_results": "Nessuna dashboard corrisponde alla ricerca.",
+      "widget_count": "{count, plural, one{# widget} many{# widget} other{# widget}}",
+      "owned_by_you": "Creata da te",
+      "shared": "Condivisa con lo spazio di lavoro",
+      "empty": {
+        "title": "Visualizza il tuo lavoro con le dashboard",
+        "description": "Crea dashboard con grafici, numeri e tabelle per monitorare l'avanzamento dei tuoi progetti.",
+        "cta": "Crea dashboard"
+      }
+    },
+    "access": {
+      "label": "Visibilità",
+      "private": "Privata",
+      "workspace": "Spazio di lavoro",
+      "private_description": "Solo tu puoi vedere questa dashboard.",
+      "workspace_description": "Tutti nello spazio di lavoro possono visualizzarla. Ogni persona vede solo i dati dei progetti di cui fa parte."
+    },
+    "form": {
+      "create_title": "Crea dashboard",
+      "edit_title": "Modifica dashboard",
+      "name": "Nome",
+      "name_placeholder": "es. Panoramica delle consegne",
+      "name_required": "Il nome è obbligatorio",
+      "description": "Descrizione",
+      "description_placeholder": "A cosa serve questa dashboard?",
+      "create": "Crea dashboard",
+      "update": "Salva modifiche",
+      "creating": "Creazione in corso",
+      "updating": "Salvataggio in corso"
+    },
+    "actions": {
+      "add_widget": "Aggiungi widget",
+      "edit_layout": "Modifica layout",
+      "done": "Fine",
+      "edit": "Modifica dashboard",
+      "copy_link": "Copia link",
+      "delete": "Elimina dashboard"
+    },
+    "delete": {
+      "title": "Elimina dashboard",
+      "description": "Eliminare \"{name}\" e tutti i suoi widget? L'operazione non può essere annullata.",
+      "confirm": "Elimina",
+      "deleting": "Eliminazione in corso"
+    },
+    "toast": {
+      "created": "Dashboard creata",
+      "updated": "Dashboard aggiornata",
+      "deleted": "Dashboard eliminata",
+      "error": "Qualcosa è andato storto. Per favore, riprova.",
+      "link_copied": "Link copiato negli appunti"
+    },
+    "empty_widgets": {
+      "title": "Questa dashboard non ha ancora widget",
+      "description": "Aggiungi un grafico, un numero o una tabella per iniziare a monitorare il tuo lavoro.",
+      "viewer_description": "Il proprietario non ha ancora aggiunto widget."
+    },
+    "not_found": {
+      "title": "Dashboard non trovata",
+      "description": "Potrebbe essere stata eliminata oppure è riservata al suo proprietario."
+    },
+    "restricted": {
+      "title": "Non hai accesso",
+      "description": "Dashboard e report sono disponibili per gli amministratori e i membri dello spazio di lavoro."
+    },
+    "widget": {
+      "types": {
+        "number": "Numero",
+        "bar": "Grafico a barre",
+        "stacked_bar": "Grafico a barre in pila",
+        "line": "Grafico a linee",
+        "area": "Grafico ad area",
+        "pie": "Grafico a torta",
+        "donut": "Grafico ad anello",
+        "table": "Tabella"
+      },
+      "sizes": {
+        "label": "Dimensione",
+        "small": "Piccola",
+        "medium": "Media",
+        "large": "Grande",
+        "full": "Larghezza piena"
+      },
+      "color_palettes": {
+        "modern": "Moderna",
+        "horizon": "Orizzonte",
+        "earthen": "Terrosa"
+      },
+      "editor": {
+        "create_title": "Aggiungi widget",
+        "edit_title": "Modifica widget",
+        "name": "Titolo",
+        "name_placeholder": "es. Elementi di lavoro per stato",
+        "type": "Visualizzazione",
+        "data": "Dati",
+        "appearance": "Aspetto",
+        "palette": "Tavolozza colori",
+        "show_legend": "Mostra legenda",
+        "preview": "Anteprima",
+        "preview_hint": "L'anteprima usa il tuo accesso ai progetti.",
+        "save": "Aggiungi widget",
+        "update": "Salva widget",
+        "saving": "Salvataggio in corso"
+      },
+      "actions": {
+        "edit": "Modifica",
+        "duplicate": "Duplica",
+        "delete": "Elimina",
+        "resize": "Ridimensiona"
+      },
+      "delete": {
+        "title": "Elimina widget",
+        "description": "Eliminare \"{name}\" da questa dashboard?"
+      },
+      "states": {
+        "error": "Impossibile caricare questo widget.",
+        "retry": "Riprova",
+        "empty": "Nessun elemento di lavoro corrisponde a queste impostazioni.",
+        "truncated": "Vengono mostrati solo i gruppi più grandi.",
+        "timeout": "Il caricamento di questo widget ha richiesto troppo tempo. Restringi i filtri."
+      },
+      "scope_hint": "Mostra i dati dei progetti di cui sei membro.",
+      "untitled": "Widget senza titolo",
+      "work_items": "{count, plural, one{# elemento di lavoro} many{# elementi di lavoro} other{# elementi di lavoro}}",
+      "points": "{count} punti"
+    }
+  }
+}

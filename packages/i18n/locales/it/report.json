@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Report",
+    "page_title": "{workspace} - Report",
+    "list": {
+      "new": "Nuovo report",
+      "title": "Report salvati",
+      "search_placeholder": "Cerca report",
+      "no_results": "Nessun report corrisponde alla ricerca.",
+      "empty": {
+        "title": "Trasforma i dati del tuo lavoro in report",
+        "description": "Raggruppa gli elementi di lavoro per qualsiasi dimensione, confronta le metriche ed esporta i risultati.",
+        "cta": "Crea report"
+      }
+    },
+    "builder": {
+      "new_title": "Nuovo report",
+      "dimension": "Raggruppa per",
+      "group_by": "Suddividi per",
+      "none": "Nessuno",
+      "metric": "Misura",
+      "date_grouping": "Intervallo temporale",
+      "date_range": "Periodo",
+      "date_field": "Campo data",
+      "all_time": "Tutto il periodo",
+      "chart_type": "Tipo di grafico",
+      "filters": "Filtri",
+      "projects": "Progetti",
+      "all_projects": "Tutti i miei progetti",
+      "state_groups": "Gruppi di stati",
+      "priorities": "Priorità",
+      "assignees": "Assegnatari",
+      "labels": "Etichette",
+      "include_sub_work_items": "Includi sotto-elementi di lavoro",
+      "save": "Salva",
+      "save_as": "Salva come nuovo",
+      "copy_link": "Copia link",
+      "unsaved": "Modifiche non salvate",
+      "total": "Totale",
+      "work_items": "Elementi di lavoro",
+      "table_title": "Elementi di lavoro corrispondenti",
+      "table_truncated": "Visualizzati {shown} di {total} elementi di lavoro. Esporta per ottenere l'elenco completo.",
+      "result_summary": "{count, plural, one{# elemento di lavoro} many{# elementi di lavoro} other{# elementi di lavoro}} in {projects, plural, one{# progetto} many{# progetti} other{# progetti}}",
+      "clear_filters": "Cancella filtri",
+      "start_date": "Inizio",
+      "end_date": "Fine"
+    },
+    "metrics": {
+      "work_item_count": "Numero di elementi di lavoro",
+      "estimate_points": "Punti di stima"
+    },
+    "dimensions": {
+      "states": "Stato",
+      "state_groups": "Gruppo di stati",
+      "priority": "Priorità",
+      "assignees": "Assegnatario",
+      "labels": "Etichetta",
+      "projects": "Progetto",
+      "cycles": "Ciclo",
+      "modules": "Modulo",
+      "estimate_points": "Stima",
+      "created_by": "Creato da",
+      "created_at": "Data di creazione",
+      "completed_at": "Data di completamento",
+      "start_date": "Data di inizio",
+      "target_date": "Scadenza"
+    },
+    "date_groupings": {
+      "day": "Giorno",
+      "week": "Settimana",
+      "month": "Mese",
+      "year": "Anno"
+    },
+    "date_fields": {
+      "created_at": "Data di creazione",
+      "completed_at": "Data di completamento",
+      "start_date": "Data di inizio",
+      "target_date": "Scadenza"
+    },
+    "date_presets": {
+      "last_7_days": "Ultimi 7 giorni",
+      "last_30_days": "Ultimi 30 giorni",
+      "last_90_days": "Ultimi 90 giorni",
+      "this_month": "Questo mese",
+      "last_month": "Mese scorso",
+      "this_quarter": "Questo trimestre",
+      "this_year": "Quest'anno",
+      "custom": "Intervallo personalizzato"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Titolo",
+      "project": "Progetto",
+      "state": "Stato",
+      "state_group": "Gruppo di stati",
+      "priority": "Priorità",
+      "assignees": "Assegnatari",
+      "labels": "Etichette",
+      "start_date": "Data di inizio",
+      "target_date": "Scadenza",
+      "completed_at": "Data di completamento",
+      "created_at": "Data di creazione",
+      "estimate": "Stima"
+    },
+    "values": {
+      "urgent": "Urgente",
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Bassa",
+      "backlog": "Backlog",
+      "unstarted": "Non iniziato",
+      "started": "Iniziato",
+      "completed": "Completato",
+      "cancelled": "Annullato",
+      "none": "Nessuno",
+      "other": "Altro"
+    },
+    "export": {
+      "label": "Esporta",
+      "csv": "Esporta CSV",
+      "xlsx": "Esporta Excel (XLSX)",
+      "success": "Esportazione scaricata",
+      "error": "Impossibile esportare il report.",
+      "sheets": {
+        "summary": "Riepilogo",
+        "items": "Elementi di lavoro"
+      }
+    },
+    "save_modal": {
+      "title": "Salva report",
+      "edit_title": "Impostazioni del report",
+      "name": "Nome",
+      "name_placeholder": "es. Bug per priorità",
+      "name_required": "Il nome è obbligatorio",
+      "description": "Descrizione",
+      "visibility": "Visibilità",
+      "save": "Salva report",
+      "saving": "Salvataggio in corso"
+    },
+    "access": {
+      "private": "Privato",
+      "workspace": "Spazio di lavoro",
+      "private_description": "Solo tu puoi aprire questo report.",
+      "workspace_description": "Tutti nello spazio di lavoro possono aprirlo. Ogni persona vede solo i dati dei progetti di cui fa parte."
+    },
+    "delete": {
+      "title": "Elimina report",
+      "description": "Eliminare \"{name}\"? L'operazione non può essere annullata.",
+      "success": "Report eliminato"
+    },
+    "toast": {
+      "saved": "Report salvato",
+      "error": "Qualcosa è andato storto. Per favore, riprova.",
+      "link_copied": "Link copiato negli appunti"
+    },
+    "errors": {
+      "timeout": "Questo report ha richiesto troppo tempo. Restringi i filtri e riprova.",
+      "generic": "Impossibile eseguire questo report."
+    },
+    "not_found": {
+      "title": "Report non trovato",
+      "description": "Potrebbe essere stato eliminato oppure è riservato al suo proprietario."
+    }
+  },
+  "cycle_report": {
+    "title": "Report del ciclo",
+    "view_report": "Visualizza report",
+    "page_title": "{cycle} - Report",
+    "status": {
+      "upcoming": "In arrivo",
+      "current": "In corso",
+      "completed": "Completato"
+    },
+    "summary": {
+      "scope": "Ambito",
+      "completed": "Completato",
+      "pending": "In sospeso",
+      "cancelled": "Annullato",
+      "completion": "Completamento",
+      "days_left": "Giorni rimanenti",
+      "days_left_count": "{count, plural, one{# giorno rimanente} many{# giorni rimanenti} other{# giorni rimanenti}}",
+      "elapsed": "Giorno {elapsed} di {total}",
+      "points_of": "{completed} di {total} punti"
+    },
+    "toggle": {
+      "issues": "Elementi di lavoro",
+      "points": "Punti"
+    },
+    "burndown": {
+      "title": "Burndown",
+      "ideal": "Ideale",
+      "remaining": "Rimanente"
+    },
+    "breakdown": {
+      "title": "Ripartizione",
+      "assignees": "Assegnatari",
+      "labels": "Etichette",
+      "state_groups": "Stati",
+      "priorities": "Priorità",
+      "unassigned": "Non assegnato",
+      "no_label": "Nessuna etichetta",
+      "name": "Nome",
+      "total": "Totale",
+      "completed": "Completato",
+      "pending": "In sospeso"
+    },
+    "scope_changes": {
+      "title": "Modifiche all'ambito",
+      "added": "Aggiunti",
+      "removed": "Rimossi",
+      "net": "Variazione netta",
+      "none": "Nessun elemento di lavoro è stato aggiunto o rimosso dopo l'inizio del ciclo.",
+      "unavailable": "La cronologia dell'ambito non è disponibile per questo ciclo.",
+      "accuracy_note": "Basato sul registro attività. Le modifiche apportate negli ultimi secondi potrebbero non essere ancora visibili."
+    },
+    "incomplete": {
+      "title": "Elementi di lavoro incompleti",
+      "transferred_title": "Elementi di lavoro trasferiti",
+      "empty": "Tutti gli elementi di lavoro di questo ciclo sono completati.",
+      "truncated": "Visualizzati i primi {count} elementi di lavoro."
+    },
+    "source": {
+      "snapshot": "Istantanea",
+      "live": "Dati in tempo reale",
+      "snapshot_hint": "I valori sono stati registrati quando sono stati trasferiti gli elementi di lavoro non completati.",
+      "live_hint": "I valori riflettono lo stato attuale degli elementi di lavoro di questo ciclo.",
+      "priorities_live": "Le priorità riflettono sempre i dati attuali."
+    },
+    "errors": {
+      "no_dates": "Imposta una data di inizio e di fine per questo ciclo per vederne il report.",
+      "guest_restricted": "Gli ospiti non possono visualizzare i report dei cicli in questo progetto.",
+      "not_found": "Questo ciclo non è stato trovato.",
+      "generic": "Impossibile caricare il report del ciclo."
+    },
+    "export": {
+      "section_csv": "Esporta sezione (CSV)",
+      "workbook": "Esporta tutto (XLSX)"
+    },
+    "columns": {
+      "metric": "Metrica",
+      "value": "Valore",
+      "date": "Data",
+      "remaining_issues": "Elementi di lavoro rimanenti",
+      "remaining_points": "Punti rimanenti",
+      "change": "Variazione",
+      "id": "ID",
+      "state": "Stato",
+      "priority": "Priorità",
+      "assignees": "Assegnatari",
+      "target_date": "Scadenza",
+      "estimate": "Stima",
+      "points_total": "Punti",
+      "points_completed": "Punti completati",
+      "days_total": "Giorni"
+    }
+  }
+}

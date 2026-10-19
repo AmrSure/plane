@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dashboards",
+    "page_title": "{workspace} - Dashboards",
+    "list": {
+      "new": "Neues Dashboard",
+      "search_placeholder": "Dashboards durchsuchen",
+      "no_results": "Keine Dashboards entsprechen Ihrer Suche.",
+      "widget_count": "{count, plural, one{# Widget} other{# Widgets}}",
+      "owned_by_you": "Von Ihnen erstellt",
+      "shared": "Mit dem Arbeitsbereich geteilt",
+      "empty": {
+        "title": "Visualisieren Sie Ihre Arbeit mit Dashboards",
+        "description": "Erstellen Sie Dashboards aus Diagrammen, Kennzahlen und Tabellen, um den Fortschritt Ihrer Projekte zu verfolgen.",
+        "cta": "Dashboard erstellen"
+      }
+    },
+    "access": {
+      "label": "Sichtbarkeit",
+      "private": "Privat",
+      "workspace": "Arbeitsbereich",
+      "private_description": "Nur Sie können dieses Dashboard sehen.",
+      "workspace_description": "Alle im Arbeitsbereich können es ansehen. Jede Person sieht nur Daten aus Projekten, denen sie angehört."
+    },
+    "form": {
+      "create_title": "Dashboard erstellen",
+      "edit_title": "Dashboard bearbeiten",
+      "name": "Name",
+      "name_placeholder": "z. B. Lieferübersicht",
+      "name_required": "Name ist erforderlich",
+      "description": "Beschreibung",
+      "description_placeholder": "Wofür ist dieses Dashboard gedacht?",
+      "create": "Dashboard erstellen",
+      "update": "Änderungen speichern",
+      "creating": "Wird erstellt",
+      "updating": "Wird gespeichert"
+    },
+    "actions": {
+      "add_widget": "Widget hinzufügen",
+      "edit_layout": "Layout bearbeiten",
+      "done": "Fertig",
+      "edit": "Dashboard bearbeiten",
+      "copy_link": "Link kopieren",
+      "delete": "Dashboard löschen"
+    },
+    "delete": {
+      "title": "Dashboard löschen",
+      "description": "„{name}“ und alle zugehörigen Widgets löschen? Dies kann nicht rückgängig gemacht werden.",
+      "confirm": "Löschen",
+      "deleting": "Wird gelöscht"
+    },
+    "toast": {
+      "created": "Dashboard erstellt",
+      "updated": "Dashboard aktualisiert",
+      "deleted": "Dashboard gelöscht",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "link_copied": "Link in die Zwischenablage kopiert"
+    },
+    "empty_widgets": {
+      "title": "Dieses Dashboard hat noch keine Widgets",
+      "description": "Fügen Sie ein Diagramm, eine Kennzahl oder eine Tabelle hinzu, um Ihre Arbeit zu verfolgen.",
+      "viewer_description": "Der Eigentümer hat noch keine Widgets hinzugefügt."
+    },
+    "not_found": {
+      "title": "Dashboard nicht gefunden",
+      "description": "Es wurde möglicherweise gelöscht oder ist nur für seinen Eigentümer sichtbar."
+    },
+    "restricted": {
+      "title": "Sie haben keinen Zugriff",
+      "description": "Dashboards und Berichte stehen Administratoren und Mitgliedern des Arbeitsbereichs zur Verfügung."
+    },
+    "widget": {
+      "types": {
+        "number": "Kennzahl",
+        "bar": "Balkendiagramm",
+        "stacked_bar": "Gestapeltes Balkendiagramm",
+        "line": "Liniendiagramm",
+        "area": "Flächendiagramm",
+        "pie": "Kreisdiagramm",
+        "donut": "Ringdiagramm",
+        "table": "Tabelle"
+      },
+      "sizes": {
+        "label": "Größe",
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß",
+        "full": "Volle Breite"
+      },
+      "color_palettes": {
+        "modern": "Modern",
+        "horizon": "Horizont",
+        "earthen": "Erdtöne"
+      },
+      "editor": {
+        "create_title": "Widget hinzufügen",
+        "edit_title": "Widget bearbeiten",
+        "name": "Titel",
+        "name_placeholder": "z. B. Arbeitselemente nach Status",
+        "type": "Visualisierung",
+        "data": "Daten",
+        "appearance": "Darstellung",
+        "palette": "Farbpalette",
+        "show_legend": "Legende anzeigen",
+        "preview": "Vorschau",
+        "preview_hint": "Die Vorschau verwendet Ihren eigenen Projektzugriff.",
+        "save": "Widget hinzufügen",
+        "update": "Widget speichern",
+        "saving": "Wird gespeichert"
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "duplicate": "Duplizieren",
+        "delete": "Löschen",
+        "resize": "Größe ändern"
+      },
+      "delete": {
+        "title": "Widget löschen",
+        "description": "„{name}“ aus diesem Dashboard löschen?"
+      },
+      "states": {
+        "error": "Dieses Widget konnte nicht geladen werden.",
+        "retry": "Erneut versuchen",
+        "empty": "Keine Arbeitselemente entsprechen diesen Einstellungen.",
+        "truncated": "Es werden nur die größten Gruppen angezeigt.",
+        "timeout": "Das Laden dieses Widgets hat zu lange gedauert. Schränken Sie die Filter ein."
+      },
+      "scope_hint": "Zeigt Daten aus Projekten, in denen Sie Mitglied sind.",
+      "untitled": "Unbenanntes Widget",
+      "work_items": "{count, plural, one{# Arbeitselement} other{# Arbeitselemente}}",
+      "points": "{count} Punkte"
+    }
+  }
+}

@@ -36,6 +36,10 @@ import type { IFavoriteStore } from "./favorite.store";
 import { FavoriteStore } from "./favorite.store";
 import type { IGlobalViewStore } from "./global-view.store";
 import { GlobalViewStore } from "./global-view.store";
+import type { IWorkspaceDashboardStore } from "./workspace-dashboard.store";
+import { WorkspaceDashboardStore } from "./workspace-dashboard.store";
+import type { IWorkspaceReportStore } from "./workspace-report.store";
+import { WorkspaceReportStore } from "./workspace-report.store";
 import type { IProjectInboxStore } from "./inbox/project-inbox.store";
 import { ProjectInboxStore } from "./inbox/project-inbox.store";
 import type { IInstanceStore } from "./instance.store";
@@ -86,6 +90,8 @@ export class CoreRootStore {
   state: IStateStore;
   label: ILabelStore;
   dashboard: IDashboardStore;
+  workspaceDashboard: IWorkspaceDashboardStore;
+  workspaceReport: IWorkspaceReportStore;
   analytics: IAnalyticsStore;
   projectPages: IProjectPageStore;
   router: IRouterStore;
@@ -123,6 +129,8 @@ export class CoreRootStore {
     this.state = new StateStore(this);
     this.label = new LabelStore(this);
     this.dashboard = new DashboardStore(this);
+    this.workspaceDashboard = new WorkspaceDashboardStore(this);
+    this.workspaceReport = new WorkspaceReportStore(this);
     this.multipleSelect = new MultipleSelectStore();
     this.projectInbox = new ProjectInboxStore(this);
     this.projectPages = new ProjectPageStore(this);
@@ -158,6 +166,8 @@ export class CoreRootStore {
     this.state = new StateStore(this);
     this.label = new LabelStore(this);
     this.dashboard = new DashboardStore(this);
+    this.workspaceDashboard = new WorkspaceDashboardStore(this);
+    this.workspaceReport = new WorkspaceReportStore(this);
     this.projectInbox = new ProjectInboxStore(this);
     this.projectPages = new ProjectPageStore(this);
     this.multipleSelect = new MultipleSelectStore();

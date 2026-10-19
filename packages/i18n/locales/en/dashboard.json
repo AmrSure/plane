@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Dashboards",
+    "page_title": "{workspace} - Dashboards",
+    "list": {
+      "new": "New dashboard",
+      "search_placeholder": "Search dashboards",
+      "no_results": "No dashboards match your search.",
+      "widget_count": "{count, plural, one{# widget} other{# widgets}}",
+      "owned_by_you": "Created by you",
+      "shared": "Shared with workspace",
+      "empty": {
+        "title": "Visualize your work with dashboards",
+        "description": "Build dashboards from charts, numbers and tables to track progress across your projects.",
+        "cta": "Create dashboard"
+      }
+    },
+    "access": {
+      "label": "Visibility",
+      "private": "Private",
+      "workspace": "Workspace",
+      "private_description": "Only you can see this dashboard.",
+      "workspace_description": "Everyone in the workspace can view it. Each person sees data only from projects they belong to."
+    },
+    "form": {
+      "create_title": "Create dashboard",
+      "edit_title": "Edit dashboard",
+      "name": "Name",
+      "name_placeholder": "e.g. Delivery overview",
+      "name_required": "Name is required",
+      "description": "Description",
+      "description_placeholder": "What is this dashboard for?",
+      "create": "Create dashboard",
+      "update": "Save changes",
+      "creating": "Creating",
+      "updating": "Saving"
+    },
+    "actions": {
+      "add_widget": "Add widget",
+      "edit_layout": "Edit layout",
+      "done": "Done",
+      "edit": "Edit dashboard",
+      "copy_link": "Copy link",
+      "delete": "Delete dashboard"
+    },
+    "delete": {
+      "title": "Delete dashboard",
+      "description": "Delete \"{name}\" and all of its widgets? This cannot be undone.",
+      "confirm": "Delete",
+      "deleting": "Deleting"
+    },
+    "toast": {
+      "created": "Dashboard created",
+      "updated": "Dashboard updated",
+      "deleted": "Dashboard deleted",
+      "error": "Something went wrong. Please try again.",
+      "link_copied": "Link copied to clipboard"
+    },
+    "empty_widgets": {
+      "title": "This dashboard has no widgets yet",
+      "description": "Add a chart, number or table to start tracking your work.",
+      "viewer_description": "The owner has not added any widgets yet."
+    },
+    "not_found": {
+      "title": "Dashboard not found",
+      "description": "It may have been deleted, or it is private to its owner."
+    },
+    "restricted": {
+      "title": "You do not have access",
+      "description": "Dashboards and reports are available to workspace admins and members."
+    },
+    "widget": {
+      "types": {
+        "number": "Number",
+        "bar": "Bar chart",
+        "stacked_bar": "Stacked bar chart",
+        "line": "Line chart",
+        "area": "Area chart",
+        "pie": "Pie chart",
+        "donut": "Donut chart",
+        "table": "Table"
+      },
+      "sizes": {
+        "label": "Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "full": "Full width"
+      },
+      "color_palettes": {
+        "modern": "Modern",
+        "horizon": "Horizon",
+        "earthen": "Earthen"
+      },
+      "editor": {
+        "create_title": "Add widget",
+        "edit_title": "Edit widget",
+        "name": "Title",
+        "name_placeholder": "e.g. Work items by state",
+        "type": "Visualization",
+        "data": "Data",
+        "appearance": "Appearance",
+        "palette": "Color palette",
+        "show_legend": "Show legend",
+        "preview": "Preview",
+        "preview_hint": "The preview uses your own project access.",
+        "save": "Add widget",
+        "update": "Save widget",
+        "saving": "Saving"
+      },
+      "actions": {
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "resize": "Resize"
+      },
+      "delete": {
+        "title": "Delete widget",
+        "description": "Delete \"{name}\" from this dashboard?"
+      },
+      "states": {
+        "error": "Could not load this widget.",
+        "retry": "Retry",
+        "empty": "No work items match these settings.",
+        "truncated": "Showing the largest groups only.",
+        "timeout": "This widget took too long to load. Narrow its filters."
+      },
+      "scope_hint": "Shows data from projects you are a member of.",
+      "untitled": "Untitled widget",
+      "work_items": "{count, plural, one{# work item} other{# work items}}",
+      "points": "{count} points"
+    }
+  }
+}

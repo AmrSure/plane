@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Reports",
+    "page_title": "{workspace} - Reports",
+    "list": {
+      "new": "New report",
+      "title": "Saved reports",
+      "search_placeholder": "Search reports",
+      "no_results": "No reports match your search.",
+      "empty": {
+        "title": "Turn your work data into reports",
+        "description": "Group work items by any dimension, compare metrics and export the results.",
+        "cta": "Create report"
+      }
+    },
+    "builder": {
+      "new_title": "New report",
+      "dimension": "Group by",
+      "group_by": "Split by",
+      "none": "None",
+      "metric": "Measure",
+      "date_grouping": "Date interval",
+      "date_range": "Date range",
+      "date_field": "Date field",
+      "all_time": "All time",
+      "chart_type": "Chart type",
+      "filters": "Filters",
+      "projects": "Projects",
+      "all_projects": "All my projects",
+      "state_groups": "State groups",
+      "priorities": "Priorities",
+      "assignees": "Assignees",
+      "labels": "Labels",
+      "include_sub_work_items": "Include sub-work items",
+      "save": "Save",
+      "save_as": "Save as new",
+      "copy_link": "Copy link",
+      "unsaved": "Unsaved changes",
+      "total": "Total",
+      "work_items": "Work items",
+      "table_title": "Matching work items",
+      "table_truncated": "Showing {shown} of {total} work items. Export to get the full list.",
+      "result_summary": "{count, plural, one{# work item} other{# work items}} in {projects, plural, one{# project} other{# projects}}",
+      "clear_filters": "Clear filters",
+      "start_date": "Start",
+      "end_date": "End"
+    },
+    "metrics": {
+      "work_item_count": "Work item count",
+      "estimate_points": "Estimate points"
+    },
+    "dimensions": {
+      "states": "State",
+      "state_groups": "State group",
+      "priority": "Priority",
+      "assignees": "Assignee",
+      "labels": "Label",
+      "projects": "Project",
+      "cycles": "Cycle",
+      "modules": "Module",
+      "estimate_points": "Estimate",
+      "created_by": "Created by",
+      "created_at": "Created date",
+      "completed_at": "Completed date",
+      "start_date": "Start date",
+      "target_date": "Due date"
+    },
+    "date_groupings": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "date_fields": {
+      "created_at": "Created date",
+      "completed_at": "Completed date",
+      "start_date": "Start date",
+      "target_date": "Due date"
+    },
+    "date_presets": {
+      "last_7_days": "Last 7 days",
+      "last_30_days": "Last 30 days",
+      "last_90_days": "Last 90 days",
+      "this_month": "This month",
+      "last_month": "Last month",
+      "this_quarter": "This quarter",
+      "this_year": "This year",
+      "custom": "Custom range"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Title",
+      "project": "Project",
+      "state": "State",
+      "state_group": "State group",
+      "priority": "Priority",
+      "assignees": "Assignees",
+      "labels": "Labels",
+      "start_date": "Start date",
+      "target_date": "Due date",
+      "completed_at": "Completed date",
+      "created_at": "Created date",
+      "estimate": "Estimate"
+    },
+    "values": {
+      "urgent": "Urgent",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "backlog": "Backlog",
+      "unstarted": "Unstarted",
+      "started": "Started",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "none": "None",
+      "other": "Other"
+    },
+    "export": {
+      "label": "Export",
+      "csv": "Export CSV",
+      "xlsx": "Export Excel (XLSX)",
+      "success": "Export downloaded",
+      "error": "Could not export the report.",
+      "sheets": {
+        "summary": "Summary",
+        "items": "Work items"
+      }
+    },
+    "save_modal": {
+      "title": "Save report",
+      "edit_title": "Report settings",
+      "name": "Name",
+      "name_placeholder": "e.g. Bugs by priority",
+      "name_required": "Name is required",
+      "description": "Description",
+      "visibility": "Visibility",
+      "save": "Save report",
+      "saving": "Saving"
+    },
+    "access": {
+      "private": "Private",
+      "workspace": "Workspace",
+      "private_description": "Only you can open this report.",
+      "workspace_description": "Everyone in the workspace can open it. Each person sees data only from projects they belong to."
+    },
+    "delete": {
+      "title": "Delete report",
+      "description": "Delete \"{name}\"? This cannot be undone.",
+      "success": "Report deleted"
+    },
+    "toast": {
+      "saved": "Report saved",
+      "error": "Something went wrong. Please try again.",
+      "link_copied": "Link copied to clipboard"
+    },
+    "errors": {
+      "timeout": "This report took too long. Narrow the filters and try again.",
+      "generic": "Could not run this report."
+    },
+    "not_found": {
+      "title": "Report not found",
+      "description": "It may have been deleted, or it is private to its owner."
+    }
+  },
+  "cycle_report": {
+    "title": "Cycle report",
+    "view_report": "View report",
+    "page_title": "{cycle} - Report",
+    "status": {
+      "upcoming": "Upcoming",
+      "current": "In progress",
+      "completed": "Completed"
+    },
+    "summary": {
+      "scope": "Scope",
+      "completed": "Completed",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "completion": "Completion",
+      "days_left": "Days left",
+      "days_left_count": "{count, plural, one{# day left} other{# days left}}",
+      "elapsed": "Day {elapsed} of {total}",
+      "points_of": "{completed} of {total} points"
+    },
+    "toggle": {
+      "issues": "Work items",
+      "points": "Points"
+    },
+    "burndown": {
+      "title": "Burndown",
+      "ideal": "Ideal",
+      "remaining": "Remaining"
+    },
+    "breakdown": {
+      "title": "Breakdown",
+      "assignees": "Assignees",
+      "labels": "Labels",
+      "state_groups": "States",
+      "priorities": "Priorities",
+      "unassigned": "Unassigned",
+      "no_label": "No label",
+      "name": "Name",
+      "total": "Total",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "scope_changes": {
+      "title": "Scope changes",
+      "added": "Added",
+      "removed": "Removed",
+      "net": "Net change",
+      "none": "No work items were added or removed after the cycle started.",
+      "unavailable": "Scope history is not available for this cycle.",
+      "accuracy_note": "Based on the activity log. Changes made in the last few seconds may not appear yet."
+    },
+    "incomplete": {
+      "title": "Incomplete work items",
+      "transferred_title": "Transferred work items",
+      "empty": "Every work item in this cycle is done.",
+      "truncated": "Showing the first {count} work items."
+    },
+    "source": {
+      "snapshot": "Snapshot",
+      "live": "Live data",
+      "snapshot_hint": "Figures were captured when unfinished work items were transferred.",
+      "live_hint": "Figures reflect the current state of work items in this cycle.",
+      "priorities_live": "Priorities always reflect current data."
+    },
+    "errors": {
+      "no_dates": "Set a start and end date for this cycle to see its report.",
+      "guest_restricted": "Guests cannot view cycle reports in this project.",
+      "not_found": "This cycle was not found.",
+      "generic": "Could not load the cycle report."
+    },
+    "export": {
+      "section_csv": "Export section (CSV)",
+      "workbook": "Export all (XLSX)"
+    },
+    "columns": {
+      "metric": "Metric",
+      "value": "Value",
+      "date": "Date",
+      "remaining_issues": "Remaining work items",
+      "remaining_points": "Remaining points",
+      "change": "Change",
+      "id": "ID",
+      "state": "State",
+      "priority": "Priority",
+      "assignees": "Assignees",
+      "target_date": "Due date",
+      "estimate": "Estimate",
+      "points_total": "Points",
+      "points_completed": "Points completed",
+      "days_total": "Days"
+    }
+  }
+}

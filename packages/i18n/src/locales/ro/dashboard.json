@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Tablouri de bord",
+    "page_title": "{workspace} - Tablouri de bord",
+    "list": {
+      "new": "Tablou de bord nou",
+      "search_placeholder": "Căutați tablouri de bord",
+      "no_results": "Niciun tablou de bord nu corespunde căutării.",
+      "widget_count": "{count, plural, one{# mini-aplicație} few{# mini-aplicații} other{# de mini-aplicații}}",
+      "owned_by_you": "Creat de dvs.",
+      "shared": "Partajat cu spațiul de lucru",
+      "empty": {
+        "title": "Vizualizați-vă munca cu tablouri de bord",
+        "description": "Construiți tablouri de bord din grafice, cifre și tabele pentru a urmări progresul proiectelor dvs.",
+        "cta": "Creați un tablou de bord"
+      }
+    },
+    "access": {
+      "label": "Vizibilitate",
+      "private": "Privat",
+      "workspace": "Spațiu de lucru",
+      "private_description": "Doar dvs. puteți vedea acest tablou de bord.",
+      "workspace_description": "Toți membrii spațiului de lucru îl pot vizualiza. Fiecare persoană vede doar datele din proiectele din care face parte."
+    },
+    "form": {
+      "create_title": "Creați un tablou de bord",
+      "edit_title": "Editați tabloul de bord",
+      "name": "Nume",
+      "name_placeholder": "de ex. Prezentare generală a livrărilor",
+      "name_required": "Numele este obligatoriu",
+      "description": "Descriere",
+      "description_placeholder": "Care este scopul acestui tablou de bord?",
+      "create": "Creați tabloul de bord",
+      "update": "Salvați modificările",
+      "creating": "Se creează",
+      "updating": "Se salvează"
+    },
+    "actions": {
+      "add_widget": "Adăugați o mini-aplicație",
+      "edit_layout": "Editați aspectul",
+      "done": "Gata",
+      "edit": "Editați tabloul de bord",
+      "copy_link": "Copiați link-ul",
+      "delete": "Ștergeți tabloul de bord"
+    },
+    "delete": {
+      "title": "Ștergeți tabloul de bord",
+      "description": "Ștergeți „{name}” și toate mini-aplicațiile sale? Această acțiune nu poate fi anulată.",
+      "confirm": "Ștergeți",
+      "deleting": "Se șterge"
+    },
+    "toast": {
+      "created": "Tablou de bord creat",
+      "updated": "Tablou de bord actualizat",
+      "deleted": "Tablou de bord șters",
+      "error": "Ceva nu a funcționat. Vă rugăm să încercați din nou.",
+      "link_copied": "Link-ul a fost copiat în memoria temporară"
+    },
+    "empty_widgets": {
+      "title": "Acest tablou de bord nu are încă mini-aplicații",
+      "description": "Adăugați un grafic, o cifră sau un tabel pentru a începe să vă urmăriți munca.",
+      "viewer_description": "Proprietarul nu a adăugat încă nicio mini-aplicație."
+    },
+    "not_found": {
+      "title": "Tabloul de bord nu a fost găsit",
+      "description": "Este posibil să fi fost șters sau să fie vizibil doar pentru proprietarul său."
+    },
+    "restricted": {
+      "title": "Nu aveți acces",
+      "description": "Tablourile de bord și rapoartele sunt disponibile administratorilor și membrilor spațiului de lucru."
+    },
+    "widget": {
+      "types": {
+        "number": "Număr",
+        "bar": "Grafic cu bare",
+        "stacked_bar": "Grafic cu bare stivuite",
+        "line": "Grafic liniar",
+        "area": "Grafic de suprafață",
+        "pie": "Grafic circular",
+        "donut": "Grafic inelar",
+        "table": "Tabel"
+      },
+      "sizes": {
+        "label": "Dimensiune",
+        "small": "Mică",
+        "medium": "Medie",
+        "large": "Mare",
+        "full": "Lățime completă"
+      },
+      "color_palettes": {
+        "modern": "Modernă",
+        "horizon": "Orizont",
+        "earthen": "Pământie"
+      },
+      "editor": {
+        "create_title": "Adăugați o mini-aplicație",
+        "edit_title": "Editați mini-aplicația",
+        "name": "Titlu",
+        "name_placeholder": "de ex. Activități după stare",
+        "type": "Vizualizare",
+        "data": "Date",
+        "appearance": "Aspect",
+        "palette": "Paletă de culori",
+        "show_legend": "Afișați legenda",
+        "preview": "Previzualizare",
+        "preview_hint": "Previzualizarea folosește propriul dvs. acces la proiecte.",
+        "save": "Adăugați mini-aplicația",
+        "update": "Salvați mini-aplicația",
+        "saving": "Se salvează"
+      },
+      "actions": {
+        "edit": "Editați",
+        "duplicate": "Duplicați",
+        "delete": "Ștergeți",
+        "resize": "Redimensionați"
+      },
+      "delete": {
+        "title": "Ștergeți mini-aplicația",
+        "description": "Ștergeți „{name}” din acest tablou de bord?"
+      },
+      "states": {
+        "error": "Această mini-aplicație nu a putut fi încărcată.",
+        "retry": "Reîncercați",
+        "empty": "Nicio activitate nu corespunde acestor setări.",
+        "truncated": "Se afișează doar cele mai mari grupuri.",
+        "timeout": "Încărcarea acestei mini-aplicații a durat prea mult. Restrângeți filtrele."
+      },
+      "scope_hint": "Afișează date din proiectele în care sunteți membru.",
+      "untitled": "Mini-aplicație fără titlu",
+      "work_items": "{count, plural, one{# activitate} few{# activități} other{# de activități}}",
+      "points": "{count} puncte"
+    }
+  }
+}

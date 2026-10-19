@@ -1,0 +1,134 @@
+{
+  "dashboards": {
+    "label": "Bảng điều khiển",
+    "page_title": "{workspace} - Bảng điều khiển",
+    "list": {
+      "new": "Bảng điều khiển mới",
+      "search_placeholder": "Tìm kiếm bảng điều khiển",
+      "no_results": "Không có bảng điều khiển nào khớp với tìm kiếm của bạn.",
+      "widget_count": "{count, plural, one{# tiện ích} other{# tiện ích}}",
+      "owned_by_you": "Do bạn tạo",
+      "shared": "Đã chia sẻ với không gian làm việc",
+      "empty": {
+        "title": "Trực quan hóa công việc của bạn bằng bảng điều khiển",
+        "description": "Xây dựng bảng điều khiển từ biểu đồ, số liệu và bảng để theo dõi tiến độ trên các dự án của bạn.",
+        "cta": "Tạo bảng điều khiển"
+      }
+    },
+    "access": {
+      "label": "Chế độ hiển thị",
+      "private": "Riêng tư",
+      "workspace": "Không gian làm việc",
+      "private_description": "Chỉ bạn mới có thể xem bảng điều khiển này.",
+      "workspace_description": "Mọi người trong không gian làm việc đều có thể xem. Mỗi người chỉ thấy dữ liệu từ các dự án mà họ tham gia."
+    },
+    "form": {
+      "create_title": "Tạo bảng điều khiển",
+      "edit_title": "Chỉnh sửa bảng điều khiển",
+      "name": "Tên",
+      "name_placeholder": "Ví dụ: Tổng quan bàn giao",
+      "name_required": "Tên là bắt buộc",
+      "description": "Mô tả",
+      "description_placeholder": "Bảng điều khiển này dùng để làm gì?",
+      "create": "Tạo bảng điều khiển",
+      "update": "Lưu thay đổi",
+      "creating": "Đang tạo",
+      "updating": "Đang lưu"
+    },
+    "actions": {
+      "add_widget": "Thêm tiện ích",
+      "edit_layout": "Chỉnh sửa bố cục",
+      "done": "Xong",
+      "edit": "Chỉnh sửa bảng điều khiển",
+      "copy_link": "Sao chép liên kết",
+      "delete": "Xóa bảng điều khiển"
+    },
+    "delete": {
+      "title": "Xóa bảng điều khiển",
+      "description": "Xóa \"{name}\" và tất cả tiện ích của nó? Không thể hoàn tác thao tác này.",
+      "confirm": "Xóa",
+      "deleting": "Đang xóa"
+    },
+    "toast": {
+      "created": "Đã tạo bảng điều khiển",
+      "updated": "Đã cập nhật bảng điều khiển",
+      "deleted": "Đã xóa bảng điều khiển",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "link_copied": "Đã sao chép liên kết vào bảng tạm"
+    },
+    "empty_widgets": {
+      "title": "Bảng điều khiển này chưa có tiện ích nào",
+      "description": "Thêm biểu đồ, số liệu hoặc bảng để bắt đầu theo dõi công việc của bạn.",
+      "viewer_description": "Chủ sở hữu chưa thêm tiện ích nào."
+    },
+    "not_found": {
+      "title": "Không tìm thấy bảng điều khiển",
+      "description": "Có thể nó đã bị xóa hoặc chỉ ở chế độ riêng tư cho chủ sở hữu."
+    },
+    "restricted": {
+      "title": "Bạn không có quyền truy cập",
+      "description": "Bảng điều khiển và báo cáo dành cho quản trị viên và thành viên của không gian làm việc."
+    },
+    "widget": {
+      "types": {
+        "number": "Số",
+        "bar": "Biểu đồ cột",
+        "stacked_bar": "Biểu đồ cột chồng",
+        "line": "Biểu đồ đường",
+        "area": "Biểu đồ vùng",
+        "pie": "Biểu đồ tròn",
+        "donut": "Biểu đồ vành khuyên",
+        "table": "Bảng"
+      },
+      "sizes": {
+        "label": "Kích thước",
+        "small": "Nhỏ",
+        "medium": "Vừa",
+        "large": "Lớn",
+        "full": "Toàn chiều rộng"
+      },
+      "color_palettes": {
+        "modern": "Hiện đại",
+        "horizon": "Chân trời",
+        "earthen": "Đất"
+      },
+      "editor": {
+        "create_title": "Thêm tiện ích",
+        "edit_title": "Chỉnh sửa tiện ích",
+        "name": "Tiêu đề",
+        "name_placeholder": "Ví dụ: Mục công việc theo trạng thái",
+        "type": "Kiểu hiển thị",
+        "data": "Dữ liệu",
+        "appearance": "Giao diện",
+        "palette": "Bảng màu",
+        "show_legend": "Hiển thị chú giải",
+        "preview": "Xem trước",
+        "preview_hint": "Bản xem trước sử dụng quyền truy cập dự án của chính bạn.",
+        "save": "Thêm tiện ích",
+        "update": "Lưu tiện ích",
+        "saving": "Đang lưu"
+      },
+      "actions": {
+        "edit": "Chỉnh sửa",
+        "duplicate": "Nhân bản",
+        "delete": "Xóa",
+        "resize": "Đổi kích thước"
+      },
+      "delete": {
+        "title": "Xóa tiện ích",
+        "description": "Xóa \"{name}\" khỏi bảng điều khiển này?"
+      },
+      "states": {
+        "error": "Không thể tải tiện ích này.",
+        "retry": "Thử lại",
+        "empty": "Không có mục công việc nào khớp với các cài đặt này.",
+        "truncated": "Chỉ hiển thị các nhóm lớn nhất.",
+        "timeout": "Tiện ích này tải quá lâu. Hãy thu hẹp bộ lọc của nó."
+      },
+      "scope_hint": "Hiển thị dữ liệu từ các dự án mà bạn là thành viên.",
+      "untitled": "Tiện ích chưa đặt tên",
+      "work_items": "{count, plural, one{# mục công việc} other{# mục công việc}}",
+      "points": "{count} điểm"
+    }
+  }
+}

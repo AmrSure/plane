@@ -1,0 +1,257 @@
+{
+  "reports": {
+    "label": "Laporan",
+    "page_title": "{workspace} - Laporan",
+    "list": {
+      "new": "Laporan baru",
+      "title": "Laporan tersimpan",
+      "search_placeholder": "Cari laporan",
+      "no_results": "Tidak ada laporan yang cocok dengan pencarian Anda.",
+      "empty": {
+        "title": "Ubah data pekerjaan Anda menjadi laporan",
+        "description": "Kelompokkan item kerja berdasarkan dimensi apa pun, bandingkan metrik, dan ekspor hasilnya.",
+        "cta": "Buat laporan"
+      }
+    },
+    "builder": {
+      "new_title": "Laporan baru",
+      "dimension": "Kelompokkan berdasarkan",
+      "group_by": "Pisahkan berdasarkan",
+      "none": "Tidak ada",
+      "metric": "Ukuran",
+      "date_grouping": "Interval tanggal",
+      "date_range": "Rentang tanggal",
+      "date_field": "Kolom tanggal",
+      "all_time": "Sepanjang waktu",
+      "chart_type": "Jenis grafik",
+      "filters": "Filter",
+      "projects": "Proyek",
+      "all_projects": "Semua proyek saya",
+      "state_groups": "Grup status",
+      "priorities": "Prioritas",
+      "assignees": "Penugas",
+      "labels": "Label",
+      "include_sub_work_items": "Sertakan sub-item kerja",
+      "save": "Simpan",
+      "save_as": "Simpan sebagai baru",
+      "copy_link": "Salin tautan",
+      "unsaved": "Perubahan belum disimpan",
+      "total": "Total",
+      "work_items": "Item kerja",
+      "table_title": "Item kerja yang cocok",
+      "table_truncated": "Menampilkan {shown} dari {total} item kerja. Ekspor untuk mendapatkan daftar lengkap.",
+      "result_summary": "{count, plural, one{# item kerja} other{# item kerja}} di {projects, plural, one{# proyek} other{# proyek}}",
+      "clear_filters": "Hapus filter",
+      "start_date": "Mulai",
+      "end_date": "Selesai"
+    },
+    "metrics": {
+      "work_item_count": "Jumlah item kerja",
+      "estimate_points": "Poin perkiraan"
+    },
+    "dimensions": {
+      "states": "Status",
+      "state_groups": "Grup status",
+      "priority": "Prioritas",
+      "assignees": "Penugas",
+      "labels": "Label",
+      "projects": "Proyek",
+      "cycles": "Siklus",
+      "modules": "Modul",
+      "estimate_points": "Perkiraan",
+      "created_by": "Dibuat oleh",
+      "created_at": "Tanggal dibuat",
+      "completed_at": "Tanggal selesai",
+      "start_date": "Tanggal mulai",
+      "target_date": "Tanggal jatuh tempo"
+    },
+    "date_groupings": {
+      "day": "Hari",
+      "week": "Minggu",
+      "month": "Bulan",
+      "year": "Tahun"
+    },
+    "date_fields": {
+      "created_at": "Tanggal dibuat",
+      "completed_at": "Tanggal selesai",
+      "start_date": "Tanggal mulai",
+      "target_date": "Tanggal jatuh tempo"
+    },
+    "date_presets": {
+      "last_7_days": "7 hari terakhir",
+      "last_30_days": "30 hari terakhir",
+      "last_90_days": "90 hari terakhir",
+      "this_month": "Bulan ini",
+      "last_month": "Bulan lalu",
+      "this_quarter": "Kuartal ini",
+      "this_year": "Tahun ini",
+      "custom": "Rentang kustom"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Judul",
+      "project": "Proyek",
+      "state": "Status",
+      "state_group": "Grup status",
+      "priority": "Prioritas",
+      "assignees": "Penugas",
+      "labels": "Label",
+      "start_date": "Tanggal mulai",
+      "target_date": "Tanggal jatuh tempo",
+      "completed_at": "Tanggal selesai",
+      "created_at": "Tanggal dibuat",
+      "estimate": "Perkiraan"
+    },
+    "values": {
+      "urgent": "Mendesak",
+      "high": "Tinggi",
+      "medium": "Sedang",
+      "low": "Rendah",
+      "backlog": "Backlog",
+      "unstarted": "Belum dimulai",
+      "started": "Dimulai",
+      "completed": "Selesai",
+      "cancelled": "Dibatalkan",
+      "none": "Tidak ada",
+      "other": "Lainnya"
+    },
+    "export": {
+      "label": "Ekspor",
+      "csv": "Ekspor CSV",
+      "xlsx": "Ekspor Excel (XLSX)",
+      "success": "Ekspor diunduh",
+      "error": "Tidak dapat mengekspor laporan.",
+      "sheets": {
+        "summary": "Ringkasan",
+        "items": "Item kerja"
+      }
+    },
+    "save_modal": {
+      "title": "Simpan laporan",
+      "edit_title": "Pengaturan laporan",
+      "name": "Nama",
+      "name_placeholder": "mis. Bug berdasarkan prioritas",
+      "name_required": "Nama wajib diisi",
+      "description": "Deskripsi",
+      "visibility": "Visibilitas",
+      "save": "Simpan laporan",
+      "saving": "Menyimpan"
+    },
+    "access": {
+      "private": "Pribadi",
+      "workspace": "Ruang kerja",
+      "private_description": "Hanya Anda yang dapat membuka laporan ini.",
+      "workspace_description": "Semua orang di ruang kerja dapat membukanya. Setiap orang hanya melihat data dari proyek tempat mereka bergabung."
+    },
+    "delete": {
+      "title": "Hapus laporan",
+      "description": "Hapus \"{name}\"? Tindakan ini tidak dapat dibatalkan.",
+      "success": "Laporan dihapus"
+    },
+    "toast": {
+      "saved": "Laporan disimpan",
+      "error": "Terjadi kesalahan. Silakan coba lagi.",
+      "link_copied": "Tautan disalin ke clipboard"
+    },
+    "errors": {
+      "timeout": "Laporan ini memakan waktu terlalu lama. Persempit filter dan coba lagi.",
+      "generic": "Tidak dapat menjalankan laporan ini."
+    },
+    "not_found": {
+      "title": "Laporan tidak ditemukan",
+      "description": "Laporan mungkin telah dihapus, atau bersifat pribadi bagi pemiliknya."
+    }
+  },
+  "cycle_report": {
+    "title": "Laporan siklus",
+    "view_report": "Lihat laporan",
+    "page_title": "{cycle} - Laporan",
+    "status": {
+      "upcoming": "Mendatang",
+      "current": "Sedang berlangsung",
+      "completed": "Selesai"
+    },
+    "summary": {
+      "scope": "Cakupan",
+      "completed": "Selesai",
+      "pending": "Tertunda",
+      "cancelled": "Dibatalkan",
+      "completion": "Penyelesaian",
+      "days_left": "Sisa hari",
+      "days_left_count": "{count, plural, one{# hari tersisa} other{# hari tersisa}}",
+      "elapsed": "Hari ke-{elapsed} dari {total}",
+      "points_of": "{completed} dari {total} poin"
+    },
+    "toggle": {
+      "issues": "Item kerja",
+      "points": "Poin"
+    },
+    "burndown": {
+      "title": "Burndown",
+      "ideal": "Ideal",
+      "remaining": "Tersisa"
+    },
+    "breakdown": {
+      "title": "Rincian",
+      "assignees": "Penugas",
+      "labels": "Label",
+      "state_groups": "Status",
+      "priorities": "Prioritas",
+      "unassigned": "Belum ditugaskan",
+      "no_label": "Tanpa label",
+      "name": "Nama",
+      "total": "Total",
+      "completed": "Selesai",
+      "pending": "Tertunda"
+    },
+    "scope_changes": {
+      "title": "Perubahan cakupan",
+      "added": "Ditambahkan",
+      "removed": "Dihapus",
+      "net": "Perubahan bersih",
+      "none": "Tidak ada item kerja yang ditambahkan atau dihapus setelah siklus dimulai.",
+      "unavailable": "Riwayat cakupan tidak tersedia untuk siklus ini.",
+      "accuracy_note": "Berdasarkan log aktivitas. Perubahan dalam beberapa detik terakhir mungkin belum muncul."
+    },
+    "incomplete": {
+      "title": "Item kerja belum selesai",
+      "transferred_title": "Item kerja yang dipindahkan",
+      "empty": "Semua item kerja dalam siklus ini sudah selesai.",
+      "truncated": "Menampilkan {count} item kerja pertama."
+    },
+    "source": {
+      "snapshot": "Snapshot",
+      "live": "Data langsung",
+      "snapshot_hint": "Angka diambil saat item kerja yang belum selesai dipindahkan.",
+      "live_hint": "Angka mencerminkan status terkini item kerja dalam siklus ini.",
+      "priorities_live": "Prioritas selalu mencerminkan data terkini."
+    },
+    "errors": {
+      "no_dates": "Tetapkan tanggal mulai dan tanggal selesai untuk siklus ini agar dapat melihat laporannya.",
+      "guest_restricted": "Tamu tidak dapat melihat laporan siklus di proyek ini.",
+      "not_found": "Siklus ini tidak ditemukan.",
+      "generic": "Tidak dapat memuat laporan siklus."
+    },
+    "export": {
+      "section_csv": "Ekspor bagian (CSV)",
+      "workbook": "Ekspor semua (XLSX)"
+    },
+    "columns": {
+      "metric": "Metrik",
+      "value": "Nilai",
+      "date": "Tanggal",
+      "remaining_issues": "Sisa item kerja",
+      "remaining_points": "Sisa poin",
+      "change": "Perubahan",
+      "id": "ID",
+      "state": "Status",
+      "priority": "Prioritas",
+      "assignees": "Penugas",
+      "target_date": "Tanggal jatuh tempo",
+      "estimate": "Perkiraan",
+      "points_total": "Poin",
+      "points_completed": "Poin selesai",
+      "days_total": "Hari"
+    }
+  }
+}
